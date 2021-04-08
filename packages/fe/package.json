@@ -1,0 +1,45 @@
+{
+  "name": "the-big-hack-fe",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --mode development --env development --config ./config/webpack/webpack.config.development.js",
+    "build": "run-p build:*",
+    "build:app": "webpack --config ./config/webpack/webpack.config.production.js --mode production",
+    "build:storybook": "build-storybook --loglevel error -o ./build/storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@reach/router": "^1.3.4",
+    "classnames": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-a11y": "^6.1.11",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "postcss-loader": "^4.1.0",
+    "sass-loader": "^10.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
