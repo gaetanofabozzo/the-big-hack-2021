@@ -1,11 +1,3 @@
-/**
- * Handler called when the server is being shutdown.
- *
- * Do here all the cleanup like closing database connection, shutting
- * down http server, etc.
- *
- * @param {Error} err The error that caused the server shutdown.
- */
 const shutdownServer = (err) => {
   console.info("Shutting down server...");
 
