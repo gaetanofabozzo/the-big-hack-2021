@@ -15,7 +15,7 @@ const App: React.FC = () => {
             <Dashboard path="*" />
           </Router>
         )}
-      </LocationProvider>,
+      </LocationProvider>
     </ThemeProvider>
   );
 };
