@@ -3,3 +3,5 @@ node_modules
 
 yarn-error.log
 packages/*/yarn-error.log
+
+packages/be/config/development.json

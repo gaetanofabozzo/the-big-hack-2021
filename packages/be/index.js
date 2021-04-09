@@ -1,13 +1,43 @@
-const express = require('express');
+/**
+ * Handler called when the server is being shutdown.
+ *
+ * Do here all the cleanup like closing database connection, shutting
+ * down http server, etc.
+ *
+ * @param {Error} err The error that caused the server shutdown.
+ */
+const shutdownServer = (err) => {
+  console.info("Shutting down server...");
 
-const port = process.env.PORT || 5000;
-const app = express();
-
-app.listen(port, err => {
-  if (err) {
-    // eslint-ignore-no-console
-    console.error(`ERROR: ${err.message}`);
-  } else {
-    console.info(`Listening on port ${port}`);
+  if (err instanceof Error) {
+    console.error(err.message, err.stack);
+    process.exit(1);
   }
+};
+
+// Catch unhandled promise rejection
+process.on("unhandledRejection", (err, promise) => {
+  // Log the promise that originated the rejection
+  console.error(promise);
+  // Throw unhandled promise rejection to the fallback handler below
+  throw new Error(err);
 });
+
+// Catch uncaught Exception. Emit the SIGINT to gracefully shutdown the server.
+process.on("uncaughtException", (err) => {
+  console.error(err.message);
+  process.emit("SIGINT");
+});
+
+// Handle the SIGINT for server shutdown
+process.on("SIGINT", shutdownServer);
+
+/**
+ * Call all loaders for app bootstrap.
+ */
+async function startServer() {
+  // eslint-disable-next-line global-require
+  await require("./loaders")();
+}
+
+startServer();
