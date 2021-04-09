@@ -1,10 +1,8 @@
 import React from 'react';
-// import { theme } from '@gifted/theme';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
 import { Router, LocationProvider } from '@reach/router';
 import Dashboard from './components/Dashboard';
-
-const theme = createMuiTheme({});
+import theme from './theme'
 
 const App: React.FC = () => {
   return (
