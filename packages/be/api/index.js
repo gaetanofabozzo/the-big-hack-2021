@@ -41,9 +41,9 @@ registerAPIRoutes(app);
 
 // If no one of the routes above is matched a 404 Error is created
 // and passed to the global error handler
-app.use((req, res, next) => {
-  console.warn(`No matching route for ${req.originalUrl}`);
-  next(new Error("Service not found"));
+app.use((req, res) => {
+  console.error(`No matching route for ${req.originalUrl}`);
+  return res.status(404).send("Service not found");
 });
 
 module.exports = { app };
