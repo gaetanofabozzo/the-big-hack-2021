@@ -88,7 +88,7 @@ module.exports.getAgeGroup = async (req, res) => {
     }
   }
   output = Object.values(output);
-  output.sort(function (a, b) {
+  output.sort((a, b) => {
     const nameA = a.name.toUpperCase();
     const nameB = b.name.toUpperCase();
     if (nameA < nameB) {
@@ -134,9 +134,7 @@ module.exports.getCategories = async (req, res) => {
     },
   ];
 
-  output = output.map((elem) => {
-    return { ...elem, pfizer: 0, moderna: 0, astra: 0 };
-  });
+  output = output.map((elem) => ({ ...elem, pfizer: 0, moderna: 0, astra: 0 }));
 
   const types = [
     "categoria_operatori_sanitari_sociosanitari",
@@ -167,7 +165,27 @@ module.exports.getCategories = async (req, res) => {
 module.exports.municipalities = async (req, res) => {
   // eslint-disable-next-line global-require
   const places = require("../../dataset/campania-municipalities.json");
-  return res.send(places);
+
+  const data = [];
+
+  places.forEach((place) => {
+    if (place.province === "CE" && place.numberOfCitizens > 5000)
+      data.push(place);
+
+    if (place.province === "BN" && place.numberOfCitizens > 1000)
+      data.push(place);
+
+    if (place.province === "SA" && place.numberOfCitizens > 1000)
+      data.push(place);
+
+    if (place.province === "AV" && place.numberOfCitizens > 1000)
+      data.push(place);
+
+    if (place.province === "NA" && place.numberOfCitizens > 20000)
+      data.push(place);
+  });
+
+  return res.send(data);
 };
 
 module.exports.positivesOnVaccines = async (req, res) => {
