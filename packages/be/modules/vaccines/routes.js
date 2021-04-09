@@ -7,6 +7,8 @@ router.get("/date", controller.getDate);
 
 router.get("/age-group", controller.getAgeGroup);
 
+router.get("/positive-on-vaccines", controller.positivesOnVaccines);
+
 router.get("/municipalities", controller.municipalities);
 
 module.exports = router;

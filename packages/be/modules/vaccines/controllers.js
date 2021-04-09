@@ -108,3 +108,9 @@ module.exports.municipalities = async (req, res) => {
   const places = require("../../dataset/campania-municipalities.json");
   return res.send(places);
 };
+
+module.exports.positivesOnVaccines = async (req, res) => {
+  // eslint-disable-next-line global-require
+  const data = require("../../dataset/positivi_su_vaccini.json");
+  return res.send(data);
+};
