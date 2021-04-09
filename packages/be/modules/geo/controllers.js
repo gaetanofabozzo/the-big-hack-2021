@@ -9,7 +9,10 @@ module.exports.get = async (req, res) => {
 
   if (!found) return res.status(404).send("Not found");
 
-  return res.send(found);
+  return res.send({
+    ...found,
+    numberOfVaccines: parseInt(Math.random() * 1000, 10),
+  });
 };
 
 module.exports.autocomplete = async (req, res) => {
@@ -28,5 +31,10 @@ module.exports.autocomplete = async (req, res) => {
     });
   }
 
-  return res.send(matches);
+  return res.send(
+    matches.map((match) => ({
+      ...match,
+      numberOfVaccines: parseInt(Math.random() * 1000, 10),
+    }))
+  );
 };

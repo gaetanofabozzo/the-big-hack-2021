@@ -54,8 +54,13 @@ module.exports.getDate = async (req, res) => {
   return res.send(output);
 };
 
-module.exports.list = async (req, res) => {
+module.exports.municipalities = async (req, res) => {
   // eslint-disable-next-line global-require
   const places = require("../../dataset/campania-municipalities.json");
-  return res.send(places);
+  return res.send(
+    places.map((place) => ({
+      ...place,
+      numberOfVaccines: parseInt(Math.random() * 1000, 10),
+    }))
+  );
 };

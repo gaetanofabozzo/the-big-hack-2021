@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.get("/date", controller.getDate);
 
-router.get("/list", controller.list);
+router.get("/municipalities", controller.municipalities);
 
 module.exports = router;
