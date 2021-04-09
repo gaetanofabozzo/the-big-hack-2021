@@ -12,12 +12,6 @@ module.exports.get = async (req, res) => {
   return res.send(found);
 };
 
-module.exports.list = async (req, res) => {
-  // eslint-disable-next-line global-require
-  const places = require("../../dataset/campania-municipalities.json");
-  return res.send(places);
-};
-
 module.exports.autocomplete = async (req, res) => {
   const { chars } = req.query;
 
