@@ -16,10 +16,11 @@
     "knex": "^0.21.19",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
+    "node-geocoder": "^3.27.0",
     "nodemon": "^2.0.6",
     "objection": "^2.2.15"
   },
   "scripts": {
-    "dev": "NODE_ENV=development nodemon index.js"
+    "dev": "nodemon index.js"
   }
 }
