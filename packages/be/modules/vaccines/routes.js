@@ -7,6 +7,8 @@ router.get("/date", controller.getDate);
 
 router.get("/age-group", controller.getAgeGroup);
 
+router.get("/categories", controller.getCategories);
+
 router.get("/positives-on-vaccines", controller.positivesOnVaccines);
 
 router.get("/municipalities", controller.municipalities);

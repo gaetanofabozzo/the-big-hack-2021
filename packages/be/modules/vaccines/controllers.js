@@ -103,6 +103,67 @@ module.exports.getAgeGroup = async (req, res) => {
   return res.send(output);
 };
 
+module.exports.getCategories = async (req, res) => {
+  // eslint-disable-next-line global-require
+  const {
+    data,
+    // eslint-disable-next-line global-require
+  } = require("../../dataset/somministrazioni-vaccini-latest.json");
+
+  let output = [
+    {
+      subject: "Operatori Sanitari",
+    },
+    {
+      subject: "Personale non sanitario",
+    },
+    {
+      subject: "Ospiti RSA",
+    },
+    {
+      subject: "Over 80",
+    },
+    {
+      subject: "Forze Armate",
+    },
+    {
+      subject: "Personale Scolastico",
+    },
+    {
+      subject: "Altro",
+    },
+  ];
+
+  output = output.map((elem) => {
+    return { ...elem, pfizer: 0, moderna: 0, astra: 0 };
+  });
+
+  const types = [
+    "categoria_operatori_sanitari_sociosanitari",
+    "categoria_personale_non_sanitario",
+    "categoria_ospiti_rsa",
+    "categoria_over80",
+    "categoria_forze_armate",
+    "categoria_personale_scolastico",
+    "categoria_altro",
+  ];
+
+  const supplier = new Map([
+    ["Pfizer/BioNTech", "pfizer"],
+    ["Moderna", "moderna"],
+    ["AstraZeneca", "astra"],
+  ]);
+
+  for (let i = 0; i < data.length; i++) {
+    const { fornitore } = data[i];
+    for (let j = 0; j < types.length; j++) {
+      output[j][supplier.get(fornitore)] += data[i][types[j]];
+    }
+  }
+
+  return res.send(output);
+};
+
 module.exports.municipalities = async (req, res) => {
   // eslint-disable-next-line global-require
   const places = require("../../dataset/campania-municipalities.json");
