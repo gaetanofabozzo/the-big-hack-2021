@@ -1,29 +1,28 @@
-const Geocoder = require("node-geocoder");
-
-const geoOptions = {
-  provider: "openstreetmap",
-};
-
-const geoCoder = Geocoder(geoOptions);
-
 module.exports.get = async (req, res) => {
   const { place } = req.query;
-  const coords = await geoCoder.geocode({
-    country: "Italia",
-    state: "Campania",
-    city: place,
-  });
 
-  if (!coords.length) return res.status(404).send("Not found");
+  // eslint-disable-next-line global-require
+  const places = require("../../dataset/campania-municipalities.json");
 
-  return res.send(coords[0]);
+  // eslint-disable-next-line no-shadow
+  const found = places.find((currPlace) => currPlace.name === place);
+
+  if (!found) return res.status(404).send("Not found");
+
+  return res.send(found);
+};
+
+module.exports.list = async (req, res) => {
+  // eslint-disable-next-line global-require
+  const places = require("../../dataset/campania-municipalities.json");
+  return res.send(places);
 };
 
 module.exports.autocomplete = async (req, res) => {
   const { chars } = req.query;
 
   // eslint-disable-next-line global-require
-  const places = require("./campania-municipalities.json");
+  const places = require("../../dataset/campania-municipalities.json");
 
   const matches = [];
 

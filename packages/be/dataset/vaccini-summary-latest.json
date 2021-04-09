@@ -1,1 +1,32 @@
-{"schema":{"fields":[{"name":"index","type":"integer"},{"name":"area","type":"string"},{"name":"dosi_somministrate","type":"integer"},{"name":"dosi_consegnate","type":"integer"},{"name":"percentuale_somministrazione","type":"number"},{"name":"ultimo_aggiornamento","type":"datetime"},{"name":"codice_NUTS1","type":"string"},{"name":"codice_NUTS2","type":"string"},{"name":"codice_regione_ISTAT","type":"integer"},{"name":"nome_area","type":"string"}],"primaryKey":["index"],"pandas_version":"0.20.0"},"data":[{"index":3,"area":"CAM","dosi_somministrate":1027147,"dosi_consegnate":1280755,"percentuale_somministrazione":80.2,"ultimo_aggiornamento":"2021-04-09T00:00:00.000Z","codice_NUTS1":"ITF","codice_NUTS2":"ITF3","codice_regione_ISTAT":15,"nome_area":"Campania"}]}
+{
+  "schema": {
+    "fields": [
+      { "name": "index", "type": "integer" },
+      { "name": "area", "type": "string" },
+      { "name": "dosi_somministrate", "type": "integer" },
+      { "name": "dosi_consegnate", "type": "integer" },
+      { "name": "percentuale_somministrazione", "type": "number" },
+      { "name": "ultimo_aggiornamento", "type": "datetime" },
+      { "name": "codice_NUTS1", "type": "string" },
+      { "name": "codice_NUTS2", "type": "string" },
+      { "name": "codice_regione_ISTAT", "type": "integer" },
+      { "name": "nome_area", "type": "string" }
+    ],
+    "primaryKey": ["index"],
+    "pandas_version": "0.20.0"
+  },
+  "data": [
+    {
+      "index": 3,
+      "area": "CAM",
+      "dosi_somministrate": 1027147,
+      "dosi_consegnate": 1280755,
+      "percentuale_somministrazione": 80.2,
+      "ultimo_aggiornamento": "2021-04-09T00:00:00.000Z",
+      "codice_NUTS1": "ITF",
+      "codice_NUTS2": "ITF3",
+      "codice_regione_ISTAT": 15,
+      "nome_area": "Campania"
+    }
+  ]
+}

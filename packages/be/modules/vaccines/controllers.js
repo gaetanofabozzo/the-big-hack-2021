@@ -1,13 +1,8 @@
-const Geocoder = require("node-geocoder");
-
-const geoOptions = {
-  provider: "openstreetmap",
-};
-
 module.exports.getDate = async (req, res) => {
   // eslint-disable-next-line global-require
   const {
     data,
+    // eslint-disable-next-line global-require
   } = require("../../dataset/somministrazioni-vaccini-latest.json");
 
   const output = {};

@@ -1,0 +1,4982 @@
+[
+  {
+    "name": "Ailano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061001",
+    "latitude": "45.36343304",
+    "longitude": "7.7686"
+  },
+  {
+    "name": "Alife",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061002",
+    "latitude": "44.91688598",
+    "longitude": "7.48443104"
+  },
+  {
+    "name": "Alvignano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061003",
+    "latitude": "45.31511014",
+    "longitude": "7.30434392"
+  },
+  {
+    "name": "Arienzo",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061004",
+    "latitude": "45.43389336",
+    "longitude": "7.94914491"
+  },
+  {
+    "name": "Aversa",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061005",
+    "latitude": "45.4600936",
+    "longitude": "7.77701858"
+  },
+  {
+    "name": "Baia e Latina",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061006",
+    "latitude": "45.11766321",
+    "longitude": "7.39518194"
+  },
+  {
+    "name": "Bellona",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061007",
+    "latitude": "45.40998223",
+    "longitude": "7.57859732"
+  },
+  {
+    "name": "Caianello",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061008",
+    "latitude": "45.09446973",
+    "longitude": "7.52426733"
+  },
+  {
+    "name": "Caiazzo",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061009",
+    "latitude": "45.03586095",
+    "longitude": "7.86994864"
+  },
+  {
+    "name": "Calvi Risorta",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061010",
+    "latitude": "45.52837479",
+    "longitude": "7.87383937"
+  },
+  {
+    "name": "Camigliano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061011",
+    "latitude": "44.84344991",
+    "longitude": "7.22429215"
+  },
+  {
+    "name": "Cancello ed Arnone",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061012",
+    "latitude": "45.04402899",
+    "longitude": "7.90244635"
+  },
+  {
+    "name": "Capodrise",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061013",
+    "latitude": "45.07935742",
+    "longitude": "7.39632339"
+  },
+  {
+    "name": "Capriati a Volturno",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061014",
+    "latitude": "45.4248619",
+    "longitude": "7.9947707"
+  },
+  {
+    "name": "Capua",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061015",
+    "latitude": "45.38624929",
+    "longitude": "7.75691809"
+  },
+  {
+    "name": "Carinaro",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061016",
+    "latitude": "45.27003001",
+    "longitude": "7.51930957"
+  },
+  {
+    "name": "Carinola",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061017",
+    "latitude": "45.40840358",
+    "longitude": "7.74444451"
+  },
+  {
+    "name": "Casagiove",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061018",
+    "latitude": "45.06842334",
+    "longitude": "7.81780767"
+  },
+  {
+    "name": "Casal di Principe",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061019",
+    "latitude": "45.30229406",
+    "longitude": "7.21831414"
+  },
+  {
+    "name": "Casaluce",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061020",
+    "latitude": "45.4608501",
+    "longitude": "7.85656384"
+  },
+  {
+    "name": "Casapulla",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061021",
+    "latitude": "45.2905002",
+    "longitude": "7.63051093"
+  },
+  {
+    "name": "Caserta",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061022",
+    "latitude": "45.07816901",
+    "longitude": "6.70382393"
+  },
+  {
+    "name": "Castel Campagnano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061023",
+    "latitude": "45.32772558",
+    "longitude": "7.87055626"
+  },
+  {
+    "name": "Castel di Sasso",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061024",
+    "latitude": "45.02207899",
+    "longitude": "7.57915804"
+  },
+  {
+    "name": "Castello del Matese",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061025",
+    "latitude": "44.79758015",
+    "longitude": "7.28978596"
+  },
+  {
+    "name": "Castel Morrone",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061026",
+    "latitude": "44.80770617",
+    "longitude": "7.11790449"
+  },
+  {
+    "name": "Castel Volturno",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061027",
+    "latitude": "45.4733572",
+    "longitude": "7.94534881"
+  },
+  {
+    "name": "Cervino",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061028",
+    "latitude": "45.15198241",
+    "longitude": "7.65789441"
+  },
+  {
+    "name": "Cesa",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061029",
+    "latitude": "45.4168132",
+    "longitude": "7.66773369"
+  },
+  {
+    "name": "Ciorlano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061030",
+    "latitude": "45.51300686",
+    "longitude": "7.85852209"
+  },
+  {
+    "name": "Conca della Campania",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061031",
+    "latitude": "45.36155134",
+    "longitude": "7.98879962"
+  },
+  {
+    "name": "Curti",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061032",
+    "latitude": "45.12313936",
+    "longitude": "7.24121397"
+  },
+  {
+    "name": "Dragoni",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061033",
+    "latitude": "45.26856393",
+    "longitude": "7.76506984"
+  },
+  {
+    "name": "Fontegreca",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061034",
+    "latitude": "45.17765247",
+    "longitude": "7.84147562"
+  },
+  {
+    "name": "Formicola",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061035",
+    "latitude": "44.82558164",
+    "longitude": "7.30288754"
+  },
+  {
+    "name": "Francolise",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061036",
+    "latitude": "45.49276005",
+    "longitude": "7.80333443"
+  },
+  {
+    "name": "Frignano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061037",
+    "latitude": "45.1174193",
+    "longitude": "8.07127843"
+  },
+  {
+    "name": "Gallo Matese",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061038",
+    "latitude": "45.0202325",
+    "longitude": "7.46769111"
+  },
+  {
+    "name": "Galluccio",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061039",
+    "latitude": "45.15595512",
+    "longitude": "8.06009417"
+  },
+  {
+    "name": "Giano Vetusto",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061040",
+    "latitude": "45.14312487",
+    "longitude": "7.19397692"
+  },
+  {
+    "name": "Gioia Sannitica",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061041",
+    "latitude": "44.87335846",
+    "longitude": "7.41192286"
+  },
+  {
+    "name": "Grazzanise",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061042",
+    "latitude": "45.48411969",
+    "longitude": "7.93205672"
+  },
+  {
+    "name": "Gricignano di Aversa",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061043",
+    "latitude": "45.32883648",
+    "longitude": "7.6557437"
+  },
+  {
+    "name": "Letino",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061044",
+    "latitude": "45.13727952",
+    "longitude": "7.14931876"
+  },
+  {
+    "name": "Liberi",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061045",
+    "latitude": "45.06701514",
+    "longitude": "7.43678073"
+  },
+  {
+    "name": "Lusciano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061046",
+    "latitude": "45.24471151",
+    "longitude": "7.51812356"
+  },
+  {
+    "name": "Macerata Campania",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061047",
+    "latitude": "45.30786205",
+    "longitude": "7.89150532"
+  },
+  {
+    "name": "Maddaloni",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061048",
+    "latitude": "44.9734596",
+    "longitude": "7.77932471"
+  },
+  {
+    "name": "Marcianise",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061049",
+    "latitude": "44.8021244",
+    "longitude": "7.32503803"
+  },
+  {
+    "name": "Marzano Appio",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061050",
+    "latitude": "45.32816809",
+    "longitude": "7.8866125"
+  },
+  {
+    "name": "Mignano Monte Lungo",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061051",
+    "latitude": "44.96026547",
+    "longitude": "7.60121104"
+  },
+  {
+    "name": "Mondragone",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061052",
+    "latitude": "45.37434585",
+    "longitude": "7.59521831"
+  },
+  {
+    "name": "Orta di Atella",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061053",
+    "latitude": "44.94030975",
+    "longitude": "7.33260383"
+  },
+  {
+    "name": "Parete",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061054",
+    "latitude": "45.34323553",
+    "longitude": "7.38167977"
+  },
+  {
+    "name": "Pastorano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061055",
+    "latitude": "45.11786515",
+    "longitude": "7.33250655"
+  },
+  {
+    "name": "Piana di Monte Verna",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061056",
+    "latitude": "45.39860532",
+    "longitude": "7.9602136"
+  },
+  {
+    "name": "Piedimonte Matese",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061057",
+    "latitude": "45.58444747",
+    "longitude": "7.81230448"
+  },
+  {
+    "name": "Pietramelara",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061058",
+    "latitude": "44.90666664",
+    "longitude": "7.67534298"
+  },
+  {
+    "name": "Pietravairano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061059",
+    "latitude": "44.84654865",
+    "longitude": "7.71815745"
+  },
+  {
+    "name": "Pignataro Maggiore",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061060",
+    "latitude": "45.1299627",
+    "longitude": "7.94044052"
+  },
+  {
+    "name": "Pontelatone",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061061",
+    "latitude": "45.47845422",
+    "longitude": "7.90469845"
+  },
+  {
+    "name": "Portico di Caserta",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061062",
+    "latitude": "45.10588105",
+    "longitude": "7.48320717"
+  },
+  {
+    "name": "Prata Sannita",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061063",
+    "latitude": "45.17716554",
+    "longitude": "7.64818634"
+  },
+  {
+    "name": "Pratella",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061064",
+    "latitude": "45.16060833",
+    "longitude": "7.88698844"
+  },
+  {
+    "name": "Presenzano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061065",
+    "latitude": "44.8986196",
+    "longitude": "7.56655619"
+  },
+  {
+    "name": "Raviscanina",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061066",
+    "latitude": "45.3833354",
+    "longitude": "7.70986533"
+  },
+  {
+    "name": "Recale",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061067",
+    "latitude": "45.43732305",
+    "longitude": "7.69511431"
+  },
+  {
+    "name": "Riardo",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061068",
+    "latitude": "45.12330917",
+    "longitude": "7.8160937"
+  },
+  {
+    "name": "Rocca d'Evandro",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061069",
+    "latitude": "45.15207451",
+    "longitude": "8.05131021"
+  },
+  {
+    "name": "Roccamonfina",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061070",
+    "latitude": "44.78403126",
+    "longitude": "7.37523198"
+  },
+  {
+    "name": "Roccaromana",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061071",
+    "latitude": "44.86126074",
+    "longitude": "7.50125803"
+  },
+  {
+    "name": "Rocchetta e Croce",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061072",
+    "latitude": "45.31307899",
+    "longitude": "7.38934335"
+  },
+  {
+    "name": "Ruviano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061073",
+    "latitude": "45.43261794",
+    "longitude": "7.23254114"
+  },
+  {
+    "name": "San Cipriano d'Aversa",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061074",
+    "latitude": "44.95241086",
+    "longitude": "6.79422776"
+  },
+  {
+    "name": "San Felice a Cancello",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061075",
+    "latitude": "45.36285948",
+    "longitude": "7.34570078"
+  },
+  {
+    "name": "San Gregorio Matese",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061076",
+    "latitude": "45.1485858",
+    "longitude": "7.16939346"
+  },
+  {
+    "name": "San Marcellino",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061077",
+    "latitude": "45.49939701",
+    "longitude": "7.90312753"
+  },
+  {
+    "name": "San Nicola la Strada",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061078",
+    "latitude": "45.01315317",
+    "longitude": "7.82107157"
+  },
+  {
+    "name": "San Pietro Infine",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061079",
+    "latitude": "45.41780821",
+    "longitude": "7.65605931"
+  },
+  {
+    "name": "San Potito Sannitico",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061080",
+    "latitude": "45.11938583",
+    "longitude": "6.98338614"
+  },
+  {
+    "name": "San Prisco",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061081",
+    "latitude": "45.10154711",
+    "longitude": "7.3264449"
+  },
+  {
+    "name": "Santa Maria a Vico",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061082",
+    "latitude": "45.18855522",
+    "longitude": "7.8871395"
+  },
+  {
+    "name": "Santa Maria Capua Vetere",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061083",
+    "latitude": "45.33032199",
+    "longitude": "7.75987216"
+  },
+  {
+    "name": "Santa Maria la Fossa",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061084",
+    "latitude": "45.42805026",
+    "longitude": "7.68662115"
+  },
+  {
+    "name": "San Tammaro",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061085",
+    "latitude": "45.09389859",
+    "longitude": "7.92112148"
+  },
+  {
+    "name": "Sant'Angelo d'Alife",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061086",
+    "latitude": "45.23202337",
+    "longitude": "7.60378213"
+  },
+  {
+    "name": "Sant'Arpino",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061087",
+    "latitude": "44.93861812",
+    "longitude": "6.7493063"
+  },
+  {
+    "name": "Sessa Aurunca",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061088",
+    "latitude": "45.30071349",
+    "longitude": "7.46132937"
+  },
+  {
+    "name": "Sparanise",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061089",
+    "latitude": "45.05141806",
+    "longitude": "7.29464354"
+  },
+  {
+    "name": "Succivo",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061090",
+    "latitude": "45.07740152",
+    "longitude": "7.56912947"
+  },
+  {
+    "name": "Teano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061091",
+    "latitude": "45.42140642",
+    "longitude": "7.67898169"
+  },
+  {
+    "name": "Teverola",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061092",
+    "latitude": "45.43288813",
+    "longitude": "7.79996443"
+  },
+  {
+    "name": "Tora e Piccilli",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061093",
+    "latitude": "45.11714338",
+    "longitude": "7.31072991"
+  },
+  {
+    "name": "Trentola Ducenta",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061094",
+    "latitude": "45.31274311",
+    "longitude": "7.53256155"
+  },
+  {
+    "name": "Vairano Patenora",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061095",
+    "latitude": "45.38833099",
+    "longitude": "7.99337324"
+  },
+  {
+    "name": "Valle Agricola",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061096",
+    "latitude": "45.35892893",
+    "longitude": "7.81484395"
+  },
+  {
+    "name": "Valle di Maddaloni",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061097",
+    "latitude": "44.98279566",
+    "longitude": "7.37437677"
+  },
+  {
+    "name": "Villa di Briano",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061098",
+    "latitude": "45.39122707",
+    "longitude": "7.64891501"
+  },
+  {
+    "name": "Villa Literno",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061099",
+    "latitude": "45.13473277",
+    "longitude": "7.57620424"
+  },
+  {
+    "name": "Vitulazio",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061100",
+    "latitude": "45.09749088",
+    "longitude": "6.9296242"
+  },
+  {
+    "name": "Falciano del Massico",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061101",
+    "latitude": "45.33284709",
+    "longitude": "7.68801437"
+  },
+  {
+    "name": "Cellole",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061102",
+    "latitude": "45.30549111",
+    "longitude": "7.747108"
+  },
+  {
+    "name": "Casapesenna",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061103",
+    "latitude": "45.03429618",
+    "longitude": "7.05188671"
+  },
+  {
+    "name": "San Marco Evangelista",
+    "province": "Caserta",
+    "provinceAbbreviation": "CE",
+    "region": "Campania",
+    "istat": "061104",
+    "latitude": "45.21812133",
+    "longitude": "7.51978357"
+  },
+  {
+    "name": "Lusciano e Ducenta",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "deleted": true,
+    "istat": "061807",
+    "latitude": "44.70829074",
+    "longitude": "8.8905588"
+  },
+  {
+    "name": "Airola",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062001",
+    "latitude": "41.06632744",
+    "longitude": "14.56140691"
+  },
+  {
+    "name": "Amorosi",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062002",
+    "latitude": "45.85332586",
+    "longitude": "7.93812982"
+  },
+  {
+    "name": "Apice",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062003",
+    "latitude": "45.42511503",
+    "longitude": "8.38058282"
+  },
+  {
+    "name": "Apollosa",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062004",
+    "latitude": "45.36652862",
+    "longitude": "8.07469466"
+  },
+  {
+    "name": "Arpaia",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062005",
+    "latitude": "41.03685746",
+    "longitude": "14.55176809"
+  },
+  {
+    "name": "Arpaise",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062006",
+    "latitude": "45.49608576",
+    "longitude": "8.38898545"
+  },
+  {
+    "name": "Baselice",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062007",
+    "latitude": "45.26117617",
+    "longitude": "8.40619426"
+  },
+  {
+    "name": "Benevento",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062008",
+    "latitude": "45.81834722",
+    "longitude": "8.13825637"
+  },
+  {
+    "name": "Bonea",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062009",
+    "latitude": "45.45553463",
+    "longitude": "8.28103358"
+  },
+  {
+    "name": "Bucciano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062010",
+    "latitude": "41.07704547",
+    "longitude": "14.56996946"
+  },
+  {
+    "name": "Buonalbergo",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062011",
+    "latitude": "45.30737818",
+    "longitude": "8.12006412"
+  },
+  {
+    "name": "Calvi",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062012",
+    "latitude": "41.07242545",
+    "longitude": "14.86690871"
+  },
+  {
+    "name": "Campolattaro",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062013",
+    "latitude": "41.28693249",
+    "longitude": "14.73043517"
+  },
+  {
+    "name": "Campoli del Monte Taburno",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062014",
+    "latitude": "45.82998665",
+    "longitude": "8.11329092"
+  },
+  {
+    "name": "Casalduni",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062015",
+    "latitude": "45.34991763",
+    "longitude": "8.05372704"
+  },
+  {
+    "name": "Castelfranco in Miscano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062016",
+    "latitude": "45.71672956",
+    "longitude": "8.27641052"
+  },
+  {
+    "name": "Castelpagano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062017",
+    "latitude": "45.35715818",
+    "longitude": "8.4663705"
+  },
+  {
+    "name": "Castelpoto",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062018",
+    "latitude": "41.14096887",
+    "longitude": "14.69971087"
+  },
+  {
+    "name": "Castelvenere",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062019",
+    "latitude": "45.76411748",
+    "longitude": "8.30720564"
+  },
+  {
+    "name": "Castelvetere in Val Fortore",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062020",
+    "latitude": "41.4419691",
+    "longitude": "14.94213224"
+  },
+  {
+    "name": "Cautano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062021",
+    "latitude": "45.48211892",
+    "longitude": "8.26833442"
+  },
+  {
+    "name": "Ceppaloni",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062022",
+    "latitude": "41.0455693",
+    "longitude": "14.76112488"
+  },
+  {
+    "name": "Cerreto Sannita",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062023",
+    "latitude": "41.28321897",
+    "longitude": "14.5568909"
+  },
+  {
+    "name": "Circello",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062024",
+    "latitude": "41.35602914",
+    "longitude": "14.80828522"
+  },
+  {
+    "name": "Colle Sannita",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062025",
+    "latitude": "45.79867325",
+    "longitude": "8.03216717"
+  },
+  {
+    "name": "Cusano Mutri",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062026",
+    "latitude": "41.33756175",
+    "longitude": "14.50879373"
+  },
+  {
+    "name": "Dugenta",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062027",
+    "latitude": "41.13518764",
+    "longitude": "14.4537261"
+  },
+  {
+    "name": "Durazzano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062028",
+    "latitude": "41.06139884",
+    "longitude": "14.44690145"
+  },
+  {
+    "name": "Faicchio",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062029",
+    "latitude": "45.90888987",
+    "longitude": "8.04890161"
+  },
+  {
+    "name": "Foglianise",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062030",
+    "latitude": "45.22108416",
+    "longitude": "8.50648564"
+  },
+  {
+    "name": "Foiano di Val Fortore",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062031",
+    "latitude": "45.35735225",
+    "longitude": "8.38877273"
+  },
+  {
+    "name": "Forchia",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062032",
+    "latitude": "45.408461",
+    "longitude": "8.19858607"
+  },
+  {
+    "name": "Fragneto l'Abate",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062033",
+    "latitude": "45.39952964",
+    "longitude": "8.2933069"
+  },
+  {
+    "name": "Fragneto Monforte",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062034",
+    "latitude": "41.2463355",
+    "longitude": "14.76342439"
+  },
+  {
+    "name": "Frasso Telesino",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062035",
+    "latitude": "45.49741181",
+    "longitude": "8.32534514"
+  },
+  {
+    "name": "Ginestra degli Schiavoni",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062036",
+    "latitude": "41.27943084",
+    "longitude": "15.0423827"
+  },
+  {
+    "name": "Guardia Sanframondi",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062037",
+    "latitude": "41.25651724",
+    "longitude": "14.60000778"
+  },
+  {
+    "name": "Limatola",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062038",
+    "latitude": "45.75546715",
+    "longitude": "8.31309615"
+  },
+  {
+    "name": "Melizzano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062039",
+    "latitude": "41.16133116",
+    "longitude": "14.50444253"
+  },
+  {
+    "name": "Moiano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062040",
+    "latitude": "41.07824066",
+    "longitude": "14.54636351"
+  },
+  {
+    "name": "Molinara",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062041",
+    "latitude": "45.88308084",
+    "longitude": "8.16235419"
+  },
+  {
+    "name": "Montefalcone di Val Fortore",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062042",
+    "latitude": "45.309557",
+    "longitude": "8.021489"
+  },
+  {
+    "name": "Montesarchio",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062043",
+    "latitude": "45.80668518",
+    "longitude": "8.29278728"
+  },
+  {
+    "name": "Morcone",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062044",
+    "latitude": "41.34020414",
+    "longitude": "14.66404873"
+  },
+  {
+    "name": "Paduli",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062045",
+    "latitude": "45.39712515",
+    "longitude": "8.34853582"
+  },
+  {
+    "name": "Pago Veiano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062046",
+    "latitude": "41.24652793",
+    "longitude": "14.87351296"
+  },
+  {
+    "name": "Pannarano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062047",
+    "latitude": "45.23619745",
+    "longitude": "8.3700654"
+  },
+  {
+    "name": "Paolisi",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062048",
+    "latitude": "45.84734738",
+    "longitude": "8.20112963"
+  },
+  {
+    "name": "Paupisi",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062049",
+    "latitude": "45.19232707",
+    "longitude": "8.10258275"
+  },
+  {
+    "name": "Pesco Sannita",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062050",
+    "latitude": "41.23435632",
+    "longitude": "14.81092001"
+  },
+  {
+    "name": "Pietraroja",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062051",
+    "latitude": "41.34731855",
+    "longitude": "14.54987015"
+  },
+  {
+    "name": "Pietrelcina",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062052",
+    "latitude": "45.33003762",
+    "longitude": "8.21192995"
+  },
+  {
+    "name": "Ponte",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062053",
+    "latitude": "41.2130152",
+    "longitude": "14.68997449"
+  },
+  {
+    "name": "Pontelandolfo",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062054",
+    "latitude": "45.26873384",
+    "longitude": "8.35745053"
+  },
+  {
+    "name": "Puglianello",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062055",
+    "latitude": "41.22178939",
+    "longitude": "14.45023497"
+  },
+  {
+    "name": "Reino",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062056",
+    "latitude": "41.29228226",
+    "longitude": "14.82258257"
+  },
+  {
+    "name": "San Bartolomeo in Galdo",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062057",
+    "latitude": "45.88955756",
+    "longitude": "8.15891887"
+  },
+  {
+    "name": "San Giorgio del Sannio",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062058",
+    "latitude": "45.19339547",
+    "longitude": "8.19171653"
+  },
+  {
+    "name": "San Giorgio La Molara",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062059",
+    "latitude": "45.42877725",
+    "longitude": "8.2929106"
+  },
+  {
+    "name": "San Leucio del Sannio",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062060",
+    "latitude": "41.07269478",
+    "longitude": "14.75767623"
+  },
+  {
+    "name": "San Lorenzello",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062061",
+    "latitude": "45.61734452",
+    "longitude": "8.37128081"
+  },
+  {
+    "name": "San Lorenzo Maggiore",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062062",
+    "latitude": "45.52931694",
+    "longitude": "8.38432306"
+  },
+  {
+    "name": "San Lupo",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062063",
+    "latitude": "41.26044702",
+    "longitude": "14.63510545"
+  },
+  {
+    "name": "San Marco dei Cavoti",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062064",
+    "latitude": "41.30601106",
+    "longitude": "14.8806843"
+  },
+  {
+    "name": "San Martino Sannita",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062065",
+    "latitude": "45.45180309",
+    "longitude": "8.38247553"
+  },
+  {
+    "name": "San Nazzaro",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062066",
+    "latitude": "45.7009391",
+    "longitude": "8.25032253"
+  },
+  {
+    "name": "San Nicola Manfredi",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062067",
+    "latitude": "45.23008153",
+    "longitude": "8.0975502"
+  },
+  {
+    "name": "San Salvatore Telesino",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062068",
+    "latitude": "45.55556369",
+    "longitude": "8.38444808"
+  },
+  {
+    "name": "Santa Croce del Sannio",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062069",
+    "latitude": "41.38792716",
+    "longitude": "14.73229291"
+  },
+  {
+    "name": "Sant'Agata de' Goti",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062070",
+    "latitude": "45.2852959",
+    "longitude": "8.34604641"
+  },
+  {
+    "name": "Sant'Angelo a Cupolo",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062071",
+    "latitude": "45.28165932",
+    "longitude": "8.08199764"
+  },
+  {
+    "name": "Sassinoro",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062072",
+    "latitude": "45.62258776",
+    "longitude": "8.3220795"
+  },
+  {
+    "name": "Solopaca",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062073",
+    "latitude": "41.19401297",
+    "longitude": "14.55292382"
+  },
+  {
+    "name": "Telese Terme",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062074",
+    "latitude": "41.21950482",
+    "longitude": "14.53112065"
+  },
+  {
+    "name": "Tocco Caudio",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062075",
+    "latitude": "41.12514712",
+    "longitude": "14.63248011"
+  },
+  {
+    "name": "Torrecuso",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062076",
+    "latitude": "41.18589327",
+    "longitude": "14.68101848"
+  },
+  {
+    "name": "Vitulano",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062077",
+    "latitude": "41.17284664",
+    "longitude": "14.65004535"
+  },
+  {
+    "name": "Sant'Arcangelo Trimonte",
+    "province": "Benevento",
+    "provinceAbbreviation": "BN",
+    "region": "Campania",
+    "istat": "062078",
+    "latitude": "45.81528283",
+    "longitude": "8.03096665"
+  },
+  {
+    "name": "Acerra",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063001",
+    "latitude": "45.67598127",
+    "longitude": "8.55992667"
+  },
+  {
+    "name": "Afragola",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063002",
+    "latitude": "45.78878319",
+    "longitude": "8.43942761"
+  },
+  {
+    "name": "Agerola",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063003",
+    "latitude": "40.63798358",
+    "longitude": "14.54491648"
+  },
+  {
+    "name": "Anacapri",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063004",
+    "latitude": "40.55142386",
+    "longitude": "14.21653675"
+  },
+  {
+    "name": "Arzano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063005",
+    "latitude": "40.91062506",
+    "longitude": "14.26920831"
+  },
+  {
+    "name": "Bacoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063006",
+    "latitude": "45.82196603",
+    "longitude": "8.43917903"
+  },
+  {
+    "name": "Barano d'Ischia",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063007",
+    "latitude": "40.71063245",
+    "longitude": "13.91624742"
+  },
+  {
+    "name": "Boscoreale",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063008",
+    "latitude": "45.76039239",
+    "longitude": "8.55948977"
+  },
+  {
+    "name": "Boscotrecase",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063009",
+    "latitude": "40.77626907",
+    "longitude": "14.46107403"
+  },
+  {
+    "name": "Brusciano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063010",
+    "latitude": "40.92061462",
+    "longitude": "14.42253614"
+  },
+  {
+    "name": "Caivano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063011",
+    "latitude": "40.9567586",
+    "longitude": "14.30106405"
+  },
+  {
+    "name": "Calvizzano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063012",
+    "latitude": "45.574775",
+    "longitude": "8.51201322"
+  },
+  {
+    "name": "Camposano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063013",
+    "latitude": "40.95590031",
+    "longitude": "14.52498309"
+  },
+  {
+    "name": "Capri",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063014",
+    "latitude": "40.55096848",
+    "longitude": "14.24304642"
+  },
+  {
+    "name": "Carbonara di Nola",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063015",
+    "latitude": "40.87511529",
+    "longitude": "14.57608435"
+  },
+  {
+    "name": "Cardito",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063016",
+    "latitude": "45.57030363",
+    "longitude": "8.63973111"
+  },
+  {
+    "name": "Casalnuovo di Napoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063017",
+    "latitude": "40.91481074",
+    "longitude": "14.3511862"
+  },
+  {
+    "name": "Casamarciano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063018",
+    "latitude": "45.45378226",
+    "longitude": "8.46370551"
+  },
+  {
+    "name": "Casamicciola Terme",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063019",
+    "latitude": "45.67828729",
+    "longitude": "8.40870545"
+  },
+  {
+    "name": "Casandrino",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063020",
+    "latitude": "40.93573734",
+    "longitude": "14.25137922"
+  },
+  {
+    "name": "Casavatore",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063021",
+    "latitude": "45.66716613",
+    "longitude": "8.53449913"
+  },
+  {
+    "name": "Casola di Napoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063022",
+    "latitude": "45.76282586",
+    "longitude": "8.44415269"
+  },
+  {
+    "name": "Casoria",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063023",
+    "latitude": "45.31838337",
+    "longitude": "8.69926765"
+  },
+  {
+    "name": "Castellammare di Stabia",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063024",
+    "latitude": "45.6988743",
+    "longitude": "8.46298661"
+  },
+  {
+    "name": "Castello di Cisterna",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063025",
+    "latitude": "45.68806799",
+    "longitude": "8.60392229"
+  },
+  {
+    "name": "Cercola",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063026",
+    "latitude": "45.73138349",
+    "longitude": "8.45159151"
+  },
+  {
+    "name": "Cicciano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063027",
+    "latitude": "45.54219977",
+    "longitude": "8.4798194"
+  },
+  {
+    "name": "Cimitile",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063028",
+    "latitude": "40.9397187",
+    "longitude": "14.52673141"
+  },
+  {
+    "name": "Comiziano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063029",
+    "latitude": "40.95251006",
+    "longitude": "14.54934835"
+  },
+  {
+    "name": "Crispano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063030",
+    "latitude": "45.51708606",
+    "longitude": "8.58791485"
+  },
+  {
+    "name": "Forio",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063031",
+    "latitude": "40.73778595",
+    "longitude": "13.85726258"
+  },
+  {
+    "name": "Frattamaggiore",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063032",
+    "latitude": "45.50102461",
+    "longitude": "8.66224358"
+  },
+  {
+    "name": "Frattaminore",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063033",
+    "latitude": "40.95564984",
+    "longitude": "14.27090135"
+  },
+  {
+    "name": "Giugliano in Campania",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063034",
+    "latitude": "40.92833418",
+    "longitude": "14.20108889"
+  },
+  {
+    "name": "Gragnano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063035",
+    "latitude": "40.68982752",
+    "longitude": "14.52098181"
+  },
+  {
+    "name": "Grumo Nevano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063036",
+    "latitude": "45.5353062",
+    "longitude": "8.41834081"
+  },
+  {
+    "name": "Ischia",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063037",
+    "latitude": "45.43623977",
+    "longitude": "8.46837851"
+  },
+  {
+    "name": "Lacco Ameno",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063038",
+    "latitude": "40.75451533",
+    "longitude": "13.88438822"
+  },
+  {
+    "name": "Lettere",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063039",
+    "latitude": "45.48630378",
+    "longitude": "8.49266595"
+  },
+  {
+    "name": "Liveri",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063040",
+    "latitude": "45.35768141",
+    "longitude": "8.5227352"
+  },
+  {
+    "name": "Marano di Napoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063041",
+    "latitude": "45.3994586",
+    "longitude": "8.46436466"
+  },
+  {
+    "name": "Mariglianella",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063042",
+    "latitude": "45.5139929",
+    "longitude": "8.48870753"
+  },
+  {
+    "name": "Marigliano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063043",
+    "latitude": "45.71405023",
+    "longitude": "8.64237321"
+  },
+  {
+    "name": "Massa Lubrense",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063044",
+    "latitude": "45.60280053",
+    "longitude": "8.50091213"
+  },
+  {
+    "name": "Melito di Napoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063045",
+    "latitude": "45.6118122",
+    "longitude": "8.48278611"
+  },
+  {
+    "name": "Meta",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063046",
+    "latitude": "40.64403352",
+    "longitude": "14.4126854"
+  },
+  {
+    "name": "Monte di Procida",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063047",
+    "latitude": "45.66496084",
+    "longitude": "8.3967365"
+  },
+  {
+    "name": "Mugnano di Napoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063048",
+    "latitude": "40.90950996",
+    "longitude": "14.2064913"
+  },
+  {
+    "name": "Napoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063049",
+    "latitude": "45.41067427",
+    "longitude": "8.78085515"
+  },
+  {
+    "name": "Nola",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063050",
+    "latitude": "40.92632842",
+    "longitude": "14.52683267"
+  },
+  {
+    "name": "Ottaviano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063051",
+    "latitude": "45.79262548",
+    "longitude": "8.49908518"
+  },
+  {
+    "name": "Palma Campania",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063052",
+    "latitude": "45.7152394",
+    "longitude": "8.56512314"
+  },
+  {
+    "name": "Piano di Sorrento",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063053",
+    "latitude": "40.63390065",
+    "longitude": "14.4132217"
+  },
+  {
+    "name": "Pimonte",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063054",
+    "latitude": "40.67368689",
+    "longitude": "14.51345416"
+  },
+  {
+    "name": "Poggiomarino",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063055",
+    "latitude": "45.64799409",
+    "longitude": "8.50748369"
+  },
+  {
+    "name": "Pollena Trocchia",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063056",
+    "latitude": "40.85809414",
+    "longitude": "14.37874203"
+  },
+  {
+    "name": "Pomigliano d'Arco",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063057",
+    "latitude": "40.90689555",
+    "longitude": "14.39335586"
+  },
+  {
+    "name": "Pompei",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063058",
+    "latitude": "45.67513019",
+    "longitude": "8.46136101"
+  },
+  {
+    "name": "Portici",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063059",
+    "latitude": "40.82375707",
+    "longitude": "14.35421459"
+  },
+  {
+    "name": "Pozzuoli",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063060",
+    "latitude": "45.66227913",
+    "longitude": "8.60149532"
+  },
+  {
+    "name": "Procida",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063061",
+    "latitude": "40.76578674",
+    "longitude": "14.02403961"
+  },
+  {
+    "name": "Qualiano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063062",
+    "latitude": "45.73016147",
+    "longitude": "8.57318421"
+  },
+  {
+    "name": "Quarto",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063063",
+    "latitude": "40.87770075",
+    "longitude": "14.14350978"
+  },
+  {
+    "name": "Ercolano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063064",
+    "latitude": "40.80927768",
+    "longitude": "14.34571485"
+  },
+  {
+    "name": "Roccarainola",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063065",
+    "latitude": "45.55511789",
+    "longitude": "8.4591122"
+  },
+  {
+    "name": "San Gennaro Vesuviano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063066",
+    "latitude": "45.63985923",
+    "longitude": "8.48458276"
+  },
+  {
+    "name": "San Giorgio a Cremano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063067",
+    "latitude": "40.82921168",
+    "longitude": "14.33392579"
+  },
+  {
+    "name": "San Giuseppe Vesuviano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063068",
+    "latitude": "45.47769535",
+    "longitude": "8.69527266"
+  },
+  {
+    "name": "San Paolo Bel Sito",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063069",
+    "latitude": "45.38665075",
+    "longitude": "8.6596796"
+  },
+  {
+    "name": "San Sebastiano al Vesuvio",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063070",
+    "latitude": "45.72750435",
+    "longitude": "8.42921545"
+  },
+  {
+    "name": "Sant'Agnello",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063071",
+    "latitude": "45.70906459",
+    "longitude": "8.52053275"
+  },
+  {
+    "name": "Sant'Anastasia",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063072",
+    "latitude": "40.86700769",
+    "longitude": "14.40211956"
+  },
+  {
+    "name": "Sant'Antimo",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063073",
+    "latitude": "45.59781069",
+    "longitude": "8.42009104"
+  },
+  {
+    "name": "Sant'Antonio Abate",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063074",
+    "latitude": "40.72247196",
+    "longitude": "14.54695442"
+  },
+  {
+    "name": "San Vitaliano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063075",
+    "latitude": "40.92292749",
+    "longitude": "14.48219363"
+  },
+  {
+    "name": "Saviano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063076",
+    "latitude": "45.74755669",
+    "longitude": "8.43465086"
+  },
+  {
+    "name": "Scisciano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063077",
+    "latitude": "45.36014053",
+    "longitude": "8.57413671"
+  },
+  {
+    "name": "Serrara Fontana",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063078",
+    "latitude": "40.71185886",
+    "longitude": "13.89310828"
+  },
+  {
+    "name": "Somma Vesuviana",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063079",
+    "latitude": "45.68190215",
+    "longitude": "8.33970898"
+  },
+  {
+    "name": "Sorrento",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063080",
+    "latitude": "40.6282273",
+    "longitude": "14.37853298"
+  },
+  {
+    "name": "Striano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063081",
+    "latitude": "40.81385972",
+    "longitude": "14.57788595"
+  },
+  {
+    "name": "Terzigno",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063082",
+    "latitude": "45.75590621",
+    "longitude": "8.48673976"
+  },
+  {
+    "name": "Torre Annunziata",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063083",
+    "latitude": "45.49690699",
+    "longitude": "8.42216872"
+  },
+  {
+    "name": "Torre del Greco",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063084",
+    "latitude": "45.83011076",
+    "longitude": "8.56484439"
+  },
+  {
+    "name": "Tufino",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063085",
+    "latitude": "40.95558945",
+    "longitude": "14.56516692"
+  },
+  {
+    "name": "Vico Equense",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063086",
+    "latitude": "40.66443364",
+    "longitude": "14.42533592"
+  },
+  {
+    "name": "Villaricca",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063087",
+    "latitude": "40.92181295",
+    "longitude": "14.19481827"
+  },
+  {
+    "name": "Visciano",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063088",
+    "latitude": "45.69075412",
+    "longitude": "8.42099488"
+  },
+  {
+    "name": "Volla",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063089",
+    "latitude": "40.87950851",
+    "longitude": "14.34632248"
+  },
+  {
+    "name": "Santa Maria la Carità",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063090",
+    "latitude": "45.49523236",
+    "longitude": "8.45918595"
+  },
+  {
+    "name": "Trecase",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063091",
+    "latitude": "45.62982409",
+    "longitude": "8.63193647"
+  },
+  {
+    "name": "Massa di Somma",
+    "province": "Napoli",
+    "provinceAbbreviation": "NA",
+    "region": "Campania",
+    "istat": "063092",
+    "latitude": "40.84660798",
+    "longitude": "14.377398"
+  },
+  {
+    "name": "Aiello del Sabato",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064001",
+    "latitude": "44.47580767",
+    "longitude": "6.99122231"
+  },
+  {
+    "name": "Altavilla Irpina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064002",
+    "latitude": "44.31344859",
+    "longitude": "7.22083358"
+  },
+  {
+    "name": "Andretta",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064003",
+    "latitude": "44.70092208",
+    "longitude": "8.03569894"
+  },
+  {
+    "name": "Aquilonia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064004",
+    "latitude": "44.59591514",
+    "longitude": "8.06408216"
+  },
+  {
+    "name": "Ariano Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064005",
+    "latitude": "44.10828374",
+    "longitude": "8.00368552"
+  },
+  {
+    "name": "Atripalda",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064006",
+    "latitude": "44.3795888",
+    "longitude": "6.96937784"
+  },
+  {
+    "name": "Avella",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064007",
+    "latitude": "44.5829271",
+    "longitude": "8.11067964"
+  },
+  {
+    "name": "Avellino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064008",
+    "latitude": "44.30207165",
+    "longitude": "8.04258299"
+  },
+  {
+    "name": "Bagnoli Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064009",
+    "latitude": "44.7599027",
+    "longitude": "7.31548217"
+  },
+  {
+    "name": "Baiano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064010",
+    "latitude": "44.758713",
+    "longitude": "7.91574918"
+  },
+  {
+    "name": "Bisaccia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064011",
+    "latitude": "44.72554836",
+    "longitude": "8.08046453"
+  },
+  {
+    "name": "Bonito",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064012",
+    "latitude": "44.72522006",
+    "longitude": "7.32339364"
+  },
+  {
+    "name": "Cairano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064013",
+    "latitude": "44.60988256",
+    "longitude": "7.94180811"
+  },
+  {
+    "name": "Calabritto",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064014",
+    "latitude": "44.44138607",
+    "longitude": "7.89332172"
+  },
+  {
+    "name": "Calitri",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064015",
+    "latitude": "44.31917111",
+    "longitude": "8.00948124"
+  },
+  {
+    "name": "Candida",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064016",
+    "latitude": "44.36566802",
+    "longitude": "7.64570648"
+  },
+  {
+    "name": "Caposele",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064017",
+    "latitude": "44.58060554",
+    "longitude": "7.01716043"
+  },
+  {
+    "name": "Capriglia Irpina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064018",
+    "latitude": "44.49456526",
+    "longitude": "7.97416757"
+  },
+  {
+    "name": "Carife",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064019",
+    "latitude": "44.54523956",
+    "longitude": "7.83282512"
+  },
+  {
+    "name": "Casalbore",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064020",
+    "latitude": "44.62818908",
+    "longitude": "8.10591872"
+  },
+  {
+    "name": "Cassano Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064021",
+    "latitude": "44.54801177",
+    "longitude": "8.18352587"
+  },
+  {
+    "name": "Castel Baronia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064022",
+    "latitude": "44.38860537",
+    "longitude": "7.43531003"
+  },
+  {
+    "name": "Castelfranci",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064023",
+    "latitude": "44.50362005",
+    "longitude": "8.01592005"
+  },
+  {
+    "name": "Castelvetere sul Calore",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064024",
+    "latitude": "44.62044163",
+    "longitude": "8.13275549"
+  },
+  {
+    "name": "Cervinara",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064025",
+    "latitude": "44.32875997",
+    "longitude": "7.48746357"
+  },
+  {
+    "name": "Cesinali",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064026",
+    "latitude": "44.60246692",
+    "longitude": "8.14620308"
+  },
+  {
+    "name": "Chianche",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064027",
+    "latitude": "44.52679083",
+    "longitude": "8.05750263"
+  },
+  {
+    "name": "Chiusano di San Domenico",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064028",
+    "latitude": "44.32981994",
+    "longitude": "7.55199457"
+  },
+  {
+    "name": "Contrada",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064029",
+    "latitude": "44.69818228",
+    "longitude": "7.85474763"
+  },
+  {
+    "name": "Conza della Campania",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064030",
+    "latitude": "44.39511761",
+    "longitude": "7.87698925"
+  },
+  {
+    "name": "Domicella",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064031",
+    "latitude": "44.08321974",
+    "longitude": "7.75076032"
+  },
+  {
+    "name": "Flumeri",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064032",
+    "latitude": "44.60005668",
+    "longitude": "7.40513697"
+  },
+  {
+    "name": "Fontanarosa",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064033",
+    "latitude": "44.57029687",
+    "longitude": "7.36044207"
+  },
+  {
+    "name": "Forino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064034",
+    "latitude": "44.51369697",
+    "longitude": "7.47352127"
+  },
+  {
+    "name": "Frigento",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064035",
+    "latitude": "44.42266439",
+    "longitude": "8.14079853"
+  },
+  {
+    "name": "Gesualdo",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064036",
+    "latitude": "44.69488958",
+    "longitude": "8.19352184"
+  },
+  {
+    "name": "Greci",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064037",
+    "latitude": "44.79720739",
+    "longitude": "7.99140953"
+  },
+  {
+    "name": "Grottaminarda",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064038",
+    "latitude": "44.45532677",
+    "longitude": "7.08139097"
+  },
+  {
+    "name": "Grottolella",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064039",
+    "latitude": "44.11582328",
+    "longitude": "7.95494044"
+  },
+  {
+    "name": "Guardia Lombardi",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064040",
+    "latitude": "44.41771618",
+    "longitude": "7.42762073"
+  },
+  {
+    "name": "Lacedonia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064041",
+    "latitude": "44.78043462",
+    "longitude": "7.74117579"
+  },
+  {
+    "name": "Lapio",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064042",
+    "latitude": "44.74417866",
+    "longitude": "7.47821589"
+  },
+  {
+    "name": "Lauro",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064043",
+    "latitude": "44.47859161",
+    "longitude": "7.88006416"
+  },
+  {
+    "name": "Lioni",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064044",
+    "latitude": "44.47708439",
+    "longitude": "7.28769499"
+  },
+  {
+    "name": "Luogosano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064045",
+    "latitude": "44.81950243",
+    "longitude": "7.62496057"
+  },
+  {
+    "name": "Manocalzati",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064046",
+    "latitude": "44.75647805",
+    "longitude": "8.03015252"
+  },
+  {
+    "name": "Marzano di Nola",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064047",
+    "latitude": "44.59097136",
+    "longitude": "7.06903166"
+  },
+  {
+    "name": "Melito Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064048",
+    "latitude": "44.62157124",
+    "longitude": "7.43636974"
+  },
+  {
+    "name": "Mercogliano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064049",
+    "latitude": "44.44422917",
+    "longitude": "7.63905085"
+  },
+  {
+    "name": "Mirabella Eclano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064050",
+    "latitude": "44.49257989",
+    "longitude": "8.18598322"
+  },
+  {
+    "name": "Montaguto",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064051",
+    "latitude": "44.77533089",
+    "longitude": "8.03153502"
+  },
+  {
+    "name": "Montecalvo Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064052",
+    "latitude": "44.42777401",
+    "longitude": "7.98188704"
+  },
+  {
+    "name": "Montefalcione",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064053",
+    "latitude": "44.40916447",
+    "longitude": "7.21232892"
+  },
+  {
+    "name": "Monteforte Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064054",
+    "latitude": "44.35330865",
+    "longitude": "8.13019641"
+  },
+  {
+    "name": "Montefredane",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064055",
+    "latitude": "44.62333766",
+    "longitude": "7.97903465"
+  },
+  {
+    "name": "Montefusco",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064056",
+    "latitude": "44.72604642",
+    "longitude": "8.18943117"
+  },
+  {
+    "name": "Montella",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064057",
+    "latitude": "44.61699553",
+    "longitude": "8.18121378"
+  },
+  {
+    "name": "Montemarano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064058",
+    "latitude": "44.73944316",
+    "longitude": "7.66273569"
+  },
+  {
+    "name": "Montemiletto",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064059",
+    "latitude": "44.70785741",
+    "longitude": "7.68774788"
+  },
+  {
+    "name": "Monteverde",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064060",
+    "latitude": "44.48257098",
+    "longitude": "7.17967333"
+  },
+  {
+    "name": "Montoro Inferiore",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "deleted": true,
+    "istat": "064061",
+    "latitude": "44.50412404",
+    "longitude": "7.59014854"
+  },
+  {
+    "name": "Montoro Superiore",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "deleted": true,
+    "istat": "064062",
+    "latitude": "44.79952425",
+    "longitude": "7.82056601"
+  },
+  {
+    "name": "Morra De Sanctis",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064063",
+    "latitude": "44.57433971",
+    "longitude": "8.09783957"
+  },
+  {
+    "name": "Moschiano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064064",
+    "latitude": "44.38316033",
+    "longitude": "7.46788805"
+  },
+  {
+    "name": "Mugnano del Cardinale",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064065",
+    "latitude": "44.63475191",
+    "longitude": "7.79316738"
+  },
+  {
+    "name": "Nusco",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064066",
+    "latitude": "44.38623533",
+    "longitude": "8.03521716"
+  },
+  {
+    "name": "Ospedaletto d'Alpinolo",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064067",
+    "latitude": "44.65222548",
+    "longitude": "7.85820345"
+  },
+  {
+    "name": "Pago del Vallo di Lauro",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064068",
+    "latitude": "44.32477035",
+    "longitude": "7.67788414"
+  },
+  {
+    "name": "Parolise",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064069",
+    "latitude": "44.43506854",
+    "longitude": "7.92622597"
+  },
+  {
+    "name": "Paternopoli",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064070",
+    "latitude": "44.56310368",
+    "longitude": "8.03050943"
+  },
+  {
+    "name": "Petruro Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064071",
+    "latitude": "44.4821472",
+    "longitude": "7.91198215"
+  },
+  {
+    "name": "Pietradefusi",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064072",
+    "latitude": "44.73553903",
+    "longitude": "7.96129163"
+  },
+  {
+    "name": "Pietrastornina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064073",
+    "latitude": "44.5808616",
+    "longitude": "8.19186669"
+  },
+  {
+    "name": "Prata di Principato Ultra",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064074",
+    "latitude": "44.66906362",
+    "longitude": "8.19855921"
+  },
+  {
+    "name": "Pratola Serra",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064075",
+    "latitude": "44.56461241",
+    "longitude": "7.48493751"
+  },
+  {
+    "name": "Quadrelle",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064076",
+    "latitude": "44.57315552",
+    "longitude": "8.12818957"
+  },
+  {
+    "name": "Quindici",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064077",
+    "latitude": "44.69910296",
+    "longitude": "7.15718954"
+  },
+  {
+    "name": "Roccabascerana",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064078",
+    "latitude": "44.39329624",
+    "longitude": "7.55117163"
+  },
+  {
+    "name": "Rocca San Felice",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064079",
+    "latitude": "44.31526154",
+    "longitude": "7.29751308"
+  },
+  {
+    "name": "Rotondi",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064080",
+    "latitude": "44.65139204",
+    "longitude": "8.02766887"
+  },
+  {
+    "name": "Salza Irpina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064081",
+    "latitude": "44.53009052",
+    "longitude": "7.94516725"
+  },
+  {
+    "name": "San Mango sul Calore",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064082",
+    "latitude": "44.46697823",
+    "longitude": "7.36331795"
+  },
+  {
+    "name": "San Martino Valle Caudina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064083",
+    "latitude": "44.53976498",
+    "longitude": "7.08963389"
+  },
+  {
+    "name": "San Michele di Serino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064084",
+    "latitude": "44.24075683",
+    "longitude": "7.39780279"
+  },
+  {
+    "name": "San Nicola Baronia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064085",
+    "latitude": "44.68175309",
+    "longitude": "7.37219219"
+  },
+  {
+    "name": "San Potito Ultra",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064086",
+    "latitude": "44.51169894",
+    "longitude": "7.91702082"
+  },
+  {
+    "name": "San Sossio Baronia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064087",
+    "latitude": "44.80542638",
+    "longitude": "7.58066365"
+  },
+  {
+    "name": "Santa Lucia di Serino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064088",
+    "latitude": "44.54335973",
+    "longitude": "8.10417587"
+  },
+  {
+    "name": "Sant'Andrea di Conza",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064089",
+    "latitude": "44.549398",
+    "longitude": "7.72487008"
+  },
+  {
+    "name": "Sant'Angelo all'Esca",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064090",
+    "latitude": "44.28747375",
+    "longitude": "7.80709202"
+  },
+  {
+    "name": "Sant'Angelo a Scala",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064091",
+    "latitude": "44.30202535",
+    "longitude": "7.79831038"
+  },
+  {
+    "name": "Sant'Angelo dei Lombardi",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064092",
+    "latitude": "44.571357",
+    "longitude": "7.27564416"
+  },
+  {
+    "name": "Santa Paolina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064093",
+    "latitude": "44.33524752",
+    "longitude": "7.40676156"
+  },
+  {
+    "name": "Santo Stefano del Sole",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064095",
+    "latitude": "44.19729282",
+    "longitude": "8.02988403"
+  },
+  {
+    "name": "Savignano Irpino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064096",
+    "latitude": "44.58769184",
+    "longitude": "7.6627259"
+  },
+  {
+    "name": "Scampitella",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064097",
+    "latitude": "44.51186",
+    "longitude": "8.13511748"
+  },
+  {
+    "name": "Senerchia",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064098",
+    "latitude": "44.46169553",
+    "longitude": "8.16725259"
+  },
+  {
+    "name": "Serino",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064099",
+    "latitude": "44.80485973",
+    "longitude": "8.09995734"
+  },
+  {
+    "name": "Sirignano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064100",
+    "latitude": "44.6565379",
+    "longitude": "7.98221368"
+  },
+  {
+    "name": "Solofra",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064101",
+    "latitude": "44.73780446",
+    "longitude": "8.03367466"
+  },
+  {
+    "name": "Sorbo Serpico",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064102",
+    "latitude": "44.44353291",
+    "longitude": "8.01250347"
+  },
+  {
+    "name": "Sperone",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064103",
+    "latitude": "44.58729447",
+    "longitude": "7.38154761"
+  },
+  {
+    "name": "Sturno",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064104",
+    "latitude": "44.62466066",
+    "longitude": "7.55533712"
+  },
+  {
+    "name": "Summonte",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064105",
+    "latitude": "44.63734577",
+    "longitude": "7.93346395"
+  },
+  {
+    "name": "Taurano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064106",
+    "latitude": "44.60460498",
+    "longitude": "8.09767172"
+  },
+  {
+    "name": "Taurasi",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064107",
+    "latitude": "44.56023249",
+    "longitude": "7.8835988"
+  },
+  {
+    "name": "Teora",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064108",
+    "latitude": "44.40123357",
+    "longitude": "7.96650568"
+  },
+  {
+    "name": "Torella dei Lombardi",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064109",
+    "latitude": "44.53765937",
+    "longitude": "8.15661951"
+  },
+  {
+    "name": "Torre Le Nocelle",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064110",
+    "latitude": "44.20129244",
+    "longitude": "7.57607947"
+  },
+  {
+    "name": "Torrioni",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064111",
+    "latitude": "44.30669736",
+    "longitude": "7.97963402"
+  },
+  {
+    "name": "Trevico",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064112",
+    "latitude": "44.49985871",
+    "longitude": "7.17920368"
+  },
+  {
+    "name": "Tufo",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064113",
+    "latitude": "44.76646823",
+    "longitude": "8.06781101"
+  },
+  {
+    "name": "Vallata",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064114",
+    "latitude": "44.45810047",
+    "longitude": "7.79955227"
+  },
+  {
+    "name": "Vallesaccarda",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064115",
+    "latitude": "44.68461474",
+    "longitude": "8.15033106"
+  },
+  {
+    "name": "Venticano",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064116",
+    "latitude": "44.61433199",
+    "longitude": "7.48626156"
+  },
+  {
+    "name": "Villamaina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064117",
+    "latitude": "44.66149658",
+    "longitude": "7.7291516"
+  },
+  {
+    "name": "Villanova del Battista",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064118",
+    "latitude": "44.40264638",
+    "longitude": "7.68685767"
+  },
+  {
+    "name": "Volturara Irpina",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064119",
+    "latitude": "44.4574949",
+    "longitude": "7.0944983"
+  },
+  {
+    "name": "Zungoli",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064120",
+    "latitude": "44.45218424",
+    "longitude": "7.98298599"
+  },
+  {
+    "name": "Montoro",
+    "province": "Avellino",
+    "provinceAbbreviation": "AV",
+    "region": "Campania",
+    "istat": "064121",
+    "latitude": "44.62641683",
+    "longitude": "7.36631509"
+  },
+  {
+    "name": "Acerno",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065001",
+    "latitude": "44.79070477",
+    "longitude": "8.25110248"
+  },
+  {
+    "name": "Agropoli",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065002",
+    "latitude": "45.07801783",
+    "longitude": "7.9715283"
+  },
+  {
+    "name": "Albanella",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065003",
+    "latitude": "44.84544206",
+    "longitude": "8.13378727"
+  },
+  {
+    "name": "Alfano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065004",
+    "latitude": "45.09973309",
+    "longitude": "8.00198071"
+  },
+  {
+    "name": "Altavilla Silentina",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065005",
+    "latitude": "44.89912921",
+    "longitude": "8.20414255"
+  },
+  {
+    "name": "Amalfi",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065006",
+    "latitude": "44.87469786",
+    "longitude": "8.26765893"
+  },
+  {
+    "name": "Angri",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065007",
+    "latitude": "44.90699703",
+    "longitude": "8.09110376"
+  },
+  {
+    "name": "Aquara",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065008",
+    "latitude": "44.83048705",
+    "longitude": "8.33010424"
+  },
+  {
+    "name": "Ascea",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065009",
+    "latitude": "45.09490798",
+    "longitude": "7.95404954"
+  },
+  {
+    "name": "Atena Lucana",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065010",
+    "latitude": "44.79063282",
+    "longitude": "8.44027285"
+  },
+  {
+    "name": "Atrani",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065011",
+    "latitude": "44.66384285",
+    "longitude": "8.29360889"
+  },
+  {
+    "name": "Auletta",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065012",
+    "latitude": "45.02254621",
+    "longitude": "7.95051282"
+  },
+  {
+    "name": "Baronissi",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065013",
+    "latitude": "44.73654927",
+    "longitude": "8.33562741"
+  },
+  {
+    "name": "Battipaglia",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065014",
+    "latitude": "45.00626143",
+    "longitude": "8.25732636"
+  },
+  {
+    "name": "Bellosguardo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065015",
+    "latitude": "44.73947663",
+    "longitude": "8.22718552"
+  },
+  {
+    "name": "Bracigliano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065016",
+    "latitude": "44.98865953",
+    "longitude": "8.09088049"
+  },
+  {
+    "name": "Buccino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065017",
+    "latitude": "44.71987867",
+    "longitude": "8.28820301"
+  },
+  {
+    "name": "Buonabitacolo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065018",
+    "latitude": "44.90038386",
+    "longitude": "8.03072454"
+  },
+  {
+    "name": "Caggiano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065019",
+    "latitude": "45.00422942",
+    "longitude": "8.0081642"
+  },
+  {
+    "name": "Calvanico",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065020",
+    "latitude": "45.02281734",
+    "longitude": "8.33413974"
+  },
+  {
+    "name": "Camerota",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065021",
+    "latitude": "44.68863849",
+    "longitude": "8.30166091"
+  },
+  {
+    "name": "Campagna",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065022",
+    "latitude": "44.75491789",
+    "longitude": "8.1491782"
+  },
+  {
+    "name": "Campora",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065023",
+    "latitude": "44.96144381",
+    "longitude": "8.30609193"
+  },
+  {
+    "name": "Cannalonga",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065024",
+    "latitude": "44.72061965",
+    "longitude": "8.38119567"
+  },
+  {
+    "name": "Capaccio Paestum",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065025",
+    "latitude": "44.98270999",
+    "longitude": "8.20944516"
+  },
+  {
+    "name": "Casalbuono",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065026",
+    "latitude": "44.92400563",
+    "longitude": "8.07474856"
+  },
+  {
+    "name": "Casaletto Spartano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065027",
+    "latitude": "44.75030841",
+    "longitude": "8.43283445"
+  },
+  {
+    "name": "Casal Velino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065028",
+    "latitude": "44.87876512",
+    "longitude": "8.31368944"
+  },
+  {
+    "name": "Caselle in Pittari",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065029",
+    "latitude": "44.80181402",
+    "longitude": "8.41226127"
+  },
+  {
+    "name": "Castelcivita",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065030",
+    "latitude": "44.78821506",
+    "longitude": "8.28563618"
+  },
+  {
+    "name": "Castellabate",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065031",
+    "latitude": "45.04134189",
+    "longitude": "7.96362449"
+  },
+  {
+    "name": "Castelnuovo Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065032",
+    "latitude": "44.71879737",
+    "longitude": "8.41596578"
+  },
+  {
+    "name": "Castelnuovo di Conza",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065033",
+    "latitude": "44.86599664",
+    "longitude": "7.94500108"
+  },
+  {
+    "name": "Castel San Giorgio",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065034",
+    "latitude": "44.85663333",
+    "longitude": "8.12297302"
+  },
+  {
+    "name": "Castel San Lorenzo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065035",
+    "latitude": "45.04976869",
+    "longitude": "8.03676471"
+  },
+  {
+    "name": "Castiglione del Genovesi",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065036",
+    "latitude": "44.87267038",
+    "longitude": "8.36020871"
+  },
+  {
+    "name": "Cava de' Tirreni",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065037",
+    "latitude": "44.64799259",
+    "longitude": "8.24320136"
+  },
+  {
+    "name": "Celle di Bulgheria",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065038",
+    "latitude": "44.98505458",
+    "longitude": "8.11780752"
+  },
+  {
+    "name": "Centola",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065039",
+    "latitude": "44.97484379",
+    "longitude": "8.10016648"
+  },
+  {
+    "name": "Ceraso",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065040",
+    "latitude": "44.82617595",
+    "longitude": "8.0048209"
+  },
+  {
+    "name": "Cetara",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065041",
+    "latitude": "44.72821487",
+    "longitude": "8.14514109"
+  },
+  {
+    "name": "Cicerale",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065042",
+    "latitude": "45.08718184",
+    "longitude": "8.03923935"
+  },
+  {
+    "name": "Colliano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065043",
+    "latitude": "40.72519023",
+    "longitude": "15.29243072"
+  },
+  {
+    "name": "Conca dei Marini",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065044",
+    "latitude": "45.00074703",
+    "longitude": "8.14513636"
+  },
+  {
+    "name": "Controne",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065045",
+    "latitude": "44.95969083",
+    "longitude": "8.05757115"
+  },
+  {
+    "name": "Contursi Terme",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065046",
+    "latitude": "45.01522505",
+    "longitude": "8.08959339"
+  },
+  {
+    "name": "Corbara",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065047",
+    "latitude": "44.97953515",
+    "longitude": "8.06192379"
+  },
+  {
+    "name": "Corleto Monforte",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065048",
+    "latitude": "44.82301876",
+    "longitude": "8.35856506"
+  },
+  {
+    "name": "Cuccaro Vetere",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065049",
+    "latitude": "44.99412244",
+    "longitude": "8.13752723"
+  },
+  {
+    "name": "Eboli",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065050",
+    "latitude": "44.78822155",
+    "longitude": "8.18062795"
+  },
+  {
+    "name": "Felitto",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065051",
+    "latitude": "45.04043582",
+    "longitude": "8.09721152"
+  },
+  {
+    "name": "Fisciano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065052",
+    "latitude": "44.92018688",
+    "longitude": "7.97228137"
+  },
+  {
+    "name": "Furore",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065053",
+    "latitude": "44.87340426",
+    "longitude": "7.99385509"
+  },
+  {
+    "name": "Futani",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065054",
+    "latitude": "44.75337907",
+    "longitude": "8.42218563"
+  },
+  {
+    "name": "Giffoni Sei Casali",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065055",
+    "latitude": "45.00558693",
+    "longitude": "8.17536565"
+  },
+  {
+    "name": "Giffoni Valle Piana",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065056",
+    "latitude": "44.99805155",
+    "longitude": "8.29912278"
+  },
+  {
+    "name": "Gioi",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065057",
+    "latitude": "45.03891548",
+    "longitude": "8.31355703"
+  },
+  {
+    "name": "Giungano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065058",
+    "latitude": "44.80839835",
+    "longitude": "8.38094573"
+  },
+  {
+    "name": "Ispani",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065059",
+    "latitude": "44.82947547",
+    "longitude": "8.17721468"
+  },
+  {
+    "name": "Laureana Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065060",
+    "latitude": "44.66896792",
+    "longitude": "8.25852546"
+  },
+  {
+    "name": "Laurino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065061",
+    "latitude": "44.75977053",
+    "longitude": "8.47682029"
+  },
+  {
+    "name": "Laurito",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065062",
+    "latitude": "44.94435642",
+    "longitude": "8.03423581"
+  },
+  {
+    "name": "Laviano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065063",
+    "latitude": "44.76255023",
+    "longitude": "8.27793953"
+  },
+  {
+    "name": "Lustra",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065064",
+    "latitude": "44.56923733",
+    "longitude": "8.32920396"
+  },
+  {
+    "name": "Magliano Vetere",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065065",
+    "latitude": "44.77102638",
+    "longitude": "8.44866667"
+  },
+  {
+    "name": "Maiori",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065066",
+    "latitude": "44.81697574",
+    "longitude": "8.2944273"
+  },
+  {
+    "name": "Mercato San Severino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065067",
+    "latitude": "44.93609673",
+    "longitude": "8.07164087"
+  },
+  {
+    "name": "Minori",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065068",
+    "latitude": "44.64752301",
+    "longitude": "8.32462019"
+  },
+  {
+    "name": "Moio della Civitella",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065069",
+    "latitude": "45.05139958",
+    "longitude": "8.26346587"
+  },
+  {
+    "name": "Montano Antilia",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065070",
+    "latitude": "45.06788298",
+    "longitude": "7.93215605"
+  },
+  {
+    "name": "Montecorice",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065071",
+    "latitude": "44.84884344",
+    "longitude": "8.21869885"
+  },
+  {
+    "name": "Montecorvino Pugliano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065072",
+    "latitude": "44.69860169",
+    "longitude": "8.39030985"
+  },
+  {
+    "name": "Montecorvino Rovella",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065073",
+    "latitude": "44.98919545",
+    "longitude": "8.02515243"
+  },
+  {
+    "name": "Monteforte Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065074",
+    "latitude": "44.82860036",
+    "longitude": "8.2573902"
+  },
+  {
+    "name": "Monte San Giacomo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065075",
+    "latitude": "45.00821528",
+    "longitude": "8.11238215"
+  },
+  {
+    "name": "Montesano sulla Marcellana",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065076",
+    "latitude": "44.82241214",
+    "longitude": "8.23874286"
+  },
+  {
+    "name": "Morigerati",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065077",
+    "latitude": "44.9840347",
+    "longitude": "8.3240069"
+  },
+  {
+    "name": "Nocera Inferiore",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065078",
+    "latitude": "40.74358321",
+    "longitude": "14.64142303"
+  },
+  {
+    "name": "Nocera Superiore",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065079",
+    "latitude": "45.11523742",
+    "longitude": "8.02486752"
+  },
+  {
+    "name": "Novi Velia",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065080",
+    "latitude": "44.77361901",
+    "longitude": "8.35650287"
+  },
+  {
+    "name": "Ogliastro Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065081",
+    "latitude": "44.58555786",
+    "longitude": "8.24703487"
+  },
+  {
+    "name": "Olevano sul Tusciano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065082",
+    "latitude": "45.05639415",
+    "longitude": "8.01879254"
+  },
+  {
+    "name": "Oliveto Citra",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065083",
+    "latitude": "45.03325898",
+    "longitude": "8.25013241"
+  },
+  {
+    "name": "Omignano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065084",
+    "latitude": "45.02529094",
+    "longitude": "8.07208963"
+  },
+  {
+    "name": "Orria",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065085",
+    "latitude": "45.05819329",
+    "longitude": "7.98625503"
+  },
+  {
+    "name": "Ottati",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065086",
+    "latitude": "45.05448578",
+    "longitude": "8.05094462"
+  },
+  {
+    "name": "Padula",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065087",
+    "latitude": "44.95711305",
+    "longitude": "8.25851231"
+  },
+  {
+    "name": "Pagani",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065088",
+    "latitude": "44.75104701",
+    "longitude": "8.44907922"
+  },
+  {
+    "name": "Palomonte",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065089",
+    "latitude": "44.93757725",
+    "longitude": "8.34271288"
+  },
+  {
+    "name": "Pellezzano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065090",
+    "latitude": "44.85873263",
+    "longitude": "8.1583648"
+  },
+  {
+    "name": "Perdifumo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065091",
+    "latitude": "44.95150123",
+    "longitude": "8.02661283"
+  },
+  {
+    "name": "Perito",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065092",
+    "latitude": "45.10233231",
+    "longitude": "8.100056"
+  },
+  {
+    "name": "Pertosa",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065093",
+    "latitude": "44.87387745",
+    "longitude": "8.28581546"
+  },
+  {
+    "name": "Petina",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065094",
+    "latitude": "44.59299081",
+    "longitude": "8.27193131"
+  },
+  {
+    "name": "Piaggine",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065095",
+    "latitude": "44.70695062",
+    "longitude": "8.34572398"
+  },
+  {
+    "name": "Pisciotta",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065096",
+    "latitude": "44.85886821",
+    "longitude": "8.3443271"
+  },
+  {
+    "name": "Polla",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065097",
+    "latitude": "44.83463979",
+    "longitude": "8.06523095"
+  },
+  {
+    "name": "Pollica",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065098",
+    "latitude": "44.61132016",
+    "longitude": "8.24202367"
+  },
+  {
+    "name": "Pontecagnano Faiano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065099",
+    "latitude": "44.81852007",
+    "longitude": "8.10937091"
+  },
+  {
+    "name": "Positano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065100",
+    "latitude": "44.75322439",
+    "longitude": "8.29616262"
+  },
+  {
+    "name": "Postiglione",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065101",
+    "latitude": "44.95226938",
+    "longitude": "7.97278064"
+  },
+  {
+    "name": "Praiano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065102",
+    "latitude": "40.61144748",
+    "longitude": "14.53257625"
+  },
+  {
+    "name": "Prignano Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065103",
+    "latitude": "44.96570842",
+    "longitude": "8.27826008"
+  },
+  {
+    "name": "Ravello",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065104",
+    "latitude": "44.55375446",
+    "longitude": "8.25972366"
+  },
+  {
+    "name": "Ricigliano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065105",
+    "latitude": "44.66894067",
+    "longitude": "8.33782926"
+  },
+  {
+    "name": "Roccadaspide",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065106",
+    "latitude": "44.9640894",
+    "longitude": "8.11289201"
+  },
+  {
+    "name": "Roccagloriosa",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065107",
+    "latitude": "44.99743108",
+    "longitude": "8.0781248"
+  },
+  {
+    "name": "Roccapiemonte",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065108",
+    "latitude": "44.88727476",
+    "longitude": "8.07546861"
+  },
+  {
+    "name": "Rofrano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065109",
+    "latitude": "45.02410808",
+    "longitude": "8.18984201"
+  },
+  {
+    "name": "Romagnano al Monte",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065110",
+    "latitude": "45.11794499",
+    "longitude": "8.00209647"
+  },
+  {
+    "name": "Roscigno",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065111",
+    "latitude": "44.79653568",
+    "longitude": "8.33893337"
+  },
+  {
+    "name": "Rutino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065112",
+    "latitude": "44.89687406",
+    "longitude": "7.96509857"
+  },
+  {
+    "name": "Sacco",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065113",
+    "latitude": "44.63719563",
+    "longitude": "8.22822517"
+  },
+  {
+    "name": "Sala Consilina",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065114",
+    "latitude": "44.99926995",
+    "longitude": "8.05229051"
+  },
+  {
+    "name": "Salento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065115",
+    "latitude": "44.98045098",
+    "longitude": "8.35869057"
+  },
+  {
+    "name": "Salerno",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065116",
+    "latitude": "44.83510515",
+    "longitude": "8.23189059"
+  },
+  {
+    "name": "Salvitelle",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065117",
+    "latitude": "44.91367137",
+    "longitude": "8.03221225"
+  },
+  {
+    "name": "San Cipriano Picentino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065118",
+    "latitude": "44.94188973",
+    "longitude": "7.93722176"
+  },
+  {
+    "name": "San Giovanni a Piro",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065119",
+    "latitude": "45.00518407",
+    "longitude": "8.13525532"
+  },
+  {
+    "name": "San Gregorio Magno",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065120",
+    "latitude": "44.80740659",
+    "longitude": "8.31730154"
+  },
+  {
+    "name": "San Mango Piemonte",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065121",
+    "latitude": "45.06741302",
+    "longitude": "8.09773822"
+  },
+  {
+    "name": "San Marzano sul Sarno",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065122",
+    "latitude": "40.77460793",
+    "longitude": "14.58798217"
+  },
+  {
+    "name": "San Mauro Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065123",
+    "latitude": "40.22628217",
+    "longitude": "15.04476431"
+  },
+  {
+    "name": "San Mauro la Bruca",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065124",
+    "latitude": "40.12159144",
+    "longitude": "15.28600011"
+  },
+  {
+    "name": "San Pietro al Tanagro",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065125",
+    "latitude": "40.45403757",
+    "longitude": "15.48754102"
+  },
+  {
+    "name": "San Rufo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065126",
+    "latitude": "40.43434882",
+    "longitude": "15.461657"
+  },
+  {
+    "name": "Santa Marina",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065127",
+    "latitude": "40.10520303",
+    "longitude": "15.54152852"
+  },
+  {
+    "name": "Sant'Angelo a Fasanella",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065128",
+    "latitude": "40.45704286",
+    "longitude": "15.34366051"
+  },
+  {
+    "name": "Sant'Arsenio",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065129",
+    "latitude": "40.47110216",
+    "longitude": "15.4864055"
+  },
+  {
+    "name": "Sant'Egidio del Monte Albino",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065130",
+    "latitude": "40.73592269",
+    "longitude": "14.59895358"
+  },
+  {
+    "name": "Santomenna",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065131",
+    "latitude": "40.80708262",
+    "longitude": "15.32026395"
+  },
+  {
+    "name": "San Valentino Torio",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065132",
+    "latitude": "40.79182154",
+    "longitude": "14.60094288"
+  },
+  {
+    "name": "Sanza",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065133",
+    "latitude": "40.24463844",
+    "longitude": "15.55330616"
+  },
+  {
+    "name": "Sapri",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065134",
+    "latitude": "40.07392713",
+    "longitude": "15.63073166"
+  },
+  {
+    "name": "Sarno",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065135",
+    "latitude": "40.8153339",
+    "longitude": "14.61889943"
+  },
+  {
+    "name": "Sassano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065136",
+    "latitude": "40.34208235",
+    "longitude": "15.56594212"
+  },
+  {
+    "name": "Scafati",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065137",
+    "latitude": "40.74806338",
+    "longitude": "14.52623502"
+  },
+  {
+    "name": "Scala",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065138",
+    "latitude": "40.65594208",
+    "longitude": "14.60706553"
+  },
+  {
+    "name": "Serramezzana",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065139",
+    "latitude": "40.24454152",
+    "longitude": "15.03228574"
+  },
+  {
+    "name": "Serre",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065140",
+    "latitude": "40.58118831",
+    "longitude": "15.18780345"
+  },
+  {
+    "name": "Sessa Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065141",
+    "latitude": "40.25928966",
+    "longitude": "15.07527263"
+  },
+  {
+    "name": "Siano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065142",
+    "latitude": "40.8009862",
+    "longitude": "14.69362433"
+  },
+  {
+    "name": "Sicignano degli Alburni",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065143",
+    "latitude": "40.55933929",
+    "longitude": "15.30595541"
+  },
+  {
+    "name": "Stella Cilento",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065144",
+    "latitude": "40.23160695",
+    "longitude": "15.09330128"
+  },
+  {
+    "name": "Stio",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065145",
+    "latitude": "40.3108142",
+    "longitude": "15.25520959"
+  },
+  {
+    "name": "Teggiano",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065146",
+    "latitude": "40.3796533",
+    "longitude": "15.54040859"
+  },
+  {
+    "name": "Torchiara",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065147",
+    "latitude": "40.3216153",
+    "longitude": "15.05369631"
+  },
+  {
+    "name": "Torraca",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065148",
+    "latitude": "40.11098775",
+    "longitude": "15.63631714"
+  },
+  {
+    "name": "Torre Orsaia",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065149",
+    "latitude": "40.13094394",
+    "longitude": "15.47143926"
+  },
+  {
+    "name": "Tortorella",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065150",
+    "latitude": "40.14235689",
+    "longitude": "15.60625318"
+  },
+  {
+    "name": "Tramonti",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065151",
+    "latitude": "40.69483916",
+    "longitude": "14.64019238"
+  },
+  {
+    "name": "Trentinara",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065152",
+    "latitude": "40.4006827",
+    "longitude": "15.10735868"
+  },
+  {
+    "name": "Valle dell'Angelo",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065153",
+    "latitude": "40.34377463",
+    "longitude": "15.36868776"
+  },
+  {
+    "name": "Vallo della Lucania",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065154",
+    "latitude": "40.22877547",
+    "longitude": "15.26707186"
+  },
+  {
+    "name": "Valva",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065155",
+    "latitude": "40.73970939",
+    "longitude": "15.26988886"
+  },
+  {
+    "name": "Vibonati",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065156",
+    "latitude": "40.10320009",
+    "longitude": "15.57993678"
+  },
+  {
+    "name": "Vietri sul Mare",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065157",
+    "latitude": "40.67202929",
+    "longitude": "14.7281568"
+  },
+  {
+    "name": "Bellizzi",
+    "province": "Salerno",
+    "provinceAbbreviation": "SA",
+    "region": "Campania",
+    "istat": "065158",
+    "latitude": "40.62218574",
+    "longitude": "14.94602767"
+  }
+]
