@@ -13,7 +13,7 @@ const useStyles = makeStyles({
 const Navbar: React.FC = () => {
   const classes = useStyles();
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" color="transparent">
       <Toolbar>
         <img src={logo} alt="logo" className={classes.logo} />
       </Toolbar>

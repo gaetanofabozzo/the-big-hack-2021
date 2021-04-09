@@ -4,25 +4,27 @@ import { BASE_API_URL } from "../utils/const";
 interface Coordinates {
   latitude: number;
   longitude: number;
-  city: string;
+  name: string;
 }
 
 export default function useGeoLocalization({ place }: { place: string }) {
-  const [coordinates, setCoordinates] = useState<Coordinates>({ latitude: 0, longitude: 0, city: '' });
+  const [coordinates, setCoordinates] = useState<Coordinates>({ latitude: 0, longitude: 0, name: '' });
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error] = useState<string>('');
 
   useEffect(() => {
     const fetchData = async () => {
+      setLoading(true);
       const url = `${BASE_API_URL}/api/geo`;
       const search = new URLSearchParams({ place }).toString();
       const response = await fetch(`${url}?${search}`);
-      const { latitude, longitude, city } = await response.json();
-      if(latitude && longitude && city) {
-        setCoordinates({ latitude, longitude, city });
-      }
+      const { latitude, longitude, name } = await response.json();
+      setCoordinates({ latitude, longitude, name });
+      setLoading(false);
     };
 
     fetchData();
   }, [place])
 
-  return coordinates;  
+  return { coordinates, loading, error };  
 }

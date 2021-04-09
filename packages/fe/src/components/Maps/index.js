@@ -1,9 +1,13 @@
+
 import React from "react";
+import numeral from "numeral";
 import { makeStyles } from "@material-ui/core"
 import "leaflet/dist/leaflet.css";
+
+import { Circle, Popup, MapContainer, TileLayer } from "react-leaflet";
+
+import { casesTypeColors } from '../../utils/map';
 import './map.css'
-import { MapContainer, TileLayer } from "react-leaflet";
-import { showDataOnMap } from '../../utils/map';
 
 const cartoLink = "https://wiki.openstreetmap.org/wiki/Carto_(Company)";
 const osmLink = "https://www.openstreetmap.org/copyright";
@@ -23,8 +27,9 @@ const useStyles = makeStyles({
   }
 });
 
-function Map({ cities, casesType, center, zoom }) {
+function Map({ data, casesType, center, zoom }) {
   const classes = useStyles();
+  const color = casesTypeColors[casesType].hex;
   return (
     <div className={classes.map}>
       <MapContainer center={center} zoom={zoom} className={classes.mapContainer} >
@@ -32,7 +37,26 @@ function Map({ cities, casesType, center, zoom }) {
           attribution={attribution}
           url={url}
         />
-        {showDataOnMap(cities, casesType)}
+        {data.map((city) => (
+          <Circle 
+            key={city.name}
+            center={[city.latitude, city.longitude]}
+            fillOpacity={0.4}
+            // color={color} // doesn't work if the color changes why????
+            // fillColor={color}
+            pathOptions={{ color, fillColor: color }}
+            radius={
+              Math.sqrt(city[casesType]) * casesTypeColors[casesType].multiplier
+            }
+          >
+            <Popup>
+              <div className="info-container">
+                <div>{city.name}, {city.province}</div>
+                <div>Tot: {city[casesType]}</div>
+              </div>
+            </Popup>
+          </Circle>
+        ))}
       </MapContainer>
     </div>
   );
