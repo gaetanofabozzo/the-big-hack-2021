@@ -1,19 +1,19 @@
 module.exports = {
   plugins: [
-    '@babel/proposal-class-properties',
-    '@babel/proposal-export-default-from',
-    '@babel/plugin-proposal-optional-chaining',
+    "@babel/proposal-class-properties",
+    "@babel/proposal-export-default-from",
+    "@babel/plugin-proposal-optional-chaining",
   ],
   presets: [
     [
-      '@babel/env',
+      "@babel/env",
       {
         modules: false,
         targets: {
-          node: 'current',
+          node: "current",
         },
       },
     ],
-    '@babel/react',
-  ]
+    "@babel/react",
+  ],
 };
