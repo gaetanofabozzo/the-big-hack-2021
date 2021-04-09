@@ -6,7 +6,10 @@
     "region": "Campania",
     "istat": "061001",
     "latitude": "45.36343304",
-    "longitude": "7.7686"
+    "longitude": "7.7686",
+    "numberOfVaccines": 5258,
+    "numberOfSwabs": 4434,
+    "numberOfPositives": 15
   },
   {
     "name": "Alife",
@@ -15,7 +18,10 @@
     "region": "Campania",
     "istat": "061002",
     "latitude": "44.91688598",
-    "longitude": "7.48443104"
+    "longitude": "7.48443104",
+    "numberOfVaccines": 8669,
+    "numberOfSwabs": 8383,
+    "numberOfPositives": 9
   },
   {
     "name": "Alvignano",
@@ -24,7 +30,10 @@
     "region": "Campania",
     "istat": "061003",
     "latitude": "45.31511014",
-    "longitude": "7.30434392"
+    "longitude": "7.30434392",
+    "numberOfVaccines": 4511,
+    "numberOfSwabs": 7627,
+    "numberOfPositives": 0
   },
   {
     "name": "Arienzo",
@@ -33,7 +42,10 @@
     "region": "Campania",
     "istat": "061004",
     "latitude": "45.43389336",
-    "longitude": "7.94914491"
+    "longitude": "7.94914491",
+    "numberOfVaccines": 3595,
+    "numberOfSwabs": 2494,
+    "numberOfPositives": 17
   },
   {
     "name": "Aversa",
@@ -42,7 +54,10 @@
     "region": "Campania",
     "istat": "061005",
     "latitude": "45.4600936",
-    "longitude": "7.77701858"
+    "longitude": "7.77701858",
+    "numberOfVaccines": 9399,
+    "numberOfSwabs": 9505,
+    "numberOfPositives": 18
   },
   {
     "name": "Baia e Latina",
@@ -51,7 +66,10 @@
     "region": "Campania",
     "istat": "061006",
     "latitude": "45.11766321",
-    "longitude": "7.39518194"
+    "longitude": "7.39518194",
+    "numberOfVaccines": 3626,
+    "numberOfSwabs": 4030,
+    "numberOfPositives": 8
   },
   {
     "name": "Bellona",
@@ -60,7 +78,10 @@
     "region": "Campania",
     "istat": "061007",
     "latitude": "45.40998223",
-    "longitude": "7.57859732"
+    "longitude": "7.57859732",
+    "numberOfVaccines": 9520,
+    "numberOfSwabs": 3467,
+    "numberOfPositives": 6
   },
   {
     "name": "Caianello",
@@ -69,7 +90,10 @@
     "region": "Campania",
     "istat": "061008",
     "latitude": "45.09446973",
-    "longitude": "7.52426733"
+    "longitude": "7.52426733",
+    "numberOfVaccines": 7153,
+    "numberOfSwabs": 9319,
+    "numberOfPositives": 18
   },
   {
     "name": "Caiazzo",
@@ -78,7 +102,10 @@
     "region": "Campania",
     "istat": "061009",
     "latitude": "45.03586095",
-    "longitude": "7.86994864"
+    "longitude": "7.86994864",
+    "numberOfVaccines": 5715,
+    "numberOfSwabs": 5454,
+    "numberOfPositives": 20
   },
   {
     "name": "Calvi Risorta",
@@ -87,7 +114,10 @@
     "region": "Campania",
     "istat": "061010",
     "latitude": "45.52837479",
-    "longitude": "7.87383937"
+    "longitude": "7.87383937",
+    "numberOfVaccines": 8791,
+    "numberOfSwabs": 1337,
+    "numberOfPositives": 9
   },
   {
     "name": "Camigliano",
@@ -96,7 +126,10 @@
     "region": "Campania",
     "istat": "061011",
     "latitude": "44.84344991",
-    "longitude": "7.22429215"
+    "longitude": "7.22429215",
+    "numberOfVaccines": 9654,
+    "numberOfSwabs": 2403,
+    "numberOfPositives": 10
   },
   {
     "name": "Cancello ed Arnone",
@@ -105,7 +138,10 @@
     "region": "Campania",
     "istat": "061012",
     "latitude": "45.04402899",
-    "longitude": "7.90244635"
+    "longitude": "7.90244635",
+    "numberOfVaccines": 8730,
+    "numberOfSwabs": 6934,
+    "numberOfPositives": 13
   },
   {
     "name": "Capodrise",
@@ -114,7 +150,10 @@
     "region": "Campania",
     "istat": "061013",
     "latitude": "45.07935742",
-    "longitude": "7.39632339"
+    "longitude": "7.39632339",
+    "numberOfVaccines": 2426,
+    "numberOfSwabs": 5462,
+    "numberOfPositives": 11
   },
   {
     "name": "Capriati a Volturno",
@@ -123,7 +162,10 @@
     "region": "Campania",
     "istat": "061014",
     "latitude": "45.4248619",
-    "longitude": "7.9947707"
+    "longitude": "7.9947707",
+    "numberOfVaccines": 9688,
+    "numberOfSwabs": 9706,
+    "numberOfPositives": 8
   },
   {
     "name": "Capua",
@@ -132,7 +174,10 @@
     "region": "Campania",
     "istat": "061015",
     "latitude": "45.38624929",
-    "longitude": "7.75691809"
+    "longitude": "7.75691809",
+    "numberOfVaccines": 5335,
+    "numberOfSwabs": 4261,
+    "numberOfPositives": 7
   },
   {
     "name": "Carinaro",
@@ -141,7 +186,10 @@
     "region": "Campania",
     "istat": "061016",
     "latitude": "45.27003001",
-    "longitude": "7.51930957"
+    "longitude": "7.51930957",
+    "numberOfVaccines": 6407,
+    "numberOfSwabs": 6027,
+    "numberOfPositives": 6
   },
   {
     "name": "Carinola",
@@ -150,7 +198,10 @@
     "region": "Campania",
     "istat": "061017",
     "latitude": "45.40840358",
-    "longitude": "7.74444451"
+    "longitude": "7.74444451",
+    "numberOfVaccines": 1400,
+    "numberOfSwabs": 4590,
+    "numberOfPositives": 15
   },
   {
     "name": "Casagiove",
@@ -159,7 +210,10 @@
     "region": "Campania",
     "istat": "061018",
     "latitude": "45.06842334",
-    "longitude": "7.81780767"
+    "longitude": "7.81780767",
+    "numberOfVaccines": 2503,
+    "numberOfSwabs": 8032,
+    "numberOfPositives": 9
   },
   {
     "name": "Casal di Principe",
@@ -168,7 +222,10 @@
     "region": "Campania",
     "istat": "061019",
     "latitude": "45.30229406",
-    "longitude": "7.21831414"
+    "longitude": "7.21831414",
+    "numberOfVaccines": 5808,
+    "numberOfSwabs": 5334,
+    "numberOfPositives": 6
   },
   {
     "name": "Casaluce",
@@ -177,7 +234,10 @@
     "region": "Campania",
     "istat": "061020",
     "latitude": "45.4608501",
-    "longitude": "7.85656384"
+    "longitude": "7.85656384",
+    "numberOfVaccines": 1733,
+    "numberOfSwabs": 1390,
+    "numberOfPositives": 17
   },
   {
     "name": "Casapulla",
@@ -186,7 +246,10 @@
     "region": "Campania",
     "istat": "061021",
     "latitude": "45.2905002",
-    "longitude": "7.63051093"
+    "longitude": "7.63051093",
+    "numberOfVaccines": 1798,
+    "numberOfSwabs": 6616,
+    "numberOfPositives": 2
   },
   {
     "name": "Caserta",
@@ -195,7 +258,10 @@
     "region": "Campania",
     "istat": "061022",
     "latitude": "45.07816901",
-    "longitude": "6.70382393"
+    "longitude": "6.70382393",
+    "numberOfVaccines": 9049,
+    "numberOfSwabs": 7533,
+    "numberOfPositives": 20
   },
   {
     "name": "Castel Campagnano",
@@ -204,7 +270,10 @@
     "region": "Campania",
     "istat": "061023",
     "latitude": "45.32772558",
-    "longitude": "7.87055626"
+    "longitude": "7.87055626",
+    "numberOfVaccines": 9199,
+    "numberOfSwabs": 1369,
+    "numberOfPositives": 9
   },
   {
     "name": "Castel di Sasso",
@@ -213,7 +282,10 @@
     "region": "Campania",
     "istat": "061024",
     "latitude": "45.02207899",
-    "longitude": "7.57915804"
+    "longitude": "7.57915804",
+    "numberOfVaccines": 3932,
+    "numberOfSwabs": 3477,
+    "numberOfPositives": 8
   },
   {
     "name": "Castello del Matese",
@@ -222,7 +294,10 @@
     "region": "Campania",
     "istat": "061025",
     "latitude": "44.79758015",
-    "longitude": "7.28978596"
+    "longitude": "7.28978596",
+    "numberOfVaccines": 6144,
+    "numberOfSwabs": 6869,
+    "numberOfPositives": 3
   },
   {
     "name": "Castel Morrone",
@@ -231,7 +306,10 @@
     "region": "Campania",
     "istat": "061026",
     "latitude": "44.80770617",
-    "longitude": "7.11790449"
+    "longitude": "7.11790449",
+    "numberOfVaccines": 9887,
+    "numberOfSwabs": 5181,
+    "numberOfPositives": 12
   },
   {
     "name": "Castel Volturno",
@@ -240,7 +318,10 @@
     "region": "Campania",
     "istat": "061027",
     "latitude": "45.4733572",
-    "longitude": "7.94534881"
+    "longitude": "7.94534881",
+    "numberOfVaccines": 3403,
+    "numberOfSwabs": 4938,
+    "numberOfPositives": 19
   },
   {
     "name": "Cervino",
@@ -249,7 +330,10 @@
     "region": "Campania",
     "istat": "061028",
     "latitude": "45.15198241",
-    "longitude": "7.65789441"
+    "longitude": "7.65789441",
+    "numberOfVaccines": 1925,
+    "numberOfSwabs": 2557,
+    "numberOfPositives": 8
   },
   {
     "name": "Cesa",
@@ -258,7 +342,10 @@
     "region": "Campania",
     "istat": "061029",
     "latitude": "45.4168132",
-    "longitude": "7.66773369"
+    "longitude": "7.66773369",
+    "numberOfVaccines": 5781,
+    "numberOfSwabs": 6098,
+    "numberOfPositives": 15
   },
   {
     "name": "Ciorlano",
@@ -267,7 +354,10 @@
     "region": "Campania",
     "istat": "061030",
     "latitude": "45.51300686",
-    "longitude": "7.85852209"
+    "longitude": "7.85852209",
+    "numberOfVaccines": 5118,
+    "numberOfSwabs": 5337,
+    "numberOfPositives": 19
   },
   {
     "name": "Conca della Campania",
@@ -276,7 +366,10 @@
     "region": "Campania",
     "istat": "061031",
     "latitude": "45.36155134",
-    "longitude": "7.98879962"
+    "longitude": "7.98879962",
+    "numberOfVaccines": 5065,
+    "numberOfSwabs": 5120,
+    "numberOfPositives": 18
   },
   {
     "name": "Curti",
@@ -285,7 +378,10 @@
     "region": "Campania",
     "istat": "061032",
     "latitude": "45.12313936",
-    "longitude": "7.24121397"
+    "longitude": "7.24121397",
+    "numberOfVaccines": 2278,
+    "numberOfSwabs": 7004,
+    "numberOfPositives": 16
   },
   {
     "name": "Dragoni",
@@ -294,7 +390,10 @@
     "region": "Campania",
     "istat": "061033",
     "latitude": "45.26856393",
-    "longitude": "7.76506984"
+    "longitude": "7.76506984",
+    "numberOfVaccines": 1014,
+    "numberOfSwabs": 4988,
+    "numberOfPositives": 19
   },
   {
     "name": "Fontegreca",
@@ -303,7 +402,10 @@
     "region": "Campania",
     "istat": "061034",
     "latitude": "45.17765247",
-    "longitude": "7.84147562"
+    "longitude": "7.84147562",
+    "numberOfVaccines": 7862,
+    "numberOfSwabs": 7177,
+    "numberOfPositives": 19
   },
   {
     "name": "Formicola",
@@ -312,7 +414,10 @@
     "region": "Campania",
     "istat": "061035",
     "latitude": "44.82558164",
-    "longitude": "7.30288754"
+    "longitude": "7.30288754",
+    "numberOfVaccines": 2985,
+    "numberOfSwabs": 2689,
+    "numberOfPositives": 6
   },
   {
     "name": "Francolise",
@@ -321,7 +426,10 @@
     "region": "Campania",
     "istat": "061036",
     "latitude": "45.49276005",
-    "longitude": "7.80333443"
+    "longitude": "7.80333443",
+    "numberOfVaccines": 8152,
+    "numberOfSwabs": 6507,
+    "numberOfPositives": 7
   },
   {
     "name": "Frignano",
@@ -330,7 +438,10 @@
     "region": "Campania",
     "istat": "061037",
     "latitude": "45.1174193",
-    "longitude": "8.07127843"
+    "longitude": "8.07127843",
+    "numberOfVaccines": 6078,
+    "numberOfSwabs": 7967,
+    "numberOfPositives": 11
   },
   {
     "name": "Gallo Matese",
@@ -339,7 +450,10 @@
     "region": "Campania",
     "istat": "061038",
     "latitude": "45.0202325",
-    "longitude": "7.46769111"
+    "longitude": "7.46769111",
+    "numberOfVaccines": 1803,
+    "numberOfSwabs": 9818,
+    "numberOfPositives": 20
   },
   {
     "name": "Galluccio",
@@ -348,7 +462,10 @@
     "region": "Campania",
     "istat": "061039",
     "latitude": "45.15595512",
-    "longitude": "8.06009417"
+    "longitude": "8.06009417",
+    "numberOfVaccines": 5459,
+    "numberOfSwabs": 9549,
+    "numberOfPositives": 10
   },
   {
     "name": "Giano Vetusto",
@@ -357,7 +474,10 @@
     "region": "Campania",
     "istat": "061040",
     "latitude": "45.14312487",
-    "longitude": "7.19397692"
+    "longitude": "7.19397692",
+    "numberOfVaccines": 5992,
+    "numberOfSwabs": 6301,
+    "numberOfPositives": 9
   },
   {
     "name": "Gioia Sannitica",
@@ -366,7 +486,10 @@
     "region": "Campania",
     "istat": "061041",
     "latitude": "44.87335846",
-    "longitude": "7.41192286"
+    "longitude": "7.41192286",
+    "numberOfVaccines": 1817,
+    "numberOfSwabs": 7030,
+    "numberOfPositives": 2
   },
   {
     "name": "Grazzanise",
@@ -375,7 +498,10 @@
     "region": "Campania",
     "istat": "061042",
     "latitude": "45.48411969",
-    "longitude": "7.93205672"
+    "longitude": "7.93205672",
+    "numberOfVaccines": 9980,
+    "numberOfSwabs": 7299,
+    "numberOfPositives": 5
   },
   {
     "name": "Gricignano di Aversa",
@@ -384,7 +510,10 @@
     "region": "Campania",
     "istat": "061043",
     "latitude": "45.32883648",
-    "longitude": "7.6557437"
+    "longitude": "7.6557437",
+    "numberOfVaccines": 9880,
+    "numberOfSwabs": 2373,
+    "numberOfPositives": 19
   },
   {
     "name": "Letino",
@@ -393,7 +522,10 @@
     "region": "Campania",
     "istat": "061044",
     "latitude": "45.13727952",
-    "longitude": "7.14931876"
+    "longitude": "7.14931876",
+    "numberOfVaccines": 5476,
+    "numberOfSwabs": 4088,
+    "numberOfPositives": 9
   },
   {
     "name": "Liberi",
@@ -402,7 +534,10 @@
     "region": "Campania",
     "istat": "061045",
     "latitude": "45.06701514",
-    "longitude": "7.43678073"
+    "longitude": "7.43678073",
+    "numberOfVaccines": 2640,
+    "numberOfSwabs": 1376,
+    "numberOfPositives": 13
   },
   {
     "name": "Lusciano",
@@ -411,7 +546,10 @@
     "region": "Campania",
     "istat": "061046",
     "latitude": "45.24471151",
-    "longitude": "7.51812356"
+    "longitude": "7.51812356",
+    "numberOfVaccines": 1724,
+    "numberOfSwabs": 8009,
+    "numberOfPositives": 4
   },
   {
     "name": "Macerata Campania",
@@ -420,7 +558,10 @@
     "region": "Campania",
     "istat": "061047",
     "latitude": "45.30786205",
-    "longitude": "7.89150532"
+    "longitude": "7.89150532",
+    "numberOfVaccines": 4695,
+    "numberOfSwabs": 3076,
+    "numberOfPositives": 5
   },
   {
     "name": "Maddaloni",
@@ -429,7 +570,10 @@
     "region": "Campania",
     "istat": "061048",
     "latitude": "44.9734596",
-    "longitude": "7.77932471"
+    "longitude": "7.77932471",
+    "numberOfVaccines": 8637,
+    "numberOfSwabs": 1763,
+    "numberOfPositives": 14
   },
   {
     "name": "Marcianise",
@@ -438,7 +582,10 @@
     "region": "Campania",
     "istat": "061049",
     "latitude": "44.8021244",
-    "longitude": "7.32503803"
+    "longitude": "7.32503803",
+    "numberOfVaccines": 5022,
+    "numberOfSwabs": 3703,
+    "numberOfPositives": 7
   },
   {
     "name": "Marzano Appio",
@@ -447,7 +594,10 @@
     "region": "Campania",
     "istat": "061050",
     "latitude": "45.32816809",
-    "longitude": "7.8866125"
+    "longitude": "7.8866125",
+    "numberOfVaccines": 4761,
+    "numberOfSwabs": 6098,
+    "numberOfPositives": 17
   },
   {
     "name": "Mignano Monte Lungo",
@@ -456,7 +606,10 @@
     "region": "Campania",
     "istat": "061051",
     "latitude": "44.96026547",
-    "longitude": "7.60121104"
+    "longitude": "7.60121104",
+    "numberOfVaccines": 8990,
+    "numberOfSwabs": 4435,
+    "numberOfPositives": 5
   },
   {
     "name": "Mondragone",
@@ -465,7 +618,10 @@
     "region": "Campania",
     "istat": "061052",
     "latitude": "45.37434585",
-    "longitude": "7.59521831"
+    "longitude": "7.59521831",
+    "numberOfVaccines": 1398,
+    "numberOfSwabs": 7022,
+    "numberOfPositives": 5
   },
   {
     "name": "Orta di Atella",
@@ -474,7 +630,10 @@
     "region": "Campania",
     "istat": "061053",
     "latitude": "44.94030975",
-    "longitude": "7.33260383"
+    "longitude": "7.33260383",
+    "numberOfVaccines": 9719,
+    "numberOfSwabs": 6725,
+    "numberOfPositives": 18
   },
   {
     "name": "Parete",
@@ -483,7 +642,10 @@
     "region": "Campania",
     "istat": "061054",
     "latitude": "45.34323553",
-    "longitude": "7.38167977"
+    "longitude": "7.38167977",
+    "numberOfVaccines": 8904,
+    "numberOfSwabs": 6063,
+    "numberOfPositives": 0
   },
   {
     "name": "Pastorano",
@@ -492,7 +654,10 @@
     "region": "Campania",
     "istat": "061055",
     "latitude": "45.11786515",
-    "longitude": "7.33250655"
+    "longitude": "7.33250655",
+    "numberOfVaccines": 5345,
+    "numberOfSwabs": 5228,
+    "numberOfPositives": 1
   },
   {
     "name": "Piana di Monte Verna",
@@ -501,7 +666,10 @@
     "region": "Campania",
     "istat": "061056",
     "latitude": "45.39860532",
-    "longitude": "7.9602136"
+    "longitude": "7.9602136",
+    "numberOfVaccines": 1551,
+    "numberOfSwabs": 4875,
+    "numberOfPositives": 6
   },
   {
     "name": "Piedimonte Matese",
@@ -510,7 +678,10 @@
     "region": "Campania",
     "istat": "061057",
     "latitude": "45.58444747",
-    "longitude": "7.81230448"
+    "longitude": "7.81230448",
+    "numberOfVaccines": 3719,
+    "numberOfSwabs": 5713,
+    "numberOfPositives": 1
   },
   {
     "name": "Pietramelara",
@@ -519,7 +690,10 @@
     "region": "Campania",
     "istat": "061058",
     "latitude": "44.90666664",
-    "longitude": "7.67534298"
+    "longitude": "7.67534298",
+    "numberOfVaccines": 7495,
+    "numberOfSwabs": 5263,
+    "numberOfPositives": 8
   },
   {
     "name": "Pietravairano",
@@ -528,7 +702,10 @@
     "region": "Campania",
     "istat": "061059",
     "latitude": "44.84654865",
-    "longitude": "7.71815745"
+    "longitude": "7.71815745",
+    "numberOfVaccines": 9625,
+    "numberOfSwabs": 7217,
+    "numberOfPositives": 2
   },
   {
     "name": "Pignataro Maggiore",
@@ -537,7 +714,10 @@
     "region": "Campania",
     "istat": "061060",
     "latitude": "45.1299627",
-    "longitude": "7.94044052"
+    "longitude": "7.94044052",
+    "numberOfVaccines": 6681,
+    "numberOfSwabs": 8391,
+    "numberOfPositives": 1
   },
   {
     "name": "Pontelatone",
@@ -546,7 +726,10 @@
     "region": "Campania",
     "istat": "061061",
     "latitude": "45.47845422",
-    "longitude": "7.90469845"
+    "longitude": "7.90469845",
+    "numberOfVaccines": 4096,
+    "numberOfSwabs": 1373,
+    "numberOfPositives": 13
   },
   {
     "name": "Portico di Caserta",
@@ -555,7 +738,10 @@
     "region": "Campania",
     "istat": "061062",
     "latitude": "45.10588105",
-    "longitude": "7.48320717"
+    "longitude": "7.48320717",
+    "numberOfVaccines": 1576,
+    "numberOfSwabs": 2896,
+    "numberOfPositives": 9
   },
   {
     "name": "Prata Sannita",
@@ -564,7 +750,10 @@
     "region": "Campania",
     "istat": "061063",
     "latitude": "45.17716554",
-    "longitude": "7.64818634"
+    "longitude": "7.64818634",
+    "numberOfVaccines": 6491,
+    "numberOfSwabs": 6911,
+    "numberOfPositives": 16
   },
   {
     "name": "Pratella",
@@ -573,7 +762,10 @@
     "region": "Campania",
     "istat": "061064",
     "latitude": "45.16060833",
-    "longitude": "7.88698844"
+    "longitude": "7.88698844",
+    "numberOfVaccines": 7791,
+    "numberOfSwabs": 7678,
+    "numberOfPositives": 9
   },
   {
     "name": "Presenzano",
@@ -582,7 +774,10 @@
     "region": "Campania",
     "istat": "061065",
     "latitude": "44.8986196",
-    "longitude": "7.56655619"
+    "longitude": "7.56655619",
+    "numberOfVaccines": 4233,
+    "numberOfSwabs": 4035,
+    "numberOfPositives": 4
   },
   {
     "name": "Raviscanina",
@@ -591,7 +786,10 @@
     "region": "Campania",
     "istat": "061066",
     "latitude": "45.3833354",
-    "longitude": "7.70986533"
+    "longitude": "7.70986533",
+    "numberOfVaccines": 8871,
+    "numberOfSwabs": 7713,
+    "numberOfPositives": 2
   },
   {
     "name": "Recale",
@@ -600,7 +798,10 @@
     "region": "Campania",
     "istat": "061067",
     "latitude": "45.43732305",
-    "longitude": "7.69511431"
+    "longitude": "7.69511431",
+    "numberOfVaccines": 4603,
+    "numberOfSwabs": 1671,
+    "numberOfPositives": 16
   },
   {
     "name": "Riardo",
@@ -609,7 +810,10 @@
     "region": "Campania",
     "istat": "061068",
     "latitude": "45.12330917",
-    "longitude": "7.8160937"
+    "longitude": "7.8160937",
+    "numberOfVaccines": 4682,
+    "numberOfSwabs": 6587,
+    "numberOfPositives": 10
   },
   {
     "name": "Rocca d'Evandro",
@@ -618,7 +822,10 @@
     "region": "Campania",
     "istat": "061069",
     "latitude": "45.15207451",
-    "longitude": "8.05131021"
+    "longitude": "8.05131021",
+    "numberOfVaccines": 2720,
+    "numberOfSwabs": 7168,
+    "numberOfPositives": 9
   },
   {
     "name": "Roccamonfina",
@@ -627,7 +834,10 @@
     "region": "Campania",
     "istat": "061070",
     "latitude": "44.78403126",
-    "longitude": "7.37523198"
+    "longitude": "7.37523198",
+    "numberOfVaccines": 4606,
+    "numberOfSwabs": 9462,
+    "numberOfPositives": 10
   },
   {
     "name": "Roccaromana",
@@ -636,7 +846,10 @@
     "region": "Campania",
     "istat": "061071",
     "latitude": "44.86126074",
-    "longitude": "7.50125803"
+    "longitude": "7.50125803",
+    "numberOfVaccines": 6549,
+    "numberOfSwabs": 4195,
+    "numberOfPositives": 15
   },
   {
     "name": "Rocchetta e Croce",
@@ -645,7 +858,10 @@
     "region": "Campania",
     "istat": "061072",
     "latitude": "45.31307899",
-    "longitude": "7.38934335"
+    "longitude": "7.38934335",
+    "numberOfVaccines": 4154,
+    "numberOfSwabs": 9256,
+    "numberOfPositives": 2
   },
   {
     "name": "Ruviano",
@@ -654,7 +870,10 @@
     "region": "Campania",
     "istat": "061073",
     "latitude": "45.43261794",
-    "longitude": "7.23254114"
+    "longitude": "7.23254114",
+    "numberOfVaccines": 9898,
+    "numberOfSwabs": 8910,
+    "numberOfPositives": 16
   },
   {
     "name": "San Cipriano d'Aversa",
@@ -663,7 +882,10 @@
     "region": "Campania",
     "istat": "061074",
     "latitude": "44.95241086",
-    "longitude": "6.79422776"
+    "longitude": "6.79422776",
+    "numberOfVaccines": 7765,
+    "numberOfSwabs": 5544,
+    "numberOfPositives": 11
   },
   {
     "name": "San Felice a Cancello",
@@ -672,7 +894,10 @@
     "region": "Campania",
     "istat": "061075",
     "latitude": "45.36285948",
-    "longitude": "7.34570078"
+    "longitude": "7.34570078",
+    "numberOfVaccines": 9497,
+    "numberOfSwabs": 4189,
+    "numberOfPositives": 11
   },
   {
     "name": "San Gregorio Matese",
@@ -681,7 +906,10 @@
     "region": "Campania",
     "istat": "061076",
     "latitude": "45.1485858",
-    "longitude": "7.16939346"
+    "longitude": "7.16939346",
+    "numberOfVaccines": 6575,
+    "numberOfSwabs": 6730,
+    "numberOfPositives": 18
   },
   {
     "name": "San Marcellino",
@@ -690,7 +918,10 @@
     "region": "Campania",
     "istat": "061077",
     "latitude": "45.49939701",
-    "longitude": "7.90312753"
+    "longitude": "7.90312753",
+    "numberOfVaccines": 6641,
+    "numberOfSwabs": 5914,
+    "numberOfPositives": 20
   },
   {
     "name": "San Nicola la Strada",
@@ -699,7 +930,10 @@
     "region": "Campania",
     "istat": "061078",
     "latitude": "45.01315317",
-    "longitude": "7.82107157"
+    "longitude": "7.82107157",
+    "numberOfVaccines": 5733,
+    "numberOfSwabs": 8498,
+    "numberOfPositives": 7
   },
   {
     "name": "San Pietro Infine",
@@ -708,7 +942,10 @@
     "region": "Campania",
     "istat": "061079",
     "latitude": "45.41780821",
-    "longitude": "7.65605931"
+    "longitude": "7.65605931",
+    "numberOfVaccines": 4523,
+    "numberOfSwabs": 2835,
+    "numberOfPositives": 17
   },
   {
     "name": "San Potito Sannitico",
@@ -717,7 +954,10 @@
     "region": "Campania",
     "istat": "061080",
     "latitude": "45.11938583",
-    "longitude": "6.98338614"
+    "longitude": "6.98338614",
+    "numberOfVaccines": 8151,
+    "numberOfSwabs": 8090,
+    "numberOfPositives": 19
   },
   {
     "name": "San Prisco",
@@ -726,7 +966,10 @@
     "region": "Campania",
     "istat": "061081",
     "latitude": "45.10154711",
-    "longitude": "7.3264449"
+    "longitude": "7.3264449",
+    "numberOfVaccines": 7784,
+    "numberOfSwabs": 3523,
+    "numberOfPositives": 10
   },
   {
     "name": "Santa Maria a Vico",
@@ -735,7 +978,10 @@
     "region": "Campania",
     "istat": "061082",
     "latitude": "45.18855522",
-    "longitude": "7.8871395"
+    "longitude": "7.8871395",
+    "numberOfVaccines": 2845,
+    "numberOfSwabs": 9231,
+    "numberOfPositives": 14
   },
   {
     "name": "Santa Maria Capua Vetere",
@@ -744,7 +990,10 @@
     "region": "Campania",
     "istat": "061083",
     "latitude": "45.33032199",
-    "longitude": "7.75987216"
+    "longitude": "7.75987216",
+    "numberOfVaccines": 8499,
+    "numberOfSwabs": 3308,
+    "numberOfPositives": 3
   },
   {
     "name": "Santa Maria la Fossa",
@@ -753,7 +1002,10 @@
     "region": "Campania",
     "istat": "061084",
     "latitude": "45.42805026",
-    "longitude": "7.68662115"
+    "longitude": "7.68662115",
+    "numberOfVaccines": 2610,
+    "numberOfSwabs": 6868,
+    "numberOfPositives": 18
   },
   {
     "name": "San Tammaro",
@@ -762,7 +1014,10 @@
     "region": "Campania",
     "istat": "061085",
     "latitude": "45.09389859",
-    "longitude": "7.92112148"
+    "longitude": "7.92112148",
+    "numberOfVaccines": 4035,
+    "numberOfSwabs": 6060,
+    "numberOfPositives": 0
   },
   {
     "name": "Sant'Angelo d'Alife",
@@ -771,7 +1026,10 @@
     "region": "Campania",
     "istat": "061086",
     "latitude": "45.23202337",
-    "longitude": "7.60378213"
+    "longitude": "7.60378213",
+    "numberOfVaccines": 4234,
+    "numberOfSwabs": 3615,
+    "numberOfPositives": 1
   },
   {
     "name": "Sant'Arpino",
@@ -780,7 +1038,10 @@
     "region": "Campania",
     "istat": "061087",
     "latitude": "44.93861812",
-    "longitude": "6.7493063"
+    "longitude": "6.7493063",
+    "numberOfVaccines": 9393,
+    "numberOfSwabs": 6016,
+    "numberOfPositives": 1
   },
   {
     "name": "Sessa Aurunca",
@@ -789,7 +1050,10 @@
     "region": "Campania",
     "istat": "061088",
     "latitude": "45.30071349",
-    "longitude": "7.46132937"
+    "longitude": "7.46132937",
+    "numberOfVaccines": 9790,
+    "numberOfSwabs": 5184,
+    "numberOfPositives": 8
   },
   {
     "name": "Sparanise",
@@ -798,7 +1062,10 @@
     "region": "Campania",
     "istat": "061089",
     "latitude": "45.05141806",
-    "longitude": "7.29464354"
+    "longitude": "7.29464354",
+    "numberOfVaccines": 8867,
+    "numberOfSwabs": 6060,
+    "numberOfPositives": 1
   },
   {
     "name": "Succivo",
@@ -807,7 +1074,10 @@
     "region": "Campania",
     "istat": "061090",
     "latitude": "45.07740152",
-    "longitude": "7.56912947"
+    "longitude": "7.56912947",
+    "numberOfVaccines": 7584,
+    "numberOfSwabs": 9638,
+    "numberOfPositives": 4
   },
   {
     "name": "Teano",
@@ -816,7 +1086,10 @@
     "region": "Campania",
     "istat": "061091",
     "latitude": "45.42140642",
-    "longitude": "7.67898169"
+    "longitude": "7.67898169",
+    "numberOfVaccines": 1844,
+    "numberOfSwabs": 4624,
+    "numberOfPositives": 12
   },
   {
     "name": "Teverola",
@@ -825,7 +1098,10 @@
     "region": "Campania",
     "istat": "061092",
     "latitude": "45.43288813",
-    "longitude": "7.79996443"
+    "longitude": "7.79996443",
+    "numberOfVaccines": 2920,
+    "numberOfSwabs": 3726,
+    "numberOfPositives": 15
   },
   {
     "name": "Tora e Piccilli",
@@ -834,7 +1110,10 @@
     "region": "Campania",
     "istat": "061093",
     "latitude": "45.11714338",
-    "longitude": "7.31072991"
+    "longitude": "7.31072991",
+    "numberOfVaccines": 8727,
+    "numberOfSwabs": 1032,
+    "numberOfPositives": 5
   },
   {
     "name": "Trentola Ducenta",
@@ -843,7 +1122,10 @@
     "region": "Campania",
     "istat": "061094",
     "latitude": "45.31274311",
-    "longitude": "7.53256155"
+    "longitude": "7.53256155",
+    "numberOfVaccines": 1202,
+    "numberOfSwabs": 9522,
+    "numberOfPositives": 12
   },
   {
     "name": "Vairano Patenora",
@@ -852,7 +1134,10 @@
     "region": "Campania",
     "istat": "061095",
     "latitude": "45.38833099",
-    "longitude": "7.99337324"
+    "longitude": "7.99337324",
+    "numberOfVaccines": 1130,
+    "numberOfSwabs": 1244,
+    "numberOfPositives": 17
   },
   {
     "name": "Valle Agricola",
@@ -861,7 +1146,10 @@
     "region": "Campania",
     "istat": "061096",
     "latitude": "45.35892893",
-    "longitude": "7.81484395"
+    "longitude": "7.81484395",
+    "numberOfVaccines": 7103,
+    "numberOfSwabs": 1108,
+    "numberOfPositives": 5
   },
   {
     "name": "Valle di Maddaloni",
@@ -870,7 +1158,10 @@
     "region": "Campania",
     "istat": "061097",
     "latitude": "44.98279566",
-    "longitude": "7.37437677"
+    "longitude": "7.37437677",
+    "numberOfVaccines": 5465,
+    "numberOfSwabs": 6973,
+    "numberOfPositives": 0
   },
   {
     "name": "Villa di Briano",
@@ -879,7 +1170,10 @@
     "region": "Campania",
     "istat": "061098",
     "latitude": "45.39122707",
-    "longitude": "7.64891501"
+    "longitude": "7.64891501",
+    "numberOfVaccines": 5021,
+    "numberOfSwabs": 5324,
+    "numberOfPositives": 3
   },
   {
     "name": "Villa Literno",
@@ -888,7 +1182,10 @@
     "region": "Campania",
     "istat": "061099",
     "latitude": "45.13473277",
-    "longitude": "7.57620424"
+    "longitude": "7.57620424",
+    "numberOfVaccines": 8058,
+    "numberOfSwabs": 9501,
+    "numberOfPositives": 19
   },
   {
     "name": "Vitulazio",
@@ -897,7 +1194,10 @@
     "region": "Campania",
     "istat": "061100",
     "latitude": "45.09749088",
-    "longitude": "6.9296242"
+    "longitude": "6.9296242",
+    "numberOfVaccines": 6430,
+    "numberOfSwabs": 1042,
+    "numberOfPositives": 6
   },
   {
     "name": "Falciano del Massico",
@@ -906,7 +1206,10 @@
     "region": "Campania",
     "istat": "061101",
     "latitude": "45.33284709",
-    "longitude": "7.68801437"
+    "longitude": "7.68801437",
+    "numberOfVaccines": 1693,
+    "numberOfSwabs": 4558,
+    "numberOfPositives": 7
   },
   {
     "name": "Cellole",
@@ -915,7 +1218,10 @@
     "region": "Campania",
     "istat": "061102",
     "latitude": "45.30549111",
-    "longitude": "7.747108"
+    "longitude": "7.747108",
+    "numberOfVaccines": 4309,
+    "numberOfSwabs": 3532,
+    "numberOfPositives": 5
   },
   {
     "name": "Casapesenna",
@@ -924,7 +1230,10 @@
     "region": "Campania",
     "istat": "061103",
     "latitude": "45.03429618",
-    "longitude": "7.05188671"
+    "longitude": "7.05188671",
+    "numberOfVaccines": 5905,
+    "numberOfSwabs": 8338,
+    "numberOfPositives": 4
   },
   {
     "name": "San Marco Evangelista",
@@ -933,7 +1242,10 @@
     "region": "Campania",
     "istat": "061104",
     "latitude": "45.21812133",
-    "longitude": "7.51978357"
+    "longitude": "7.51978357",
+    "numberOfVaccines": 2133,
+    "numberOfSwabs": 2554,
+    "numberOfPositives": 8
   },
   {
     "name": "Lusciano e Ducenta",
@@ -943,7 +1255,10 @@
     "deleted": true,
     "istat": "061807",
     "latitude": "44.70829074",
-    "longitude": "8.8905588"
+    "longitude": "8.8905588",
+    "numberOfVaccines": 37236,
+    "numberOfSwabs": 1000,
+    "numberOfPositives": 18
   },
   {
     "name": "Airola",
@@ -952,7 +1267,10 @@
     "region": "Campania",
     "istat": "062001",
     "latitude": "41.06632744",
-    "longitude": "14.56140691"
+    "longitude": "14.56140691",
+    "numberOfVaccines": 8940,
+    "numberOfSwabs": 5367,
+    "numberOfPositives": 13
   },
   {
     "name": "Amorosi",
@@ -961,7 +1279,10 @@
     "region": "Campania",
     "istat": "062002",
     "latitude": "45.85332586",
-    "longitude": "7.93812982"
+    "longitude": "7.93812982",
+    "numberOfVaccines": 8756,
+    "numberOfSwabs": 5345,
+    "numberOfPositives": 14
   },
   {
     "name": "Apice",
@@ -970,7 +1291,10 @@
     "region": "Campania",
     "istat": "062003",
     "latitude": "45.42511503",
-    "longitude": "8.38058282"
+    "longitude": "8.38058282",
+    "numberOfVaccines": 6550,
+    "numberOfSwabs": 4823,
+    "numberOfPositives": 18
   },
   {
     "name": "Apollosa",
@@ -979,7 +1303,10 @@
     "region": "Campania",
     "istat": "062004",
     "latitude": "45.36652862",
-    "longitude": "8.07469466"
+    "longitude": "8.07469466",
+    "numberOfVaccines": 9488,
+    "numberOfSwabs": 8509,
+    "numberOfPositives": 20
   },
   {
     "name": "Arpaia",
@@ -988,7 +1315,10 @@
     "region": "Campania",
     "istat": "062005",
     "latitude": "41.03685746",
-    "longitude": "14.55176809"
+    "longitude": "14.55176809",
+    "numberOfVaccines": 3390,
+    "numberOfSwabs": 1115,
+    "numberOfPositives": 13
   },
   {
     "name": "Arpaise",
@@ -997,7 +1327,10 @@
     "region": "Campania",
     "istat": "062006",
     "latitude": "45.49608576",
-    "longitude": "8.38898545"
+    "longitude": "8.38898545",
+    "numberOfVaccines": 9469,
+    "numberOfSwabs": 6895,
+    "numberOfPositives": 8
   },
   {
     "name": "Baselice",
@@ -1006,7 +1339,10 @@
     "region": "Campania",
     "istat": "062007",
     "latitude": "45.26117617",
-    "longitude": "8.40619426"
+    "longitude": "8.40619426",
+    "numberOfVaccines": 5283,
+    "numberOfSwabs": 7204,
+    "numberOfPositives": 10
   },
   {
     "name": "Benevento",
@@ -1015,7 +1351,10 @@
     "region": "Campania",
     "istat": "062008",
     "latitude": "45.81834722",
-    "longitude": "8.13825637"
+    "longitude": "8.13825637",
+    "numberOfVaccines": 7828,
+    "numberOfSwabs": 2289,
+    "numberOfPositives": 19
   },
   {
     "name": "Bonea",
@@ -1024,7 +1363,10 @@
     "region": "Campania",
     "istat": "062009",
     "latitude": "45.45553463",
-    "longitude": "8.28103358"
+    "longitude": "8.28103358",
+    "numberOfVaccines": 5442,
+    "numberOfSwabs": 6107,
+    "numberOfPositives": 19
   },
   {
     "name": "Bucciano",
@@ -1033,7 +1375,10 @@
     "region": "Campania",
     "istat": "062010",
     "latitude": "41.07704547",
-    "longitude": "14.56996946"
+    "longitude": "14.56996946",
+    "numberOfVaccines": 9948,
+    "numberOfSwabs": 4129,
+    "numberOfPositives": 17
   },
   {
     "name": "Buonalbergo",
@@ -1042,7 +1387,10 @@
     "region": "Campania",
     "istat": "062011",
     "latitude": "45.30737818",
-    "longitude": "8.12006412"
+    "longitude": "8.12006412",
+    "numberOfVaccines": 7859,
+    "numberOfSwabs": 9307,
+    "numberOfPositives": 20
   },
   {
     "name": "Calvi",
@@ -1051,7 +1399,10 @@
     "region": "Campania",
     "istat": "062012",
     "latitude": "41.07242545",
-    "longitude": "14.86690871"
+    "longitude": "14.86690871",
+    "numberOfVaccines": 4284,
+    "numberOfSwabs": 5808,
+    "numberOfPositives": 1
   },
   {
     "name": "Campolattaro",
@@ -1060,7 +1411,10 @@
     "region": "Campania",
     "istat": "062013",
     "latitude": "41.28693249",
-    "longitude": "14.73043517"
+    "longitude": "14.73043517",
+    "numberOfVaccines": 4160,
+    "numberOfSwabs": 2776,
+    "numberOfPositives": 16
   },
   {
     "name": "Campoli del Monte Taburno",
@@ -1069,7 +1423,10 @@
     "region": "Campania",
     "istat": "062014",
     "latitude": "45.82998665",
-    "longitude": "8.11329092"
+    "longitude": "8.11329092",
+    "numberOfVaccines": 3333,
+    "numberOfSwabs": 6023,
+    "numberOfPositives": 8
   },
   {
     "name": "Casalduni",
@@ -1078,7 +1435,10 @@
     "region": "Campania",
     "istat": "062015",
     "latitude": "45.34991763",
-    "longitude": "8.05372704"
+    "longitude": "8.05372704",
+    "numberOfVaccines": 5020,
+    "numberOfSwabs": 9865,
+    "numberOfPositives": 3
   },
   {
     "name": "Castelfranco in Miscano",
@@ -1087,7 +1447,10 @@
     "region": "Campania",
     "istat": "062016",
     "latitude": "45.71672956",
-    "longitude": "8.27641052"
+    "longitude": "8.27641052",
+    "numberOfVaccines": 5700,
+    "numberOfSwabs": 1247,
+    "numberOfPositives": 0
   },
   {
     "name": "Castelpagano",
@@ -1096,7 +1459,10 @@
     "region": "Campania",
     "istat": "062017",
     "latitude": "45.35715818",
-    "longitude": "8.4663705"
+    "longitude": "8.4663705",
+    "numberOfVaccines": 2215,
+    "numberOfSwabs": 5552,
+    "numberOfPositives": 0
   },
   {
     "name": "Castelpoto",
@@ -1105,7 +1471,10 @@
     "region": "Campania",
     "istat": "062018",
     "latitude": "41.14096887",
-    "longitude": "14.69971087"
+    "longitude": "14.69971087",
+    "numberOfVaccines": 5787,
+    "numberOfSwabs": 8674,
+    "numberOfPositives": 17
   },
   {
     "name": "Castelvenere",
@@ -1114,7 +1483,10 @@
     "region": "Campania",
     "istat": "062019",
     "latitude": "45.76411748",
-    "longitude": "8.30720564"
+    "longitude": "8.30720564",
+    "numberOfVaccines": 3940,
+    "numberOfSwabs": 2744,
+    "numberOfPositives": 8
   },
   {
     "name": "Castelvetere in Val Fortore",
@@ -1123,7 +1495,10 @@
     "region": "Campania",
     "istat": "062020",
     "latitude": "41.4419691",
-    "longitude": "14.94213224"
+    "longitude": "14.94213224",
+    "numberOfVaccines": 7173,
+    "numberOfSwabs": 2590,
+    "numberOfPositives": 5
   },
   {
     "name": "Cautano",
@@ -1132,7 +1507,10 @@
     "region": "Campania",
     "istat": "062021",
     "latitude": "45.48211892",
-    "longitude": "8.26833442"
+    "longitude": "8.26833442",
+    "numberOfVaccines": 8030,
+    "numberOfSwabs": 4490,
+    "numberOfPositives": 7
   },
   {
     "name": "Ceppaloni",
@@ -1141,7 +1519,10 @@
     "region": "Campania",
     "istat": "062022",
     "latitude": "41.0455693",
-    "longitude": "14.76112488"
+    "longitude": "14.76112488",
+    "numberOfVaccines": 1169,
+    "numberOfSwabs": 6145,
+    "numberOfPositives": 9
   },
   {
     "name": "Cerreto Sannita",
@@ -1150,7 +1531,10 @@
     "region": "Campania",
     "istat": "062023",
     "latitude": "41.28321897",
-    "longitude": "14.5568909"
+    "longitude": "14.5568909",
+    "numberOfVaccines": 6945,
+    "numberOfSwabs": 9928,
+    "numberOfPositives": 16
   },
   {
     "name": "Circello",
@@ -1159,7 +1543,10 @@
     "region": "Campania",
     "istat": "062024",
     "latitude": "41.35602914",
-    "longitude": "14.80828522"
+    "longitude": "14.80828522",
+    "numberOfVaccines": 9075,
+    "numberOfSwabs": 6459,
+    "numberOfPositives": 15
   },
   {
     "name": "Colle Sannita",
@@ -1168,7 +1555,10 @@
     "region": "Campania",
     "istat": "062025",
     "latitude": "45.79867325",
-    "longitude": "8.03216717"
+    "longitude": "8.03216717",
+    "numberOfVaccines": 7536,
+    "numberOfSwabs": 9197,
+    "numberOfPositives": 2
   },
   {
     "name": "Cusano Mutri",
@@ -1177,7 +1567,10 @@
     "region": "Campania",
     "istat": "062026",
     "latitude": "41.33756175",
-    "longitude": "14.50879373"
+    "longitude": "14.50879373",
+    "numberOfVaccines": 5363,
+    "numberOfSwabs": 8151,
+    "numberOfPositives": 18
   },
   {
     "name": "Dugenta",
@@ -1186,7 +1579,10 @@
     "region": "Campania",
     "istat": "062027",
     "latitude": "41.13518764",
-    "longitude": "14.4537261"
+    "longitude": "14.4537261",
+    "numberOfVaccines": 9809,
+    "numberOfSwabs": 3265,
+    "numberOfPositives": 18
   },
   {
     "name": "Durazzano",
@@ -1195,7 +1591,10 @@
     "region": "Campania",
     "istat": "062028",
     "latitude": "41.06139884",
-    "longitude": "14.44690145"
+    "longitude": "14.44690145",
+    "numberOfVaccines": 5663,
+    "numberOfSwabs": 5207,
+    "numberOfPositives": 6
   },
   {
     "name": "Faicchio",
@@ -1204,7 +1603,10 @@
     "region": "Campania",
     "istat": "062029",
     "latitude": "45.90888987",
-    "longitude": "8.04890161"
+    "longitude": "8.04890161",
+    "numberOfVaccines": 9097,
+    "numberOfSwabs": 2351,
+    "numberOfPositives": 15
   },
   {
     "name": "Foglianise",
@@ -1213,7 +1615,10 @@
     "region": "Campania",
     "istat": "062030",
     "latitude": "45.22108416",
-    "longitude": "8.50648564"
+    "longitude": "8.50648564",
+    "numberOfVaccines": 5102,
+    "numberOfSwabs": 4757,
+    "numberOfPositives": 7
   },
   {
     "name": "Foiano di Val Fortore",
@@ -1222,7 +1627,10 @@
     "region": "Campania",
     "istat": "062031",
     "latitude": "45.35735225",
-    "longitude": "8.38877273"
+    "longitude": "8.38877273",
+    "numberOfVaccines": 9216,
+    "numberOfSwabs": 3985,
+    "numberOfPositives": 6
   },
   {
     "name": "Forchia",
@@ -1231,7 +1639,10 @@
     "region": "Campania",
     "istat": "062032",
     "latitude": "45.408461",
-    "longitude": "8.19858607"
+    "longitude": "8.19858607",
+    "numberOfVaccines": 1313,
+    "numberOfSwabs": 7332,
+    "numberOfPositives": 17
   },
   {
     "name": "Fragneto l'Abate",
@@ -1240,7 +1651,10 @@
     "region": "Campania",
     "istat": "062033",
     "latitude": "45.39952964",
-    "longitude": "8.2933069"
+    "longitude": "8.2933069",
+    "numberOfVaccines": 9281,
+    "numberOfSwabs": 6544,
+    "numberOfPositives": 20
   },
   {
     "name": "Fragneto Monforte",
@@ -1249,7 +1663,10 @@
     "region": "Campania",
     "istat": "062034",
     "latitude": "41.2463355",
-    "longitude": "14.76342439"
+    "longitude": "14.76342439",
+    "numberOfVaccines": 4086,
+    "numberOfSwabs": 1406,
+    "numberOfPositives": 8
   },
   {
     "name": "Frasso Telesino",
@@ -1258,7 +1675,10 @@
     "region": "Campania",
     "istat": "062035",
     "latitude": "45.49741181",
-    "longitude": "8.32534514"
+    "longitude": "8.32534514",
+    "numberOfVaccines": 4743,
+    "numberOfSwabs": 2707,
+    "numberOfPositives": 20
   },
   {
     "name": "Ginestra degli Schiavoni",
@@ -1267,7 +1687,10 @@
     "region": "Campania",
     "istat": "062036",
     "latitude": "41.27943084",
-    "longitude": "15.0423827"
+    "longitude": "15.0423827",
+    "numberOfVaccines": 5502,
+    "numberOfSwabs": 6292,
+    "numberOfPositives": 17
   },
   {
     "name": "Guardia Sanframondi",
@@ -1276,7 +1699,10 @@
     "region": "Campania",
     "istat": "062037",
     "latitude": "41.25651724",
-    "longitude": "14.60000778"
+    "longitude": "14.60000778",
+    "numberOfVaccines": 1231,
+    "numberOfSwabs": 9293,
+    "numberOfPositives": 11
   },
   {
     "name": "Limatola",
@@ -1285,7 +1711,10 @@
     "region": "Campania",
     "istat": "062038",
     "latitude": "45.75546715",
-    "longitude": "8.31309615"
+    "longitude": "8.31309615",
+    "numberOfVaccines": 6785,
+    "numberOfSwabs": 3368,
+    "numberOfPositives": 14
   },
   {
     "name": "Melizzano",
@@ -1294,7 +1723,10 @@
     "region": "Campania",
     "istat": "062039",
     "latitude": "41.16133116",
-    "longitude": "14.50444253"
+    "longitude": "14.50444253",
+    "numberOfVaccines": 4063,
+    "numberOfSwabs": 1912,
+    "numberOfPositives": 6
   },
   {
     "name": "Moiano",
@@ -1303,7 +1735,10 @@
     "region": "Campania",
     "istat": "062040",
     "latitude": "41.07824066",
-    "longitude": "14.54636351"
+    "longitude": "14.54636351",
+    "numberOfVaccines": 5608,
+    "numberOfSwabs": 2712,
+    "numberOfPositives": 20
   },
   {
     "name": "Molinara",
@@ -1312,7 +1747,10 @@
     "region": "Campania",
     "istat": "062041",
     "latitude": "45.88308084",
-    "longitude": "8.16235419"
+    "longitude": "8.16235419",
+    "numberOfVaccines": 8546,
+    "numberOfSwabs": 5794,
+    "numberOfPositives": 16
   },
   {
     "name": "Montefalcone di Val Fortore",
@@ -1321,7 +1759,10 @@
     "region": "Campania",
     "istat": "062042",
     "latitude": "45.309557",
-    "longitude": "8.021489"
+    "longitude": "8.021489",
+    "numberOfVaccines": 9298,
+    "numberOfSwabs": 3000,
+    "numberOfPositives": 16
   },
   {
     "name": "Montesarchio",
@@ -1330,7 +1771,10 @@
     "region": "Campania",
     "istat": "062043",
     "latitude": "45.80668518",
-    "longitude": "8.29278728"
+    "longitude": "8.29278728",
+    "numberOfVaccines": 2376,
+    "numberOfSwabs": 2660,
+    "numberOfPositives": 16
   },
   {
     "name": "Morcone",
@@ -1339,7 +1783,10 @@
     "region": "Campania",
     "istat": "062044",
     "latitude": "41.34020414",
-    "longitude": "14.66404873"
+    "longitude": "14.66404873",
+    "numberOfVaccines": 5686,
+    "numberOfSwabs": 8513,
+    "numberOfPositives": 6
   },
   {
     "name": "Paduli",
@@ -1348,7 +1795,10 @@
     "region": "Campania",
     "istat": "062045",
     "latitude": "45.39712515",
-    "longitude": "8.34853582"
+    "longitude": "8.34853582",
+    "numberOfVaccines": 5517,
+    "numberOfSwabs": 7662,
+    "numberOfPositives": 3
   },
   {
     "name": "Pago Veiano",
@@ -1357,7 +1807,10 @@
     "region": "Campania",
     "istat": "062046",
     "latitude": "41.24652793",
-    "longitude": "14.87351296"
+    "longitude": "14.87351296",
+    "numberOfVaccines": 1160,
+    "numberOfSwabs": 5149,
+    "numberOfPositives": 17
   },
   {
     "name": "Pannarano",
@@ -1366,7 +1819,10 @@
     "region": "Campania",
     "istat": "062047",
     "latitude": "45.23619745",
-    "longitude": "8.3700654"
+    "longitude": "8.3700654",
+    "numberOfVaccines": 1474,
+    "numberOfSwabs": 8675,
+    "numberOfPositives": 13
   },
   {
     "name": "Paolisi",
@@ -1375,7 +1831,10 @@
     "region": "Campania",
     "istat": "062048",
     "latitude": "45.84734738",
-    "longitude": "8.20112963"
+    "longitude": "8.20112963",
+    "numberOfVaccines": 8410,
+    "numberOfSwabs": 4607,
+    "numberOfPositives": 19
   },
   {
     "name": "Paupisi",
@@ -1384,7 +1843,10 @@
     "region": "Campania",
     "istat": "062049",
     "latitude": "45.19232707",
-    "longitude": "8.10258275"
+    "longitude": "8.10258275",
+    "numberOfVaccines": 7334,
+    "numberOfSwabs": 7104,
+    "numberOfPositives": 1
   },
   {
     "name": "Pesco Sannita",
@@ -1393,7 +1855,10 @@
     "region": "Campania",
     "istat": "062050",
     "latitude": "41.23435632",
-    "longitude": "14.81092001"
+    "longitude": "14.81092001",
+    "numberOfVaccines": 1204,
+    "numberOfSwabs": 7148,
+    "numberOfPositives": 14
   },
   {
     "name": "Pietraroja",
@@ -1402,7 +1867,10 @@
     "region": "Campania",
     "istat": "062051",
     "latitude": "41.34731855",
-    "longitude": "14.54987015"
+    "longitude": "14.54987015",
+    "numberOfVaccines": 2980,
+    "numberOfSwabs": 2620,
+    "numberOfPositives": 18
   },
   {
     "name": "Pietrelcina",
@@ -1411,7 +1879,10 @@
     "region": "Campania",
     "istat": "062052",
     "latitude": "45.33003762",
-    "longitude": "8.21192995"
+    "longitude": "8.21192995",
+    "numberOfVaccines": 4516,
+    "numberOfSwabs": 2088,
+    "numberOfPositives": 2
   },
   {
     "name": "Ponte",
@@ -1420,7 +1891,10 @@
     "region": "Campania",
     "istat": "062053",
     "latitude": "41.2130152",
-    "longitude": "14.68997449"
+    "longitude": "14.68997449",
+    "numberOfVaccines": 1156,
+    "numberOfSwabs": 1045,
+    "numberOfPositives": 10
   },
   {
     "name": "Pontelandolfo",
@@ -1429,7 +1903,10 @@
     "region": "Campania",
     "istat": "062054",
     "latitude": "45.26873384",
-    "longitude": "8.35745053"
+    "longitude": "8.35745053",
+    "numberOfVaccines": 2252,
+    "numberOfSwabs": 1170,
+    "numberOfPositives": 9
   },
   {
     "name": "Puglianello",
@@ -1438,7 +1915,10 @@
     "region": "Campania",
     "istat": "062055",
     "latitude": "41.22178939",
-    "longitude": "14.45023497"
+    "longitude": "14.45023497",
+    "numberOfVaccines": 2090,
+    "numberOfSwabs": 3483,
+    "numberOfPositives": 4
   },
   {
     "name": "Reino",
@@ -1447,7 +1927,10 @@
     "region": "Campania",
     "istat": "062056",
     "latitude": "41.29228226",
-    "longitude": "14.82258257"
+    "longitude": "14.82258257",
+    "numberOfVaccines": 8104,
+    "numberOfSwabs": 8814,
+    "numberOfPositives": 9
   },
   {
     "name": "San Bartolomeo in Galdo",
@@ -1456,7 +1939,10 @@
     "region": "Campania",
     "istat": "062057",
     "latitude": "45.88955756",
-    "longitude": "8.15891887"
+    "longitude": "8.15891887",
+    "numberOfVaccines": 8735,
+    "numberOfSwabs": 9406,
+    "numberOfPositives": 5
   },
   {
     "name": "San Giorgio del Sannio",
@@ -1465,7 +1951,10 @@
     "region": "Campania",
     "istat": "062058",
     "latitude": "45.19339547",
-    "longitude": "8.19171653"
+    "longitude": "8.19171653",
+    "numberOfVaccines": 4703,
+    "numberOfSwabs": 7526,
+    "numberOfPositives": 8
   },
   {
     "name": "San Giorgio La Molara",
@@ -1474,7 +1963,10 @@
     "region": "Campania",
     "istat": "062059",
     "latitude": "45.42877725",
-    "longitude": "8.2929106"
+    "longitude": "8.2929106",
+    "numberOfVaccines": 7306,
+    "numberOfSwabs": 4364,
+    "numberOfPositives": 5
   },
   {
     "name": "San Leucio del Sannio",
@@ -1483,7 +1975,10 @@
     "region": "Campania",
     "istat": "062060",
     "latitude": "41.07269478",
-    "longitude": "14.75767623"
+    "longitude": "14.75767623",
+    "numberOfVaccines": 6861,
+    "numberOfSwabs": 5495,
+    "numberOfPositives": 14
   },
   {
     "name": "San Lorenzello",
@@ -1492,7 +1987,10 @@
     "region": "Campania",
     "istat": "062061",
     "latitude": "45.61734452",
-    "longitude": "8.37128081"
+    "longitude": "8.37128081",
+    "numberOfVaccines": 1011,
+    "numberOfSwabs": 1503,
+    "numberOfPositives": 16
   },
   {
     "name": "San Lorenzo Maggiore",
@@ -1501,7 +1999,10 @@
     "region": "Campania",
     "istat": "062062",
     "latitude": "45.52931694",
-    "longitude": "8.38432306"
+    "longitude": "8.38432306",
+    "numberOfVaccines": 7416,
+    "numberOfSwabs": 9909,
+    "numberOfPositives": 5
   },
   {
     "name": "San Lupo",
@@ -1510,7 +2011,10 @@
     "region": "Campania",
     "istat": "062063",
     "latitude": "41.26044702",
-    "longitude": "14.63510545"
+    "longitude": "14.63510545",
+    "numberOfVaccines": 3628,
+    "numberOfSwabs": 7561,
+    "numberOfPositives": 19
   },
   {
     "name": "San Marco dei Cavoti",
@@ -1519,7 +2023,10 @@
     "region": "Campania",
     "istat": "062064",
     "latitude": "41.30601106",
-    "longitude": "14.8806843"
+    "longitude": "14.8806843",
+    "numberOfVaccines": 1180,
+    "numberOfSwabs": 7846,
+    "numberOfPositives": 9
   },
   {
     "name": "San Martino Sannita",
@@ -1528,7 +2035,10 @@
     "region": "Campania",
     "istat": "062065",
     "latitude": "45.45180309",
-    "longitude": "8.38247553"
+    "longitude": "8.38247553",
+    "numberOfVaccines": 5388,
+    "numberOfSwabs": 7154,
+    "numberOfPositives": 20
   },
   {
     "name": "San Nazzaro",
@@ -1537,7 +2047,10 @@
     "region": "Campania",
     "istat": "062066",
     "latitude": "45.7009391",
-    "longitude": "8.25032253"
+    "longitude": "8.25032253",
+    "numberOfVaccines": 4387,
+    "numberOfSwabs": 4888,
+    "numberOfPositives": 20
   },
   {
     "name": "San Nicola Manfredi",
@@ -1546,7 +2059,10 @@
     "region": "Campania",
     "istat": "062067",
     "latitude": "45.23008153",
-    "longitude": "8.0975502"
+    "longitude": "8.0975502",
+    "numberOfVaccines": 9774,
+    "numberOfSwabs": 6960,
+    "numberOfPositives": 18
   },
   {
     "name": "San Salvatore Telesino",
@@ -1555,7 +2071,10 @@
     "region": "Campania",
     "istat": "062068",
     "latitude": "45.55556369",
-    "longitude": "8.38444808"
+    "longitude": "8.38444808",
+    "numberOfVaccines": 8007,
+    "numberOfSwabs": 3048,
+    "numberOfPositives": 13
   },
   {
     "name": "Santa Croce del Sannio",
@@ -1564,7 +2083,10 @@
     "region": "Campania",
     "istat": "062069",
     "latitude": "41.38792716",
-    "longitude": "14.73229291"
+    "longitude": "14.73229291",
+    "numberOfVaccines": 4258,
+    "numberOfSwabs": 4587,
+    "numberOfPositives": 8
   },
   {
     "name": "Sant'Agata de' Goti",
@@ -1573,7 +2095,10 @@
     "region": "Campania",
     "istat": "062070",
     "latitude": "45.2852959",
-    "longitude": "8.34604641"
+    "longitude": "8.34604641",
+    "numberOfVaccines": 6474,
+    "numberOfSwabs": 8487,
+    "numberOfPositives": 2
   },
   {
     "name": "Sant'Angelo a Cupolo",
@@ -1582,7 +2107,10 @@
     "region": "Campania",
     "istat": "062071",
     "latitude": "45.28165932",
-    "longitude": "8.08199764"
+    "longitude": "8.08199764",
+    "numberOfVaccines": 7190,
+    "numberOfSwabs": 9243,
+    "numberOfPositives": 17
   },
   {
     "name": "Sassinoro",
@@ -1591,7 +2119,10 @@
     "region": "Campania",
     "istat": "062072",
     "latitude": "45.62258776",
-    "longitude": "8.3220795"
+    "longitude": "8.3220795",
+    "numberOfVaccines": 2502,
+    "numberOfSwabs": 2161,
+    "numberOfPositives": 12
   },
   {
     "name": "Solopaca",
@@ -1600,7 +2131,10 @@
     "region": "Campania",
     "istat": "062073",
     "latitude": "41.19401297",
-    "longitude": "14.55292382"
+    "longitude": "14.55292382",
+    "numberOfVaccines": 5037,
+    "numberOfSwabs": 7457,
+    "numberOfPositives": 15
   },
   {
     "name": "Telese Terme",
@@ -1609,7 +2143,10 @@
     "region": "Campania",
     "istat": "062074",
     "latitude": "41.21950482",
-    "longitude": "14.53112065"
+    "longitude": "14.53112065",
+    "numberOfVaccines": 4631,
+    "numberOfSwabs": 2714,
+    "numberOfPositives": 19
   },
   {
     "name": "Tocco Caudio",
@@ -1618,7 +2155,10 @@
     "region": "Campania",
     "istat": "062075",
     "latitude": "41.12514712",
-    "longitude": "14.63248011"
+    "longitude": "14.63248011",
+    "numberOfVaccines": 1261,
+    "numberOfSwabs": 9211,
+    "numberOfPositives": 6
   },
   {
     "name": "Torrecuso",
@@ -1627,7 +2167,10 @@
     "region": "Campania",
     "istat": "062076",
     "latitude": "41.18589327",
-    "longitude": "14.68101848"
+    "longitude": "14.68101848",
+    "numberOfVaccines": 2757,
+    "numberOfSwabs": 3818,
+    "numberOfPositives": 11
   },
   {
     "name": "Vitulano",
@@ -1636,7 +2179,10 @@
     "region": "Campania",
     "istat": "062077",
     "latitude": "41.17284664",
-    "longitude": "14.65004535"
+    "longitude": "14.65004535",
+    "numberOfVaccines": 1356,
+    "numberOfSwabs": 4169,
+    "numberOfPositives": 6
   },
   {
     "name": "Sant'Arcangelo Trimonte",
@@ -1645,7 +2191,10 @@
     "region": "Campania",
     "istat": "062078",
     "latitude": "45.81528283",
-    "longitude": "8.03096665"
+    "longitude": "8.03096665",
+    "numberOfVaccines": 1828,
+    "numberOfSwabs": 9693,
+    "numberOfPositives": 8
   },
   {
     "name": "Acerra",
@@ -1654,7 +2203,10 @@
     "region": "Campania",
     "istat": "063001",
     "latitude": "45.67598127",
-    "longitude": "8.55992667"
+    "longitude": "8.55992667",
+    "numberOfVaccines": 1820,
+    "numberOfSwabs": 7024,
+    "numberOfPositives": 0
   },
   {
     "name": "Afragola",
@@ -1663,7 +2215,10 @@
     "region": "Campania",
     "istat": "063002",
     "latitude": "45.78878319",
-    "longitude": "8.43942761"
+    "longitude": "8.43942761",
+    "numberOfVaccines": 6059,
+    "numberOfSwabs": 7283,
+    "numberOfPositives": 4
   },
   {
     "name": "Agerola",
@@ -1672,7 +2227,10 @@
     "region": "Campania",
     "istat": "063003",
     "latitude": "40.63798358",
-    "longitude": "14.54491648"
+    "longitude": "14.54491648",
+    "numberOfVaccines": 1142,
+    "numberOfSwabs": 6273,
+    "numberOfPositives": 11
   },
   {
     "name": "Anacapri",
@@ -1681,7 +2239,10 @@
     "region": "Campania",
     "istat": "063004",
     "latitude": "40.55142386",
-    "longitude": "14.21653675"
+    "longitude": "14.21653675",
+    "numberOfVaccines": 1696,
+    "numberOfSwabs": 8148,
+    "numberOfPositives": 14
   },
   {
     "name": "Arzano",
@@ -1690,7 +2251,10 @@
     "region": "Campania",
     "istat": "063005",
     "latitude": "40.91062506",
-    "longitude": "14.26920831"
+    "longitude": "14.26920831",
+    "numberOfVaccines": 5814,
+    "numberOfSwabs": 3676,
+    "numberOfPositives": 7
   },
   {
     "name": "Bacoli",
@@ -1699,7 +2263,10 @@
     "region": "Campania",
     "istat": "063006",
     "latitude": "45.82196603",
-    "longitude": "8.43917903"
+    "longitude": "8.43917903",
+    "numberOfVaccines": 5941,
+    "numberOfSwabs": 8444,
+    "numberOfPositives": 16
   },
   {
     "name": "Barano d'Ischia",
@@ -1708,7 +2275,10 @@
     "region": "Campania",
     "istat": "063007",
     "latitude": "40.71063245",
-    "longitude": "13.91624742"
+    "longitude": "13.91624742",
+    "numberOfVaccines": 7697,
+    "numberOfSwabs": 9891,
+    "numberOfPositives": 15
   },
   {
     "name": "Boscoreale",
@@ -1717,7 +2287,10 @@
     "region": "Campania",
     "istat": "063008",
     "latitude": "45.76039239",
-    "longitude": "8.55948977"
+    "longitude": "8.55948977",
+    "numberOfVaccines": 1021,
+    "numberOfSwabs": 6845,
+    "numberOfPositives": 6
   },
   {
     "name": "Boscotrecase",
@@ -1726,7 +2299,10 @@
     "region": "Campania",
     "istat": "063009",
     "latitude": "40.77626907",
-    "longitude": "14.46107403"
+    "longitude": "14.46107403",
+    "numberOfVaccines": 4092,
+    "numberOfSwabs": 5123,
+    "numberOfPositives": 14
   },
   {
     "name": "Brusciano",
@@ -1735,7 +2311,10 @@
     "region": "Campania",
     "istat": "063010",
     "latitude": "40.92061462",
-    "longitude": "14.42253614"
+    "longitude": "14.42253614",
+    "numberOfVaccines": 5846,
+    "numberOfSwabs": 3087,
+    "numberOfPositives": 2
   },
   {
     "name": "Caivano",
@@ -1744,7 +2323,10 @@
     "region": "Campania",
     "istat": "063011",
     "latitude": "40.9567586",
-    "longitude": "14.30106405"
+    "longitude": "14.30106405",
+    "numberOfVaccines": 8407,
+    "numberOfSwabs": 2245,
+    "numberOfPositives": 7
   },
   {
     "name": "Calvizzano",
@@ -1753,7 +2335,10 @@
     "region": "Campania",
     "istat": "063012",
     "latitude": "45.574775",
-    "longitude": "8.51201322"
+    "longitude": "8.51201322",
+    "numberOfVaccines": 6784,
+    "numberOfSwabs": 8237,
+    "numberOfPositives": 1
   },
   {
     "name": "Camposano",
@@ -1762,7 +2347,10 @@
     "region": "Campania",
     "istat": "063013",
     "latitude": "40.95590031",
-    "longitude": "14.52498309"
+    "longitude": "14.52498309",
+    "numberOfVaccines": 3252,
+    "numberOfSwabs": 3026,
+    "numberOfPositives": 17
   },
   {
     "name": "Capri",
@@ -1771,7 +2359,10 @@
     "region": "Campania",
     "istat": "063014",
     "latitude": "40.55096848",
-    "longitude": "14.24304642"
+    "longitude": "14.24304642",
+    "numberOfVaccines": 2966,
+    "numberOfSwabs": 3724,
+    "numberOfPositives": 3
   },
   {
     "name": "Carbonara di Nola",
@@ -1780,7 +2371,10 @@
     "region": "Campania",
     "istat": "063015",
     "latitude": "40.87511529",
-    "longitude": "14.57608435"
+    "longitude": "14.57608435",
+    "numberOfVaccines": 3047,
+    "numberOfSwabs": 9416,
+    "numberOfPositives": 8
   },
   {
     "name": "Cardito",
@@ -1789,7 +2383,10 @@
     "region": "Campania",
     "istat": "063016",
     "latitude": "45.57030363",
-    "longitude": "8.63973111"
+    "longitude": "8.63973111",
+    "numberOfVaccines": 5155,
+    "numberOfSwabs": 8284,
+    "numberOfPositives": 0
   },
   {
     "name": "Casalnuovo di Napoli",
@@ -1798,7 +2395,10 @@
     "region": "Campania",
     "istat": "063017",
     "latitude": "40.91481074",
-    "longitude": "14.3511862"
+    "longitude": "14.3511862",
+    "numberOfVaccines": 6109,
+    "numberOfSwabs": 1775,
+    "numberOfPositives": 0
   },
   {
     "name": "Casamarciano",
@@ -1807,7 +2407,10 @@
     "region": "Campania",
     "istat": "063018",
     "latitude": "45.45378226",
-    "longitude": "8.46370551"
+    "longitude": "8.46370551",
+    "numberOfVaccines": 2031,
+    "numberOfSwabs": 9477,
+    "numberOfPositives": 17
   },
   {
     "name": "Casamicciola Terme",
@@ -1816,7 +2419,10 @@
     "region": "Campania",
     "istat": "063019",
     "latitude": "45.67828729",
-    "longitude": "8.40870545"
+    "longitude": "8.40870545",
+    "numberOfVaccines": 3204,
+    "numberOfSwabs": 3092,
+    "numberOfPositives": 16
   },
   {
     "name": "Casandrino",
@@ -1825,7 +2431,10 @@
     "region": "Campania",
     "istat": "063020",
     "latitude": "40.93573734",
-    "longitude": "14.25137922"
+    "longitude": "14.25137922",
+    "numberOfVaccines": 8114,
+    "numberOfSwabs": 3383,
+    "numberOfPositives": 8
   },
   {
     "name": "Casavatore",
@@ -1834,7 +2443,10 @@
     "region": "Campania",
     "istat": "063021",
     "latitude": "45.66716613",
-    "longitude": "8.53449913"
+    "longitude": "8.53449913",
+    "numberOfVaccines": 7042,
+    "numberOfSwabs": 1531,
+    "numberOfPositives": 14
   },
   {
     "name": "Casola di Napoli",
@@ -1843,7 +2455,10 @@
     "region": "Campania",
     "istat": "063022",
     "latitude": "45.76282586",
-    "longitude": "8.44415269"
+    "longitude": "8.44415269",
+    "numberOfVaccines": 7349,
+    "numberOfSwabs": 6383,
+    "numberOfPositives": 3
   },
   {
     "name": "Casoria",
@@ -1852,7 +2467,10 @@
     "region": "Campania",
     "istat": "063023",
     "latitude": "45.31838337",
-    "longitude": "8.69926765"
+    "longitude": "8.69926765",
+    "numberOfVaccines": 6500,
+    "numberOfSwabs": 2388,
+    "numberOfPositives": 0
   },
   {
     "name": "Castellammare di Stabia",
@@ -1861,7 +2479,10 @@
     "region": "Campania",
     "istat": "063024",
     "latitude": "45.6988743",
-    "longitude": "8.46298661"
+    "longitude": "8.46298661",
+    "numberOfVaccines": 8578,
+    "numberOfSwabs": 2166,
+    "numberOfPositives": 8
   },
   {
     "name": "Castello di Cisterna",
@@ -1870,7 +2491,10 @@
     "region": "Campania",
     "istat": "063025",
     "latitude": "45.68806799",
-    "longitude": "8.60392229"
+    "longitude": "8.60392229",
+    "numberOfVaccines": 1911,
+    "numberOfSwabs": 6766,
+    "numberOfPositives": 17
   },
   {
     "name": "Cercola",
@@ -1879,7 +2503,10 @@
     "region": "Campania",
     "istat": "063026",
     "latitude": "45.73138349",
-    "longitude": "8.45159151"
+    "longitude": "8.45159151",
+    "numberOfVaccines": 5998,
+    "numberOfSwabs": 8377,
+    "numberOfPositives": 15
   },
   {
     "name": "Cicciano",
@@ -1888,7 +2515,10 @@
     "region": "Campania",
     "istat": "063027",
     "latitude": "45.54219977",
-    "longitude": "8.4798194"
+    "longitude": "8.4798194",
+    "numberOfVaccines": 8838,
+    "numberOfSwabs": 4812,
+    "numberOfPositives": 10
   },
   {
     "name": "Cimitile",
@@ -1897,7 +2527,10 @@
     "region": "Campania",
     "istat": "063028",
     "latitude": "40.9397187",
-    "longitude": "14.52673141"
+    "longitude": "14.52673141",
+    "numberOfVaccines": 1401,
+    "numberOfSwabs": 1590,
+    "numberOfPositives": 11
   },
   {
     "name": "Comiziano",
@@ -1906,7 +2539,10 @@
     "region": "Campania",
     "istat": "063029",
     "latitude": "40.95251006",
-    "longitude": "14.54934835"
+    "longitude": "14.54934835",
+    "numberOfVaccines": 8424,
+    "numberOfSwabs": 3118,
+    "numberOfPositives": 10
   },
   {
     "name": "Crispano",
@@ -1915,7 +2551,10 @@
     "region": "Campania",
     "istat": "063030",
     "latitude": "45.51708606",
-    "longitude": "8.58791485"
+    "longitude": "8.58791485",
+    "numberOfVaccines": 9930,
+    "numberOfSwabs": 2815,
+    "numberOfPositives": 19
   },
   {
     "name": "Forio",
@@ -1924,7 +2563,10 @@
     "region": "Campania",
     "istat": "063031",
     "latitude": "40.73778595",
-    "longitude": "13.85726258"
+    "longitude": "13.85726258",
+    "numberOfVaccines": 7480,
+    "numberOfSwabs": 6154,
+    "numberOfPositives": 9
   },
   {
     "name": "Frattamaggiore",
@@ -1933,7 +2575,10 @@
     "region": "Campania",
     "istat": "063032",
     "latitude": "45.50102461",
-    "longitude": "8.66224358"
+    "longitude": "8.66224358",
+    "numberOfVaccines": 2138,
+    "numberOfSwabs": 8112,
+    "numberOfPositives": 5
   },
   {
     "name": "Frattaminore",
@@ -1942,7 +2587,10 @@
     "region": "Campania",
     "istat": "063033",
     "latitude": "40.95564984",
-    "longitude": "14.27090135"
+    "longitude": "14.27090135",
+    "numberOfVaccines": 8750,
+    "numberOfSwabs": 1489,
+    "numberOfPositives": 19
   },
   {
     "name": "Giugliano in Campania",
@@ -1951,7 +2599,10 @@
     "region": "Campania",
     "istat": "063034",
     "latitude": "40.92833418",
-    "longitude": "14.20108889"
+    "longitude": "14.20108889",
+    "numberOfVaccines": 7107,
+    "numberOfSwabs": 2651,
+    "numberOfPositives": 9
   },
   {
     "name": "Gragnano",
@@ -1960,7 +2611,10 @@
     "region": "Campania",
     "istat": "063035",
     "latitude": "40.68982752",
-    "longitude": "14.52098181"
+    "longitude": "14.52098181",
+    "numberOfVaccines": 9586,
+    "numberOfSwabs": 9844,
+    "numberOfPositives": 15
   },
   {
     "name": "Grumo Nevano",
@@ -1969,7 +2623,10 @@
     "region": "Campania",
     "istat": "063036",
     "latitude": "45.5353062",
-    "longitude": "8.41834081"
+    "longitude": "8.41834081",
+    "numberOfVaccines": 8411,
+    "numberOfSwabs": 7711,
+    "numberOfPositives": 17
   },
   {
     "name": "Ischia",
@@ -1978,7 +2635,10 @@
     "region": "Campania",
     "istat": "063037",
     "latitude": "45.43623977",
-    "longitude": "8.46837851"
+    "longitude": "8.46837851",
+    "numberOfVaccines": 7542,
+    "numberOfSwabs": 6800,
+    "numberOfPositives": 9
   },
   {
     "name": "Lacco Ameno",
@@ -1987,7 +2647,10 @@
     "region": "Campania",
     "istat": "063038",
     "latitude": "40.75451533",
-    "longitude": "13.88438822"
+    "longitude": "13.88438822",
+    "numberOfVaccines": 7609,
+    "numberOfSwabs": 6778,
+    "numberOfPositives": 5
   },
   {
     "name": "Lettere",
@@ -1996,7 +2659,10 @@
     "region": "Campania",
     "istat": "063039",
     "latitude": "45.48630378",
-    "longitude": "8.49266595"
+    "longitude": "8.49266595",
+    "numberOfVaccines": 7731,
+    "numberOfSwabs": 4999,
+    "numberOfPositives": 2
   },
   {
     "name": "Liveri",
@@ -2005,7 +2671,10 @@
     "region": "Campania",
     "istat": "063040",
     "latitude": "45.35768141",
-    "longitude": "8.5227352"
+    "longitude": "8.5227352",
+    "numberOfVaccines": 8462,
+    "numberOfSwabs": 2561,
+    "numberOfPositives": 18
   },
   {
     "name": "Marano di Napoli",
@@ -2014,7 +2683,10 @@
     "region": "Campania",
     "istat": "063041",
     "latitude": "45.3994586",
-    "longitude": "8.46436466"
+    "longitude": "8.46436466",
+    "numberOfVaccines": 6846,
+    "numberOfSwabs": 5148,
+    "numberOfPositives": 5
   },
   {
     "name": "Mariglianella",
@@ -2023,7 +2695,10 @@
     "region": "Campania",
     "istat": "063042",
     "latitude": "45.5139929",
-    "longitude": "8.48870753"
+    "longitude": "8.48870753",
+    "numberOfVaccines": 3630,
+    "numberOfSwabs": 7394,
+    "numberOfPositives": 0
   },
   {
     "name": "Marigliano",
@@ -2032,7 +2707,10 @@
     "region": "Campania",
     "istat": "063043",
     "latitude": "45.71405023",
-    "longitude": "8.64237321"
+    "longitude": "8.64237321",
+    "numberOfVaccines": 6521,
+    "numberOfSwabs": 2415,
+    "numberOfPositives": 16
   },
   {
     "name": "Massa Lubrense",
@@ -2041,7 +2719,10 @@
     "region": "Campania",
     "istat": "063044",
     "latitude": "45.60280053",
-    "longitude": "8.50091213"
+    "longitude": "8.50091213",
+    "numberOfVaccines": 4318,
+    "numberOfSwabs": 6499,
+    "numberOfPositives": 18
   },
   {
     "name": "Melito di Napoli",
@@ -2050,7 +2731,10 @@
     "region": "Campania",
     "istat": "063045",
     "latitude": "45.6118122",
-    "longitude": "8.48278611"
+    "longitude": "8.48278611",
+    "numberOfVaccines": 5294,
+    "numberOfSwabs": 9851,
+    "numberOfPositives": 20
   },
   {
     "name": "Meta",
@@ -2059,7 +2743,10 @@
     "region": "Campania",
     "istat": "063046",
     "latitude": "40.64403352",
-    "longitude": "14.4126854"
+    "longitude": "14.4126854",
+    "numberOfVaccines": 9527,
+    "numberOfSwabs": 3953,
+    "numberOfPositives": 1
   },
   {
     "name": "Monte di Procida",
@@ -2068,7 +2755,10 @@
     "region": "Campania",
     "istat": "063047",
     "latitude": "45.66496084",
-    "longitude": "8.3967365"
+    "longitude": "8.3967365",
+    "numberOfVaccines": 8753,
+    "numberOfSwabs": 4966,
+    "numberOfPositives": 1
   },
   {
     "name": "Mugnano di Napoli",
@@ -2077,7 +2767,10 @@
     "region": "Campania",
     "istat": "063048",
     "latitude": "40.90950996",
-    "longitude": "14.2064913"
+    "longitude": "14.2064913",
+    "numberOfVaccines": 4814,
+    "numberOfSwabs": 2465,
+    "numberOfPositives": 6
   },
   {
     "name": "Napoli",
@@ -2086,7 +2779,10 @@
     "region": "Campania",
     "istat": "063049",
     "latitude": "45.41067427",
-    "longitude": "8.78085515"
+    "longitude": "8.78085515",
+    "numberOfVaccines": 4223,
+    "numberOfSwabs": 1045,
+    "numberOfPositives": 18
   },
   {
     "name": "Nola",
@@ -2095,7 +2791,10 @@
     "region": "Campania",
     "istat": "063050",
     "latitude": "40.92632842",
-    "longitude": "14.52683267"
+    "longitude": "14.52683267",
+    "numberOfVaccines": 1675,
+    "numberOfSwabs": 2752,
+    "numberOfPositives": 5
   },
   {
     "name": "Ottaviano",
@@ -2104,7 +2803,10 @@
     "region": "Campania",
     "istat": "063051",
     "latitude": "45.79262548",
-    "longitude": "8.49908518"
+    "longitude": "8.49908518",
+    "numberOfVaccines": 5756,
+    "numberOfSwabs": 4548,
+    "numberOfPositives": 14
   },
   {
     "name": "Palma Campania",
@@ -2113,7 +2815,10 @@
     "region": "Campania",
     "istat": "063052",
     "latitude": "45.7152394",
-    "longitude": "8.56512314"
+    "longitude": "8.56512314",
+    "numberOfVaccines": 8380,
+    "numberOfSwabs": 5058,
+    "numberOfPositives": 4
   },
   {
     "name": "Piano di Sorrento",
@@ -2122,7 +2827,10 @@
     "region": "Campania",
     "istat": "063053",
     "latitude": "40.63390065",
-    "longitude": "14.4132217"
+    "longitude": "14.4132217",
+    "numberOfVaccines": 1476,
+    "numberOfSwabs": 2004,
+    "numberOfPositives": 20
   },
   {
     "name": "Pimonte",
@@ -2131,7 +2839,10 @@
     "region": "Campania",
     "istat": "063054",
     "latitude": "40.67368689",
-    "longitude": "14.51345416"
+    "longitude": "14.51345416",
+    "numberOfVaccines": 4786,
+    "numberOfSwabs": 8369,
+    "numberOfPositives": 16
   },
   {
     "name": "Poggiomarino",
@@ -2140,7 +2851,10 @@
     "region": "Campania",
     "istat": "063055",
     "latitude": "45.64799409",
-    "longitude": "8.50748369"
+    "longitude": "8.50748369",
+    "numberOfVaccines": 6045,
+    "numberOfSwabs": 3322,
+    "numberOfPositives": 16
   },
   {
     "name": "Pollena Trocchia",
@@ -2149,7 +2863,10 @@
     "region": "Campania",
     "istat": "063056",
     "latitude": "40.85809414",
-    "longitude": "14.37874203"
+    "longitude": "14.37874203",
+    "numberOfVaccines": 3557,
+    "numberOfSwabs": 8341,
+    "numberOfPositives": 4
   },
   {
     "name": "Pomigliano d'Arco",
@@ -2158,7 +2875,10 @@
     "region": "Campania",
     "istat": "063057",
     "latitude": "40.90689555",
-    "longitude": "14.39335586"
+    "longitude": "14.39335586",
+    "numberOfVaccines": 3754,
+    "numberOfSwabs": 8546,
+    "numberOfPositives": 9
   },
   {
     "name": "Pompei",
@@ -2167,7 +2887,10 @@
     "region": "Campania",
     "istat": "063058",
     "latitude": "45.67513019",
-    "longitude": "8.46136101"
+    "longitude": "8.46136101",
+    "numberOfVaccines": 1786,
+    "numberOfSwabs": 2110,
+    "numberOfPositives": 11
   },
   {
     "name": "Portici",
@@ -2176,7 +2899,10 @@
     "region": "Campania",
     "istat": "063059",
     "latitude": "40.82375707",
-    "longitude": "14.35421459"
+    "longitude": "14.35421459",
+    "numberOfVaccines": 4544,
+    "numberOfSwabs": 6062,
+    "numberOfPositives": 3
   },
   {
     "name": "Pozzuoli",
@@ -2185,7 +2911,10 @@
     "region": "Campania",
     "istat": "063060",
     "latitude": "45.66227913",
-    "longitude": "8.60149532"
+    "longitude": "8.60149532",
+    "numberOfVaccines": 4735,
+    "numberOfSwabs": 2016,
+    "numberOfPositives": 17
   },
   {
     "name": "Procida",
@@ -2194,7 +2923,10 @@
     "region": "Campania",
     "istat": "063061",
     "latitude": "40.76578674",
-    "longitude": "14.02403961"
+    "longitude": "14.02403961",
+    "numberOfVaccines": 7554,
+    "numberOfSwabs": 6839,
+    "numberOfPositives": 5
   },
   {
     "name": "Qualiano",
@@ -2203,7 +2935,10 @@
     "region": "Campania",
     "istat": "063062",
     "latitude": "45.73016147",
-    "longitude": "8.57318421"
+    "longitude": "8.57318421",
+    "numberOfVaccines": 9035,
+    "numberOfSwabs": 7180,
+    "numberOfPositives": 18
   },
   {
     "name": "Quarto",
@@ -2212,7 +2947,10 @@
     "region": "Campania",
     "istat": "063063",
     "latitude": "40.87770075",
-    "longitude": "14.14350978"
+    "longitude": "14.14350978",
+    "numberOfVaccines": 8433,
+    "numberOfSwabs": 3263,
+    "numberOfPositives": 20
   },
   {
     "name": "Ercolano",
@@ -2221,7 +2959,10 @@
     "region": "Campania",
     "istat": "063064",
     "latitude": "40.80927768",
-    "longitude": "14.34571485"
+    "longitude": "14.34571485",
+    "numberOfVaccines": 6273,
+    "numberOfSwabs": 9674,
+    "numberOfPositives": 15
   },
   {
     "name": "Roccarainola",
@@ -2230,7 +2971,10 @@
     "region": "Campania",
     "istat": "063065",
     "latitude": "45.55511789",
-    "longitude": "8.4591122"
+    "longitude": "8.4591122",
+    "numberOfVaccines": 6777,
+    "numberOfSwabs": 7501,
+    "numberOfPositives": 1
   },
   {
     "name": "San Gennaro Vesuviano",
@@ -2239,7 +2983,10 @@
     "region": "Campania",
     "istat": "063066",
     "latitude": "45.63985923",
-    "longitude": "8.48458276"
+    "longitude": "8.48458276",
+    "numberOfVaccines": 8230,
+    "numberOfSwabs": 1786,
+    "numberOfPositives": 18
   },
   {
     "name": "San Giorgio a Cremano",
@@ -2248,7 +2995,10 @@
     "region": "Campania",
     "istat": "063067",
     "latitude": "40.82921168",
-    "longitude": "14.33392579"
+    "longitude": "14.33392579",
+    "numberOfVaccines": 4377,
+    "numberOfSwabs": 2300,
+    "numberOfPositives": 14
   },
   {
     "name": "San Giuseppe Vesuviano",
@@ -2257,7 +3007,10 @@
     "region": "Campania",
     "istat": "063068",
     "latitude": "45.47769535",
-    "longitude": "8.69527266"
+    "longitude": "8.69527266",
+    "numberOfVaccines": 1093,
+    "numberOfSwabs": 4984,
+    "numberOfPositives": 9
   },
   {
     "name": "San Paolo Bel Sito",
@@ -2266,7 +3019,10 @@
     "region": "Campania",
     "istat": "063069",
     "latitude": "45.38665075",
-    "longitude": "8.6596796"
+    "longitude": "8.6596796",
+    "numberOfVaccines": 8743,
+    "numberOfSwabs": 8861,
+    "numberOfPositives": 20
   },
   {
     "name": "San Sebastiano al Vesuvio",
@@ -2275,7 +3031,10 @@
     "region": "Campania",
     "istat": "063070",
     "latitude": "45.72750435",
-    "longitude": "8.42921545"
+    "longitude": "8.42921545",
+    "numberOfVaccines": 1888,
+    "numberOfSwabs": 8306,
+    "numberOfPositives": 19
   },
   {
     "name": "Sant'Agnello",
@@ -2284,7 +3043,10 @@
     "region": "Campania",
     "istat": "063071",
     "latitude": "45.70906459",
-    "longitude": "8.52053275"
+    "longitude": "8.52053275",
+    "numberOfVaccines": 8008,
+    "numberOfSwabs": 1469,
+    "numberOfPositives": 8
   },
   {
     "name": "Sant'Anastasia",
@@ -2293,7 +3055,10 @@
     "region": "Campania",
     "istat": "063072",
     "latitude": "40.86700769",
-    "longitude": "14.40211956"
+    "longitude": "14.40211956",
+    "numberOfVaccines": 8553,
+    "numberOfSwabs": 4846,
+    "numberOfPositives": 12
   },
   {
     "name": "Sant'Antimo",
@@ -2302,7 +3067,10 @@
     "region": "Campania",
     "istat": "063073",
     "latitude": "45.59781069",
-    "longitude": "8.42009104"
+    "longitude": "8.42009104",
+    "numberOfVaccines": 1475,
+    "numberOfSwabs": 9524,
+    "numberOfPositives": 14
   },
   {
     "name": "Sant'Antonio Abate",
@@ -2311,7 +3079,10 @@
     "region": "Campania",
     "istat": "063074",
     "latitude": "40.72247196",
-    "longitude": "14.54695442"
+    "longitude": "14.54695442",
+    "numberOfVaccines": 8800,
+    "numberOfSwabs": 1802,
+    "numberOfPositives": 17
   },
   {
     "name": "San Vitaliano",
@@ -2320,7 +3091,10 @@
     "region": "Campania",
     "istat": "063075",
     "latitude": "40.92292749",
-    "longitude": "14.48219363"
+    "longitude": "14.48219363",
+    "numberOfVaccines": 6363,
+    "numberOfSwabs": 1410,
+    "numberOfPositives": 6
   },
   {
     "name": "Saviano",
@@ -2329,7 +3103,10 @@
     "region": "Campania",
     "istat": "063076",
     "latitude": "45.74755669",
-    "longitude": "8.43465086"
+    "longitude": "8.43465086",
+    "numberOfVaccines": 7696,
+    "numberOfSwabs": 1325,
+    "numberOfPositives": 19
   },
   {
     "name": "Scisciano",
@@ -2338,7 +3115,10 @@
     "region": "Campania",
     "istat": "063077",
     "latitude": "45.36014053",
-    "longitude": "8.57413671"
+    "longitude": "8.57413671",
+    "numberOfVaccines": 4544,
+    "numberOfSwabs": 5647,
+    "numberOfPositives": 0
   },
   {
     "name": "Serrara Fontana",
@@ -2347,7 +3127,10 @@
     "region": "Campania",
     "istat": "063078",
     "latitude": "40.71185886",
-    "longitude": "13.89310828"
+    "longitude": "13.89310828",
+    "numberOfVaccines": 5570,
+    "numberOfSwabs": 9255,
+    "numberOfPositives": 20
   },
   {
     "name": "Somma Vesuviana",
@@ -2356,7 +3139,10 @@
     "region": "Campania",
     "istat": "063079",
     "latitude": "45.68190215",
-    "longitude": "8.33970898"
+    "longitude": "8.33970898",
+    "numberOfVaccines": 1703,
+    "numberOfSwabs": 8632,
+    "numberOfPositives": 3
   },
   {
     "name": "Sorrento",
@@ -2365,7 +3151,10 @@
     "region": "Campania",
     "istat": "063080",
     "latitude": "40.6282273",
-    "longitude": "14.37853298"
+    "longitude": "14.37853298",
+    "numberOfVaccines": 7738,
+    "numberOfSwabs": 9165,
+    "numberOfPositives": 3
   },
   {
     "name": "Striano",
@@ -2374,7 +3163,10 @@
     "region": "Campania",
     "istat": "063081",
     "latitude": "40.81385972",
-    "longitude": "14.57788595"
+    "longitude": "14.57788595",
+    "numberOfVaccines": 6567,
+    "numberOfSwabs": 1152,
+    "numberOfPositives": 2
   },
   {
     "name": "Terzigno",
@@ -2383,7 +3175,10 @@
     "region": "Campania",
     "istat": "063082",
     "latitude": "45.75590621",
-    "longitude": "8.48673976"
+    "longitude": "8.48673976",
+    "numberOfVaccines": 3034,
+    "numberOfSwabs": 7291,
+    "numberOfPositives": 6
   },
   {
     "name": "Torre Annunziata",
@@ -2392,7 +3187,10 @@
     "region": "Campania",
     "istat": "063083",
     "latitude": "45.49690699",
-    "longitude": "8.42216872"
+    "longitude": "8.42216872",
+    "numberOfVaccines": 6660,
+    "numberOfSwabs": 8726,
+    "numberOfPositives": 9
   },
   {
     "name": "Torre del Greco",
@@ -2401,7 +3199,10 @@
     "region": "Campania",
     "istat": "063084",
     "latitude": "45.83011076",
-    "longitude": "8.56484439"
+    "longitude": "8.56484439",
+    "numberOfVaccines": 4893,
+    "numberOfSwabs": 9234,
+    "numberOfPositives": 20
   },
   {
     "name": "Tufino",
@@ -2410,7 +3211,10 @@
     "region": "Campania",
     "istat": "063085",
     "latitude": "40.95558945",
-    "longitude": "14.56516692"
+    "longitude": "14.56516692",
+    "numberOfVaccines": 6457,
+    "numberOfSwabs": 1237,
+    "numberOfPositives": 19
   },
   {
     "name": "Vico Equense",
@@ -2419,7 +3223,10 @@
     "region": "Campania",
     "istat": "063086",
     "latitude": "40.66443364",
-    "longitude": "14.42533592"
+    "longitude": "14.42533592",
+    "numberOfVaccines": 7270,
+    "numberOfSwabs": 8369,
+    "numberOfPositives": 9
   },
   {
     "name": "Villaricca",
@@ -2428,7 +3235,10 @@
     "region": "Campania",
     "istat": "063087",
     "latitude": "40.92181295",
-    "longitude": "14.19481827"
+    "longitude": "14.19481827",
+    "numberOfVaccines": 9276,
+    "numberOfSwabs": 7758,
+    "numberOfPositives": 9
   },
   {
     "name": "Visciano",
@@ -2437,7 +3247,10 @@
     "region": "Campania",
     "istat": "063088",
     "latitude": "45.69075412",
-    "longitude": "8.42099488"
+    "longitude": "8.42099488",
+    "numberOfVaccines": 8364,
+    "numberOfSwabs": 7749,
+    "numberOfPositives": 20
   },
   {
     "name": "Volla",
@@ -2446,7 +3259,10 @@
     "region": "Campania",
     "istat": "063089",
     "latitude": "40.87950851",
-    "longitude": "14.34632248"
+    "longitude": "14.34632248",
+    "numberOfVaccines": 2747,
+    "numberOfSwabs": 9515,
+    "numberOfPositives": 6
   },
   {
     "name": "Santa Maria la Carità",
@@ -2455,7 +3271,10 @@
     "region": "Campania",
     "istat": "063090",
     "latitude": "45.49523236",
-    "longitude": "8.45918595"
+    "longitude": "8.45918595",
+    "numberOfVaccines": 6279,
+    "numberOfSwabs": 9173,
+    "numberOfPositives": 5
   },
   {
     "name": "Trecase",
@@ -2464,7 +3283,10 @@
     "region": "Campania",
     "istat": "063091",
     "latitude": "45.62982409",
-    "longitude": "8.63193647"
+    "longitude": "8.63193647",
+    "numberOfVaccines": 8029,
+    "numberOfSwabs": 8975,
+    "numberOfPositives": 20
   },
   {
     "name": "Massa di Somma",
@@ -2473,7 +3295,10 @@
     "region": "Campania",
     "istat": "063092",
     "latitude": "40.84660798",
-    "longitude": "14.377398"
+    "longitude": "14.377398",
+    "numberOfVaccines": 3646,
+    "numberOfSwabs": 6501,
+    "numberOfPositives": 3
   },
   {
     "name": "Aiello del Sabato",
@@ -2482,7 +3307,10 @@
     "region": "Campania",
     "istat": "064001",
     "latitude": "44.47580767",
-    "longitude": "6.99122231"
+    "longitude": "6.99122231",
+    "numberOfVaccines": 3957,
+    "numberOfSwabs": 8484,
+    "numberOfPositives": 13
   },
   {
     "name": "Altavilla Irpina",
@@ -2491,7 +3319,10 @@
     "region": "Campania",
     "istat": "064002",
     "latitude": "44.31344859",
-    "longitude": "7.22083358"
+    "longitude": "7.22083358",
+    "numberOfVaccines": 2526,
+    "numberOfSwabs": 5361,
+    "numberOfPositives": 14
   },
   {
     "name": "Andretta",
@@ -2500,7 +3331,10 @@
     "region": "Campania",
     "istat": "064003",
     "latitude": "44.70092208",
-    "longitude": "8.03569894"
+    "longitude": "8.03569894",
+    "numberOfVaccines": 7863,
+    "numberOfSwabs": 8321,
+    "numberOfPositives": 3
   },
   {
     "name": "Aquilonia",
@@ -2509,7 +3343,10 @@
     "region": "Campania",
     "istat": "064004",
     "latitude": "44.59591514",
-    "longitude": "8.06408216"
+    "longitude": "8.06408216",
+    "numberOfVaccines": 2961,
+    "numberOfSwabs": 3603,
+    "numberOfPositives": 9
   },
   {
     "name": "Ariano Irpino",
@@ -2518,7 +3355,10 @@
     "region": "Campania",
     "istat": "064005",
     "latitude": "44.10828374",
-    "longitude": "8.00368552"
+    "longitude": "8.00368552",
+    "numberOfVaccines": 6999,
+    "numberOfSwabs": 7437,
+    "numberOfPositives": 20
   },
   {
     "name": "Atripalda",
@@ -2527,7 +3367,10 @@
     "region": "Campania",
     "istat": "064006",
     "latitude": "44.3795888",
-    "longitude": "6.96937784"
+    "longitude": "6.96937784",
+    "numberOfVaccines": 7884,
+    "numberOfSwabs": 6152,
+    "numberOfPositives": 17
   },
   {
     "name": "Avella",
@@ -2536,7 +3379,10 @@
     "region": "Campania",
     "istat": "064007",
     "latitude": "44.5829271",
-    "longitude": "8.11067964"
+    "longitude": "8.11067964",
+    "numberOfVaccines": 8814,
+    "numberOfSwabs": 9816,
+    "numberOfPositives": 0
   },
   {
     "name": "Avellino",
@@ -2545,7 +3391,10 @@
     "region": "Campania",
     "istat": "064008",
     "latitude": "44.30207165",
-    "longitude": "8.04258299"
+    "longitude": "8.04258299",
+    "numberOfVaccines": 8751,
+    "numberOfSwabs": 3222,
+    "numberOfPositives": 4
   },
   {
     "name": "Bagnoli Irpino",
@@ -2554,7 +3403,10 @@
     "region": "Campania",
     "istat": "064009",
     "latitude": "44.7599027",
-    "longitude": "7.31548217"
+    "longitude": "7.31548217",
+    "numberOfVaccines": 6610,
+    "numberOfSwabs": 1058,
+    "numberOfPositives": 3
   },
   {
     "name": "Baiano",
@@ -2563,7 +3415,10 @@
     "region": "Campania",
     "istat": "064010",
     "latitude": "44.758713",
-    "longitude": "7.91574918"
+    "longitude": "7.91574918",
+    "numberOfVaccines": 8735,
+    "numberOfSwabs": 3284,
+    "numberOfPositives": 8
   },
   {
     "name": "Bisaccia",
@@ -2572,7 +3427,10 @@
     "region": "Campania",
     "istat": "064011",
     "latitude": "44.72554836",
-    "longitude": "8.08046453"
+    "longitude": "8.08046453",
+    "numberOfVaccines": 8962,
+    "numberOfSwabs": 3466,
+    "numberOfPositives": 1
   },
   {
     "name": "Bonito",
@@ -2581,7 +3439,10 @@
     "region": "Campania",
     "istat": "064012",
     "latitude": "44.72522006",
-    "longitude": "7.32339364"
+    "longitude": "7.32339364",
+    "numberOfVaccines": 4310,
+    "numberOfSwabs": 9917,
+    "numberOfPositives": 5
   },
   {
     "name": "Cairano",
@@ -2590,7 +3451,10 @@
     "region": "Campania",
     "istat": "064013",
     "latitude": "44.60988256",
-    "longitude": "7.94180811"
+    "longitude": "7.94180811",
+    "numberOfVaccines": 9912,
+    "numberOfSwabs": 8853,
+    "numberOfPositives": 13
   },
   {
     "name": "Calabritto",
@@ -2599,7 +3463,10 @@
     "region": "Campania",
     "istat": "064014",
     "latitude": "44.44138607",
-    "longitude": "7.89332172"
+    "longitude": "7.89332172",
+    "numberOfVaccines": 2048,
+    "numberOfSwabs": 6116,
+    "numberOfPositives": 17
   },
   {
     "name": "Calitri",
@@ -2608,7 +3475,10 @@
     "region": "Campania",
     "istat": "064015",
     "latitude": "44.31917111",
-    "longitude": "8.00948124"
+    "longitude": "8.00948124",
+    "numberOfVaccines": 7966,
+    "numberOfSwabs": 1574,
+    "numberOfPositives": 16
   },
   {
     "name": "Candida",
@@ -2617,7 +3487,10 @@
     "region": "Campania",
     "istat": "064016",
     "latitude": "44.36566802",
-    "longitude": "7.64570648"
+    "longitude": "7.64570648",
+    "numberOfVaccines": 4246,
+    "numberOfSwabs": 9965,
+    "numberOfPositives": 7
   },
   {
     "name": "Caposele",
@@ -2626,7 +3499,10 @@
     "region": "Campania",
     "istat": "064017",
     "latitude": "44.58060554",
-    "longitude": "7.01716043"
+    "longitude": "7.01716043",
+    "numberOfVaccines": 5698,
+    "numberOfSwabs": 3287,
+    "numberOfPositives": 15
   },
   {
     "name": "Capriglia Irpina",
@@ -2635,7 +3511,10 @@
     "region": "Campania",
     "istat": "064018",
     "latitude": "44.49456526",
-    "longitude": "7.97416757"
+    "longitude": "7.97416757",
+    "numberOfVaccines": 1509,
+    "numberOfSwabs": 7545,
+    "numberOfPositives": 6
   },
   {
     "name": "Carife",
@@ -2644,7 +3523,10 @@
     "region": "Campania",
     "istat": "064019",
     "latitude": "44.54523956",
-    "longitude": "7.83282512"
+    "longitude": "7.83282512",
+    "numberOfVaccines": 6544,
+    "numberOfSwabs": 4097,
+    "numberOfPositives": 15
   },
   {
     "name": "Casalbore",
@@ -2653,7 +3535,10 @@
     "region": "Campania",
     "istat": "064020",
     "latitude": "44.62818908",
-    "longitude": "8.10591872"
+    "longitude": "8.10591872",
+    "numberOfVaccines": 7252,
+    "numberOfSwabs": 5355,
+    "numberOfPositives": 18
   },
   {
     "name": "Cassano Irpino",
@@ -2662,7 +3547,10 @@
     "region": "Campania",
     "istat": "064021",
     "latitude": "44.54801177",
-    "longitude": "8.18352587"
+    "longitude": "8.18352587",
+    "numberOfVaccines": 2507,
+    "numberOfSwabs": 5813,
+    "numberOfPositives": 19
   },
   {
     "name": "Castel Baronia",
@@ -2671,7 +3559,10 @@
     "region": "Campania",
     "istat": "064022",
     "latitude": "44.38860537",
-    "longitude": "7.43531003"
+    "longitude": "7.43531003",
+    "numberOfVaccines": 9140,
+    "numberOfSwabs": 7437,
+    "numberOfPositives": 13
   },
   {
     "name": "Castelfranci",
@@ -2680,7 +3571,10 @@
     "region": "Campania",
     "istat": "064023",
     "latitude": "44.50362005",
-    "longitude": "8.01592005"
+    "longitude": "8.01592005",
+    "numberOfVaccines": 6588,
+    "numberOfSwabs": 9589,
+    "numberOfPositives": 7
   },
   {
     "name": "Castelvetere sul Calore",
@@ -2689,7 +3583,10 @@
     "region": "Campania",
     "istat": "064024",
     "latitude": "44.62044163",
-    "longitude": "8.13275549"
+    "longitude": "8.13275549",
+    "numberOfVaccines": 7055,
+    "numberOfSwabs": 9392,
+    "numberOfPositives": 19
   },
   {
     "name": "Cervinara",
@@ -2698,7 +3595,10 @@
     "region": "Campania",
     "istat": "064025",
     "latitude": "44.32875997",
-    "longitude": "7.48746357"
+    "longitude": "7.48746357",
+    "numberOfVaccines": 6769,
+    "numberOfSwabs": 3657,
+    "numberOfPositives": 16
   },
   {
     "name": "Cesinali",
@@ -2707,7 +3607,10 @@
     "region": "Campania",
     "istat": "064026",
     "latitude": "44.60246692",
-    "longitude": "8.14620308"
+    "longitude": "8.14620308",
+    "numberOfVaccines": 4232,
+    "numberOfSwabs": 9407,
+    "numberOfPositives": 7
   },
   {
     "name": "Chianche",
@@ -2716,7 +3619,10 @@
     "region": "Campania",
     "istat": "064027",
     "latitude": "44.52679083",
-    "longitude": "8.05750263"
+    "longitude": "8.05750263",
+    "numberOfVaccines": 7971,
+    "numberOfSwabs": 4764,
+    "numberOfPositives": 9
   },
   {
     "name": "Chiusano di San Domenico",
@@ -2725,7 +3631,10 @@
     "region": "Campania",
     "istat": "064028",
     "latitude": "44.32981994",
-    "longitude": "7.55199457"
+    "longitude": "7.55199457",
+    "numberOfVaccines": 7094,
+    "numberOfSwabs": 4428,
+    "numberOfPositives": 13
   },
   {
     "name": "Contrada",
@@ -2734,7 +3643,10 @@
     "region": "Campania",
     "istat": "064029",
     "latitude": "44.69818228",
-    "longitude": "7.85474763"
+    "longitude": "7.85474763",
+    "numberOfVaccines": 4316,
+    "numberOfSwabs": 5524,
+    "numberOfPositives": 8
   },
   {
     "name": "Conza della Campania",
@@ -2743,7 +3655,10 @@
     "region": "Campania",
     "istat": "064030",
     "latitude": "44.39511761",
-    "longitude": "7.87698925"
+    "longitude": "7.87698925",
+    "numberOfVaccines": 4268,
+    "numberOfSwabs": 7024,
+    "numberOfPositives": 18
   },
   {
     "name": "Domicella",
@@ -2752,7 +3667,10 @@
     "region": "Campania",
     "istat": "064031",
     "latitude": "44.08321974",
-    "longitude": "7.75076032"
+    "longitude": "7.75076032",
+    "numberOfVaccines": 3608,
+    "numberOfSwabs": 8827,
+    "numberOfPositives": 18
   },
   {
     "name": "Flumeri",
@@ -2761,7 +3679,10 @@
     "region": "Campania",
     "istat": "064032",
     "latitude": "44.60005668",
-    "longitude": "7.40513697"
+    "longitude": "7.40513697",
+    "numberOfVaccines": 3301,
+    "numberOfSwabs": 3968,
+    "numberOfPositives": 16
   },
   {
     "name": "Fontanarosa",
@@ -2770,7 +3691,10 @@
     "region": "Campania",
     "istat": "064033",
     "latitude": "44.57029687",
-    "longitude": "7.36044207"
+    "longitude": "7.36044207",
+    "numberOfVaccines": 5509,
+    "numberOfSwabs": 5039,
+    "numberOfPositives": 1
   },
   {
     "name": "Forino",
@@ -2779,7 +3703,10 @@
     "region": "Campania",
     "istat": "064034",
     "latitude": "44.51369697",
-    "longitude": "7.47352127"
+    "longitude": "7.47352127",
+    "numberOfVaccines": 1597,
+    "numberOfSwabs": 1747,
+    "numberOfPositives": 4
   },
   {
     "name": "Frigento",
@@ -2788,7 +3715,10 @@
     "region": "Campania",
     "istat": "064035",
     "latitude": "44.42266439",
-    "longitude": "8.14079853"
+    "longitude": "8.14079853",
+    "numberOfVaccines": 6882,
+    "numberOfSwabs": 2574,
+    "numberOfPositives": 11
   },
   {
     "name": "Gesualdo",
@@ -2797,7 +3727,10 @@
     "region": "Campania",
     "istat": "064036",
     "latitude": "44.69488958",
-    "longitude": "8.19352184"
+    "longitude": "8.19352184",
+    "numberOfVaccines": 1156,
+    "numberOfSwabs": 8671,
+    "numberOfPositives": 14
   },
   {
     "name": "Greci",
@@ -2806,7 +3739,10 @@
     "region": "Campania",
     "istat": "064037",
     "latitude": "44.79720739",
-    "longitude": "7.99140953"
+    "longitude": "7.99140953",
+    "numberOfVaccines": 7999,
+    "numberOfSwabs": 4836,
+    "numberOfPositives": 9
   },
   {
     "name": "Grottaminarda",
@@ -2815,7 +3751,10 @@
     "region": "Campania",
     "istat": "064038",
     "latitude": "44.45532677",
-    "longitude": "7.08139097"
+    "longitude": "7.08139097",
+    "numberOfVaccines": 6809,
+    "numberOfSwabs": 6232,
+    "numberOfPositives": 6
   },
   {
     "name": "Grottolella",
@@ -2824,7 +3763,10 @@
     "region": "Campania",
     "istat": "064039",
     "latitude": "44.11582328",
-    "longitude": "7.95494044"
+    "longitude": "7.95494044",
+    "numberOfVaccines": 8788,
+    "numberOfSwabs": 8786,
+    "numberOfPositives": 3
   },
   {
     "name": "Guardia Lombardi",
@@ -2833,7 +3775,10 @@
     "region": "Campania",
     "istat": "064040",
     "latitude": "44.41771618",
-    "longitude": "7.42762073"
+    "longitude": "7.42762073",
+    "numberOfVaccines": 5530,
+    "numberOfSwabs": 2720,
+    "numberOfPositives": 13
   },
   {
     "name": "Lacedonia",
@@ -2842,7 +3787,10 @@
     "region": "Campania",
     "istat": "064041",
     "latitude": "44.78043462",
-    "longitude": "7.74117579"
+    "longitude": "7.74117579",
+    "numberOfVaccines": 2796,
+    "numberOfSwabs": 8860,
+    "numberOfPositives": 8
   },
   {
     "name": "Lapio",
@@ -2851,7 +3799,10 @@
     "region": "Campania",
     "istat": "064042",
     "latitude": "44.74417866",
-    "longitude": "7.47821589"
+    "longitude": "7.47821589",
+    "numberOfVaccines": 7729,
+    "numberOfSwabs": 7516,
+    "numberOfPositives": 1
   },
   {
     "name": "Lauro",
@@ -2860,7 +3811,10 @@
     "region": "Campania",
     "istat": "064043",
     "latitude": "44.47859161",
-    "longitude": "7.88006416"
+    "longitude": "7.88006416",
+    "numberOfVaccines": 7519,
+    "numberOfSwabs": 5379,
+    "numberOfPositives": 18
   },
   {
     "name": "Lioni",
@@ -2869,7 +3823,10 @@
     "region": "Campania",
     "istat": "064044",
     "latitude": "44.47708439",
-    "longitude": "7.28769499"
+    "longitude": "7.28769499",
+    "numberOfVaccines": 7762,
+    "numberOfSwabs": 6020,
+    "numberOfPositives": 18
   },
   {
     "name": "Luogosano",
@@ -2878,7 +3835,10 @@
     "region": "Campania",
     "istat": "064045",
     "latitude": "44.81950243",
-    "longitude": "7.62496057"
+    "longitude": "7.62496057",
+    "numberOfVaccines": 9379,
+    "numberOfSwabs": 3564,
+    "numberOfPositives": 10
   },
   {
     "name": "Manocalzati",
@@ -2887,7 +3847,10 @@
     "region": "Campania",
     "istat": "064046",
     "latitude": "44.75647805",
-    "longitude": "8.03015252"
+    "longitude": "8.03015252",
+    "numberOfVaccines": 6760,
+    "numberOfSwabs": 7611,
+    "numberOfPositives": 1
   },
   {
     "name": "Marzano di Nola",
@@ -2896,7 +3859,10 @@
     "region": "Campania",
     "istat": "064047",
     "latitude": "44.59097136",
-    "longitude": "7.06903166"
+    "longitude": "7.06903166",
+    "numberOfVaccines": 9450,
+    "numberOfSwabs": 7973,
+    "numberOfPositives": 6
   },
   {
     "name": "Melito Irpino",
@@ -2905,7 +3871,10 @@
     "region": "Campania",
     "istat": "064048",
     "latitude": "44.62157124",
-    "longitude": "7.43636974"
+    "longitude": "7.43636974",
+    "numberOfVaccines": 1317,
+    "numberOfSwabs": 1859,
+    "numberOfPositives": 6
   },
   {
     "name": "Mercogliano",
@@ -2914,7 +3883,10 @@
     "region": "Campania",
     "istat": "064049",
     "latitude": "44.44422917",
-    "longitude": "7.63905085"
+    "longitude": "7.63905085",
+    "numberOfVaccines": 1102,
+    "numberOfSwabs": 2612,
+    "numberOfPositives": 19
   },
   {
     "name": "Mirabella Eclano",
@@ -2923,7 +3895,10 @@
     "region": "Campania",
     "istat": "064050",
     "latitude": "44.49257989",
-    "longitude": "8.18598322"
+    "longitude": "8.18598322",
+    "numberOfVaccines": 6402,
+    "numberOfSwabs": 6098,
+    "numberOfPositives": 16
   },
   {
     "name": "Montaguto",
@@ -2932,7 +3907,10 @@
     "region": "Campania",
     "istat": "064051",
     "latitude": "44.77533089",
-    "longitude": "8.03153502"
+    "longitude": "8.03153502",
+    "numberOfVaccines": 2671,
+    "numberOfSwabs": 2032,
+    "numberOfPositives": 13
   },
   {
     "name": "Montecalvo Irpino",
@@ -2941,7 +3919,10 @@
     "region": "Campania",
     "istat": "064052",
     "latitude": "44.42777401",
-    "longitude": "7.98188704"
+    "longitude": "7.98188704",
+    "numberOfVaccines": 3715,
+    "numberOfSwabs": 5997,
+    "numberOfPositives": 2
   },
   {
     "name": "Montefalcione",
@@ -2950,7 +3931,10 @@
     "region": "Campania",
     "istat": "064053",
     "latitude": "44.40916447",
-    "longitude": "7.21232892"
+    "longitude": "7.21232892",
+    "numberOfVaccines": 5841,
+    "numberOfSwabs": 6380,
+    "numberOfPositives": 2
   },
   {
     "name": "Monteforte Irpino",
@@ -2959,7 +3943,10 @@
     "region": "Campania",
     "istat": "064054",
     "latitude": "44.35330865",
-    "longitude": "8.13019641"
+    "longitude": "8.13019641",
+    "numberOfVaccines": 8841,
+    "numberOfSwabs": 1471,
+    "numberOfPositives": 17
   },
   {
     "name": "Montefredane",
@@ -2968,7 +3955,10 @@
     "region": "Campania",
     "istat": "064055",
     "latitude": "44.62333766",
-    "longitude": "7.97903465"
+    "longitude": "7.97903465",
+    "numberOfVaccines": 5910,
+    "numberOfSwabs": 1652,
+    "numberOfPositives": 6
   },
   {
     "name": "Montefusco",
@@ -2977,7 +3967,10 @@
     "region": "Campania",
     "istat": "064056",
     "latitude": "44.72604642",
-    "longitude": "8.18943117"
+    "longitude": "8.18943117",
+    "numberOfVaccines": 5524,
+    "numberOfSwabs": 9122,
+    "numberOfPositives": 5
   },
   {
     "name": "Montella",
@@ -2986,7 +3979,10 @@
     "region": "Campania",
     "istat": "064057",
     "latitude": "44.61699553",
-    "longitude": "8.18121378"
+    "longitude": "8.18121378",
+    "numberOfVaccines": 1596,
+    "numberOfSwabs": 8849,
+    "numberOfPositives": 20
   },
   {
     "name": "Montemarano",
@@ -2995,7 +3991,10 @@
     "region": "Campania",
     "istat": "064058",
     "latitude": "44.73944316",
-    "longitude": "7.66273569"
+    "longitude": "7.66273569",
+    "numberOfVaccines": 8578,
+    "numberOfSwabs": 5922,
+    "numberOfPositives": 18
   },
   {
     "name": "Montemiletto",
@@ -3004,7 +4003,10 @@
     "region": "Campania",
     "istat": "064059",
     "latitude": "44.70785741",
-    "longitude": "7.68774788"
+    "longitude": "7.68774788",
+    "numberOfVaccines": 3566,
+    "numberOfSwabs": 3673,
+    "numberOfPositives": 10
   },
   {
     "name": "Monteverde",
@@ -3013,7 +4015,10 @@
     "region": "Campania",
     "istat": "064060",
     "latitude": "44.48257098",
-    "longitude": "7.17967333"
+    "longitude": "7.17967333",
+    "numberOfVaccines": 8608,
+    "numberOfSwabs": 1554,
+    "numberOfPositives": 0
   },
   {
     "name": "Montoro Inferiore",
@@ -3023,7 +4028,10 @@
     "deleted": true,
     "istat": "064061",
     "latitude": "44.50412404",
-    "longitude": "7.59014854"
+    "longitude": "7.59014854",
+    "numberOfVaccines": 5425,
+    "numberOfSwabs": 2735,
+    "numberOfPositives": 4
   },
   {
     "name": "Montoro Superiore",
@@ -3033,7 +4041,10 @@
     "deleted": true,
     "istat": "064062",
     "latitude": "44.79952425",
-    "longitude": "7.82056601"
+    "longitude": "7.82056601",
+    "numberOfVaccines": 1060,
+    "numberOfSwabs": 5500,
+    "numberOfPositives": 9
   },
   {
     "name": "Morra De Sanctis",
@@ -3042,7 +4053,10 @@
     "region": "Campania",
     "istat": "064063",
     "latitude": "44.57433971",
-    "longitude": "8.09783957"
+    "longitude": "8.09783957",
+    "numberOfVaccines": 7524,
+    "numberOfSwabs": 2010,
+    "numberOfPositives": 20
   },
   {
     "name": "Moschiano",
@@ -3051,7 +4065,10 @@
     "region": "Campania",
     "istat": "064064",
     "latitude": "44.38316033",
-    "longitude": "7.46788805"
+    "longitude": "7.46788805",
+    "numberOfVaccines": 8829,
+    "numberOfSwabs": 4443,
+    "numberOfPositives": 10
   },
   {
     "name": "Mugnano del Cardinale",
@@ -3060,7 +4077,10 @@
     "region": "Campania",
     "istat": "064065",
     "latitude": "44.63475191",
-    "longitude": "7.79316738"
+    "longitude": "7.79316738",
+    "numberOfVaccines": 3958,
+    "numberOfSwabs": 2846,
+    "numberOfPositives": 17
   },
   {
     "name": "Nusco",
@@ -3069,7 +4089,10 @@
     "region": "Campania",
     "istat": "064066",
     "latitude": "44.38623533",
-    "longitude": "8.03521716"
+    "longitude": "8.03521716",
+    "numberOfVaccines": 3552,
+    "numberOfSwabs": 9342,
+    "numberOfPositives": 5
   },
   {
     "name": "Ospedaletto d'Alpinolo",
@@ -3078,7 +4101,10 @@
     "region": "Campania",
     "istat": "064067",
     "latitude": "44.65222548",
-    "longitude": "7.85820345"
+    "longitude": "7.85820345",
+    "numberOfVaccines": 3138,
+    "numberOfSwabs": 3935,
+    "numberOfPositives": 4
   },
   {
     "name": "Pago del Vallo di Lauro",
@@ -3087,7 +4113,10 @@
     "region": "Campania",
     "istat": "064068",
     "latitude": "44.32477035",
-    "longitude": "7.67788414"
+    "longitude": "7.67788414",
+    "numberOfVaccines": 2008,
+    "numberOfSwabs": 5739,
+    "numberOfPositives": 4
   },
   {
     "name": "Parolise",
@@ -3096,7 +4125,10 @@
     "region": "Campania",
     "istat": "064069",
     "latitude": "44.43506854",
-    "longitude": "7.92622597"
+    "longitude": "7.92622597",
+    "numberOfVaccines": 7216,
+    "numberOfSwabs": 2011,
+    "numberOfPositives": 1
   },
   {
     "name": "Paternopoli",
@@ -3105,7 +4137,10 @@
     "region": "Campania",
     "istat": "064070",
     "latitude": "44.56310368",
-    "longitude": "8.03050943"
+    "longitude": "8.03050943",
+    "numberOfVaccines": 6349,
+    "numberOfSwabs": 5409,
+    "numberOfPositives": 15
   },
   {
     "name": "Petruro Irpino",
@@ -3114,7 +4149,10 @@
     "region": "Campania",
     "istat": "064071",
     "latitude": "44.4821472",
-    "longitude": "7.91198215"
+    "longitude": "7.91198215",
+    "numberOfVaccines": 7293,
+    "numberOfSwabs": 4207,
+    "numberOfPositives": 20
   },
   {
     "name": "Pietradefusi",
@@ -3123,7 +4161,10 @@
     "region": "Campania",
     "istat": "064072",
     "latitude": "44.73553903",
-    "longitude": "7.96129163"
+    "longitude": "7.96129163",
+    "numberOfVaccines": 9394,
+    "numberOfSwabs": 1202,
+    "numberOfPositives": 7
   },
   {
     "name": "Pietrastornina",
@@ -3132,7 +4173,10 @@
     "region": "Campania",
     "istat": "064073",
     "latitude": "44.5808616",
-    "longitude": "8.19186669"
+    "longitude": "8.19186669",
+    "numberOfVaccines": 2855,
+    "numberOfSwabs": 5731,
+    "numberOfPositives": 17
   },
   {
     "name": "Prata di Principato Ultra",
@@ -3141,7 +4185,10 @@
     "region": "Campania",
     "istat": "064074",
     "latitude": "44.66906362",
-    "longitude": "8.19855921"
+    "longitude": "8.19855921",
+    "numberOfVaccines": 9897,
+    "numberOfSwabs": 6483,
+    "numberOfPositives": 17
   },
   {
     "name": "Pratola Serra",
@@ -3150,7 +4197,10 @@
     "region": "Campania",
     "istat": "064075",
     "latitude": "44.56461241",
-    "longitude": "7.48493751"
+    "longitude": "7.48493751",
+    "numberOfVaccines": 2512,
+    "numberOfSwabs": 6294,
+    "numberOfPositives": 7
   },
   {
     "name": "Quadrelle",
@@ -3159,7 +4209,10 @@
     "region": "Campania",
     "istat": "064076",
     "latitude": "44.57315552",
-    "longitude": "8.12818957"
+    "longitude": "8.12818957",
+    "numberOfVaccines": 4187,
+    "numberOfSwabs": 7843,
+    "numberOfPositives": 4
   },
   {
     "name": "Quindici",
@@ -3168,7 +4221,10 @@
     "region": "Campania",
     "istat": "064077",
     "latitude": "44.69910296",
-    "longitude": "7.15718954"
+    "longitude": "7.15718954",
+    "numberOfVaccines": 2027,
+    "numberOfSwabs": 7252,
+    "numberOfPositives": 14
   },
   {
     "name": "Roccabascerana",
@@ -3177,7 +4233,10 @@
     "region": "Campania",
     "istat": "064078",
     "latitude": "44.39329624",
-    "longitude": "7.55117163"
+    "longitude": "7.55117163",
+    "numberOfVaccines": 2623,
+    "numberOfSwabs": 2488,
+    "numberOfPositives": 16
   },
   {
     "name": "Rocca San Felice",
@@ -3186,7 +4245,10 @@
     "region": "Campania",
     "istat": "064079",
     "latitude": "44.31526154",
-    "longitude": "7.29751308"
+    "longitude": "7.29751308",
+    "numberOfVaccines": 9282,
+    "numberOfSwabs": 7072,
+    "numberOfPositives": 0
   },
   {
     "name": "Rotondi",
@@ -3195,7 +4257,10 @@
     "region": "Campania",
     "istat": "064080",
     "latitude": "44.65139204",
-    "longitude": "8.02766887"
+    "longitude": "8.02766887",
+    "numberOfVaccines": 8332,
+    "numberOfSwabs": 8903,
+    "numberOfPositives": 9
   },
   {
     "name": "Salza Irpina",
@@ -3204,7 +4269,10 @@
     "region": "Campania",
     "istat": "064081",
     "latitude": "44.53009052",
-    "longitude": "7.94516725"
+    "longitude": "7.94516725",
+    "numberOfVaccines": 9718,
+    "numberOfSwabs": 3634,
+    "numberOfPositives": 19
   },
   {
     "name": "San Mango sul Calore",
@@ -3213,7 +4281,10 @@
     "region": "Campania",
     "istat": "064082",
     "latitude": "44.46697823",
-    "longitude": "7.36331795"
+    "longitude": "7.36331795",
+    "numberOfVaccines": 5476,
+    "numberOfSwabs": 2095,
+    "numberOfPositives": 8
   },
   {
     "name": "San Martino Valle Caudina",
@@ -3222,7 +4293,10 @@
     "region": "Campania",
     "istat": "064083",
     "latitude": "44.53976498",
-    "longitude": "7.08963389"
+    "longitude": "7.08963389",
+    "numberOfVaccines": 1928,
+    "numberOfSwabs": 4299,
+    "numberOfPositives": 16
   },
   {
     "name": "San Michele di Serino",
@@ -3231,7 +4305,10 @@
     "region": "Campania",
     "istat": "064084",
     "latitude": "44.24075683",
-    "longitude": "7.39780279"
+    "longitude": "7.39780279",
+    "numberOfVaccines": 2171,
+    "numberOfSwabs": 9702,
+    "numberOfPositives": 4
   },
   {
     "name": "San Nicola Baronia",
@@ -3240,7 +4317,10 @@
     "region": "Campania",
     "istat": "064085",
     "latitude": "44.68175309",
-    "longitude": "7.37219219"
+    "longitude": "7.37219219",
+    "numberOfVaccines": 6912,
+    "numberOfSwabs": 3705,
+    "numberOfPositives": 0
   },
   {
     "name": "San Potito Ultra",
@@ -3249,7 +4329,10 @@
     "region": "Campania",
     "istat": "064086",
     "latitude": "44.51169894",
-    "longitude": "7.91702082"
+    "longitude": "7.91702082",
+    "numberOfVaccines": 2274,
+    "numberOfSwabs": 4652,
+    "numberOfPositives": 19
   },
   {
     "name": "San Sossio Baronia",
@@ -3258,7 +4341,10 @@
     "region": "Campania",
     "istat": "064087",
     "latitude": "44.80542638",
-    "longitude": "7.58066365"
+    "longitude": "7.58066365",
+    "numberOfVaccines": 9095,
+    "numberOfSwabs": 6963,
+    "numberOfPositives": 14
   },
   {
     "name": "Santa Lucia di Serino",
@@ -3267,7 +4353,10 @@
     "region": "Campania",
     "istat": "064088",
     "latitude": "44.54335973",
-    "longitude": "8.10417587"
+    "longitude": "8.10417587",
+    "numberOfVaccines": 3605,
+    "numberOfSwabs": 5356,
+    "numberOfPositives": 11
   },
   {
     "name": "Sant'Andrea di Conza",
@@ -3276,7 +4365,10 @@
     "region": "Campania",
     "istat": "064089",
     "latitude": "44.549398",
-    "longitude": "7.72487008"
+    "longitude": "7.72487008",
+    "numberOfVaccines": 7783,
+    "numberOfSwabs": 8721,
+    "numberOfPositives": 13
   },
   {
     "name": "Sant'Angelo all'Esca",
@@ -3285,7 +4377,10 @@
     "region": "Campania",
     "istat": "064090",
     "latitude": "44.28747375",
-    "longitude": "7.80709202"
+    "longitude": "7.80709202",
+    "numberOfVaccines": 2891,
+    "numberOfSwabs": 3930,
+    "numberOfPositives": 3
   },
   {
     "name": "Sant'Angelo a Scala",
@@ -3294,7 +4389,10 @@
     "region": "Campania",
     "istat": "064091",
     "latitude": "44.30202535",
-    "longitude": "7.79831038"
+    "longitude": "7.79831038",
+    "numberOfVaccines": 4980,
+    "numberOfSwabs": 1301,
+    "numberOfPositives": 5
   },
   {
     "name": "Sant'Angelo dei Lombardi",
@@ -3303,7 +4401,10 @@
     "region": "Campania",
     "istat": "064092",
     "latitude": "44.571357",
-    "longitude": "7.27564416"
+    "longitude": "7.27564416",
+    "numberOfVaccines": 1701,
+    "numberOfSwabs": 7354,
+    "numberOfPositives": 4
   },
   {
     "name": "Santa Paolina",
@@ -3312,7 +4413,10 @@
     "region": "Campania",
     "istat": "064093",
     "latitude": "44.33524752",
-    "longitude": "7.40676156"
+    "longitude": "7.40676156",
+    "numberOfVaccines": 9239,
+    "numberOfSwabs": 7765,
+    "numberOfPositives": 18
   },
   {
     "name": "Santo Stefano del Sole",
@@ -3321,7 +4425,10 @@
     "region": "Campania",
     "istat": "064095",
     "latitude": "44.19729282",
-    "longitude": "8.02988403"
+    "longitude": "8.02988403",
+    "numberOfVaccines": 5047,
+    "numberOfSwabs": 8838,
+    "numberOfPositives": 7
   },
   {
     "name": "Savignano Irpino",
@@ -3330,7 +4437,10 @@
     "region": "Campania",
     "istat": "064096",
     "latitude": "44.58769184",
-    "longitude": "7.6627259"
+    "longitude": "7.6627259",
+    "numberOfVaccines": 7208,
+    "numberOfSwabs": 2738,
+    "numberOfPositives": 4
   },
   {
     "name": "Scampitella",
@@ -3339,7 +4449,10 @@
     "region": "Campania",
     "istat": "064097",
     "latitude": "44.51186",
-    "longitude": "8.13511748"
+    "longitude": "8.13511748",
+    "numberOfVaccines": 6854,
+    "numberOfSwabs": 3005,
+    "numberOfPositives": 8
   },
   {
     "name": "Senerchia",
@@ -3348,7 +4461,10 @@
     "region": "Campania",
     "istat": "064098",
     "latitude": "44.46169553",
-    "longitude": "8.16725259"
+    "longitude": "8.16725259",
+    "numberOfVaccines": 8403,
+    "numberOfSwabs": 6049,
+    "numberOfPositives": 8
   },
   {
     "name": "Serino",
@@ -3357,7 +4473,10 @@
     "region": "Campania",
     "istat": "064099",
     "latitude": "44.80485973",
-    "longitude": "8.09995734"
+    "longitude": "8.09995734",
+    "numberOfVaccines": 4071,
+    "numberOfSwabs": 9615,
+    "numberOfPositives": 11
   },
   {
     "name": "Sirignano",
@@ -3366,7 +4485,10 @@
     "region": "Campania",
     "istat": "064100",
     "latitude": "44.6565379",
-    "longitude": "7.98221368"
+    "longitude": "7.98221368",
+    "numberOfVaccines": 5814,
+    "numberOfSwabs": 9113,
+    "numberOfPositives": 7
   },
   {
     "name": "Solofra",
@@ -3375,7 +4497,10 @@
     "region": "Campania",
     "istat": "064101",
     "latitude": "44.73780446",
-    "longitude": "8.03367466"
+    "longitude": "8.03367466",
+    "numberOfVaccines": 3935,
+    "numberOfSwabs": 8419,
+    "numberOfPositives": 5
   },
   {
     "name": "Sorbo Serpico",
@@ -3384,7 +4509,10 @@
     "region": "Campania",
     "istat": "064102",
     "latitude": "44.44353291",
-    "longitude": "8.01250347"
+    "longitude": "8.01250347",
+    "numberOfVaccines": 6477,
+    "numberOfSwabs": 5224,
+    "numberOfPositives": 5
   },
   {
     "name": "Sperone",
@@ -3393,7 +4521,10 @@
     "region": "Campania",
     "istat": "064103",
     "latitude": "44.58729447",
-    "longitude": "7.38154761"
+    "longitude": "7.38154761",
+    "numberOfVaccines": 4081,
+    "numberOfSwabs": 5394,
+    "numberOfPositives": 19
   },
   {
     "name": "Sturno",
@@ -3402,7 +4533,10 @@
     "region": "Campania",
     "istat": "064104",
     "latitude": "44.62466066",
-    "longitude": "7.55533712"
+    "longitude": "7.55533712",
+    "numberOfVaccines": 2679,
+    "numberOfSwabs": 9037,
+    "numberOfPositives": 15
   },
   {
     "name": "Summonte",
@@ -3411,7 +4545,10 @@
     "region": "Campania",
     "istat": "064105",
     "latitude": "44.63734577",
-    "longitude": "7.93346395"
+    "longitude": "7.93346395",
+    "numberOfVaccines": 2693,
+    "numberOfSwabs": 5078,
+    "numberOfPositives": 7
   },
   {
     "name": "Taurano",
@@ -3420,7 +4557,10 @@
     "region": "Campania",
     "istat": "064106",
     "latitude": "44.60460498",
-    "longitude": "8.09767172"
+    "longitude": "8.09767172",
+    "numberOfVaccines": 1344,
+    "numberOfSwabs": 7547,
+    "numberOfPositives": 4
   },
   {
     "name": "Taurasi",
@@ -3429,7 +4569,10 @@
     "region": "Campania",
     "istat": "064107",
     "latitude": "44.56023249",
-    "longitude": "7.8835988"
+    "longitude": "7.8835988",
+    "numberOfVaccines": 7281,
+    "numberOfSwabs": 5480,
+    "numberOfPositives": 11
   },
   {
     "name": "Teora",
@@ -3438,7 +4581,10 @@
     "region": "Campania",
     "istat": "064108",
     "latitude": "44.40123357",
-    "longitude": "7.96650568"
+    "longitude": "7.96650568",
+    "numberOfVaccines": 7060,
+    "numberOfSwabs": 1821,
+    "numberOfPositives": 6
   },
   {
     "name": "Torella dei Lombardi",
@@ -3447,7 +4593,10 @@
     "region": "Campania",
     "istat": "064109",
     "latitude": "44.53765937",
-    "longitude": "8.15661951"
+    "longitude": "8.15661951",
+    "numberOfVaccines": 3626,
+    "numberOfSwabs": 1845,
+    "numberOfPositives": 5
   },
   {
     "name": "Torre Le Nocelle",
@@ -3456,7 +4605,10 @@
     "region": "Campania",
     "istat": "064110",
     "latitude": "44.20129244",
-    "longitude": "7.57607947"
+    "longitude": "7.57607947",
+    "numberOfVaccines": 8341,
+    "numberOfSwabs": 9225,
+    "numberOfPositives": 0
   },
   {
     "name": "Torrioni",
@@ -3465,7 +4617,10 @@
     "region": "Campania",
     "istat": "064111",
     "latitude": "44.30669736",
-    "longitude": "7.97963402"
+    "longitude": "7.97963402",
+    "numberOfVaccines": 1467,
+    "numberOfSwabs": 6760,
+    "numberOfPositives": 18
   },
   {
     "name": "Trevico",
@@ -3474,7 +4629,10 @@
     "region": "Campania",
     "istat": "064112",
     "latitude": "44.49985871",
-    "longitude": "7.17920368"
+    "longitude": "7.17920368",
+    "numberOfVaccines": 6560,
+    "numberOfSwabs": 2659,
+    "numberOfPositives": 20
   },
   {
     "name": "Tufo",
@@ -3483,7 +4641,10 @@
     "region": "Campania",
     "istat": "064113",
     "latitude": "44.76646823",
-    "longitude": "8.06781101"
+    "longitude": "8.06781101",
+    "numberOfVaccines": 1222,
+    "numberOfSwabs": 3090,
+    "numberOfPositives": 20
   },
   {
     "name": "Vallata",
@@ -3492,7 +4653,10 @@
     "region": "Campania",
     "istat": "064114",
     "latitude": "44.45810047",
-    "longitude": "7.79955227"
+    "longitude": "7.79955227",
+    "numberOfVaccines": 9923,
+    "numberOfSwabs": 9626,
+    "numberOfPositives": 16
   },
   {
     "name": "Vallesaccarda",
@@ -3501,7 +4665,10 @@
     "region": "Campania",
     "istat": "064115",
     "latitude": "44.68461474",
-    "longitude": "8.15033106"
+    "longitude": "8.15033106",
+    "numberOfVaccines": 4830,
+    "numberOfSwabs": 4235,
+    "numberOfPositives": 1
   },
   {
     "name": "Venticano",
@@ -3510,7 +4677,10 @@
     "region": "Campania",
     "istat": "064116",
     "latitude": "44.61433199",
-    "longitude": "7.48626156"
+    "longitude": "7.48626156",
+    "numberOfVaccines": 5330,
+    "numberOfSwabs": 2009,
+    "numberOfPositives": 8
   },
   {
     "name": "Villamaina",
@@ -3519,7 +4689,10 @@
     "region": "Campania",
     "istat": "064117",
     "latitude": "44.66149658",
-    "longitude": "7.7291516"
+    "longitude": "7.7291516",
+    "numberOfVaccines": 8164,
+    "numberOfSwabs": 4350,
+    "numberOfPositives": 14
   },
   {
     "name": "Villanova del Battista",
@@ -3528,7 +4701,10 @@
     "region": "Campania",
     "istat": "064118",
     "latitude": "44.40264638",
-    "longitude": "7.68685767"
+    "longitude": "7.68685767",
+    "numberOfVaccines": 9414,
+    "numberOfSwabs": 5876,
+    "numberOfPositives": 14
   },
   {
     "name": "Volturara Irpina",
@@ -3537,7 +4713,10 @@
     "region": "Campania",
     "istat": "064119",
     "latitude": "44.4574949",
-    "longitude": "7.0944983"
+    "longitude": "7.0944983",
+    "numberOfVaccines": 7856,
+    "numberOfSwabs": 2890,
+    "numberOfPositives": 17
   },
   {
     "name": "Zungoli",
@@ -3546,7 +4725,10 @@
     "region": "Campania",
     "istat": "064120",
     "latitude": "44.45218424",
-    "longitude": "7.98298599"
+    "longitude": "7.98298599",
+    "numberOfVaccines": 3552,
+    "numberOfSwabs": 4749,
+    "numberOfPositives": 6
   },
   {
     "name": "Montoro",
@@ -3555,7 +4737,10 @@
     "region": "Campania",
     "istat": "064121",
     "latitude": "44.62641683",
-    "longitude": "7.36631509"
+    "longitude": "7.36631509",
+    "numberOfVaccines": 6900,
+    "numberOfSwabs": 6283,
+    "numberOfPositives": 10
   },
   {
     "name": "Acerno",
@@ -3564,7 +4749,10 @@
     "region": "Campania",
     "istat": "065001",
     "latitude": "44.79070477",
-    "longitude": "8.25110248"
+    "longitude": "8.25110248",
+    "numberOfVaccines": 7257,
+    "numberOfSwabs": 9991,
+    "numberOfPositives": 5
   },
   {
     "name": "Agropoli",
@@ -3573,7 +4761,10 @@
     "region": "Campania",
     "istat": "065002",
     "latitude": "45.07801783",
-    "longitude": "7.9715283"
+    "longitude": "7.9715283",
+    "numberOfVaccines": 6420,
+    "numberOfSwabs": 1050,
+    "numberOfPositives": 7
   },
   {
     "name": "Albanella",
@@ -3582,7 +4773,10 @@
     "region": "Campania",
     "istat": "065003",
     "latitude": "44.84544206",
-    "longitude": "8.13378727"
+    "longitude": "8.13378727",
+    "numberOfVaccines": 8895,
+    "numberOfSwabs": 9856,
+    "numberOfPositives": 14
   },
   {
     "name": "Alfano",
@@ -3591,7 +4785,10 @@
     "region": "Campania",
     "istat": "065004",
     "latitude": "45.09973309",
-    "longitude": "8.00198071"
+    "longitude": "8.00198071",
+    "numberOfVaccines": 5403,
+    "numberOfSwabs": 5666,
+    "numberOfPositives": 2
   },
   {
     "name": "Altavilla Silentina",
@@ -3600,7 +4797,10 @@
     "region": "Campania",
     "istat": "065005",
     "latitude": "44.89912921",
-    "longitude": "8.20414255"
+    "longitude": "8.20414255",
+    "numberOfVaccines": 3398,
+    "numberOfSwabs": 9232,
+    "numberOfPositives": 4
   },
   {
     "name": "Amalfi",
@@ -3609,7 +4809,10 @@
     "region": "Campania",
     "istat": "065006",
     "latitude": "44.87469786",
-    "longitude": "8.26765893"
+    "longitude": "8.26765893",
+    "numberOfVaccines": 3537,
+    "numberOfSwabs": 1604,
+    "numberOfPositives": 2
   },
   {
     "name": "Angri",
@@ -3618,7 +4821,10 @@
     "region": "Campania",
     "istat": "065007",
     "latitude": "44.90699703",
-    "longitude": "8.09110376"
+    "longitude": "8.09110376",
+    "numberOfVaccines": 5505,
+    "numberOfSwabs": 3921,
+    "numberOfPositives": 19
   },
   {
     "name": "Aquara",
@@ -3627,7 +4833,10 @@
     "region": "Campania",
     "istat": "065008",
     "latitude": "44.83048705",
-    "longitude": "8.33010424"
+    "longitude": "8.33010424",
+    "numberOfVaccines": 7926,
+    "numberOfSwabs": 4731,
+    "numberOfPositives": 6
   },
   {
     "name": "Ascea",
@@ -3636,7 +4845,10 @@
     "region": "Campania",
     "istat": "065009",
     "latitude": "45.09490798",
-    "longitude": "7.95404954"
+    "longitude": "7.95404954",
+    "numberOfVaccines": 4878,
+    "numberOfSwabs": 6634,
+    "numberOfPositives": 7
   },
   {
     "name": "Atena Lucana",
@@ -3645,7 +4857,10 @@
     "region": "Campania",
     "istat": "065010",
     "latitude": "44.79063282",
-    "longitude": "8.44027285"
+    "longitude": "8.44027285",
+    "numberOfVaccines": 6591,
+    "numberOfSwabs": 4315,
+    "numberOfPositives": 20
   },
   {
     "name": "Atrani",
@@ -3654,7 +4869,10 @@
     "region": "Campania",
     "istat": "065011",
     "latitude": "44.66384285",
-    "longitude": "8.29360889"
+    "longitude": "8.29360889",
+    "numberOfVaccines": 9004,
+    "numberOfSwabs": 6295,
+    "numberOfPositives": 7
   },
   {
     "name": "Auletta",
@@ -3663,7 +4881,10 @@
     "region": "Campania",
     "istat": "065012",
     "latitude": "45.02254621",
-    "longitude": "7.95051282"
+    "longitude": "7.95051282",
+    "numberOfVaccines": 7468,
+    "numberOfSwabs": 2168,
+    "numberOfPositives": 19
   },
   {
     "name": "Baronissi",
@@ -3672,7 +4893,10 @@
     "region": "Campania",
     "istat": "065013",
     "latitude": "44.73654927",
-    "longitude": "8.33562741"
+    "longitude": "8.33562741",
+    "numberOfVaccines": 3701,
+    "numberOfSwabs": 1052,
+    "numberOfPositives": 20
   },
   {
     "name": "Battipaglia",
@@ -3681,7 +4905,10 @@
     "region": "Campania",
     "istat": "065014",
     "latitude": "45.00626143",
-    "longitude": "8.25732636"
+    "longitude": "8.25732636",
+    "numberOfVaccines": 5594,
+    "numberOfSwabs": 2232,
+    "numberOfPositives": 16
   },
   {
     "name": "Bellosguardo",
@@ -3690,7 +4917,10 @@
     "region": "Campania",
     "istat": "065015",
     "latitude": "44.73947663",
-    "longitude": "8.22718552"
+    "longitude": "8.22718552",
+    "numberOfVaccines": 9841,
+    "numberOfSwabs": 1530,
+    "numberOfPositives": 6
   },
   {
     "name": "Bracigliano",
@@ -3699,7 +4929,10 @@
     "region": "Campania",
     "istat": "065016",
     "latitude": "44.98865953",
-    "longitude": "8.09088049"
+    "longitude": "8.09088049",
+    "numberOfVaccines": 1512,
+    "numberOfSwabs": 6003,
+    "numberOfPositives": 18
   },
   {
     "name": "Buccino",
@@ -3708,7 +4941,10 @@
     "region": "Campania",
     "istat": "065017",
     "latitude": "44.71987867",
-    "longitude": "8.28820301"
+    "longitude": "8.28820301",
+    "numberOfVaccines": 4576,
+    "numberOfSwabs": 8205,
+    "numberOfPositives": 12
   },
   {
     "name": "Buonabitacolo",
@@ -3717,7 +4953,10 @@
     "region": "Campania",
     "istat": "065018",
     "latitude": "44.90038386",
-    "longitude": "8.03072454"
+    "longitude": "8.03072454",
+    "numberOfVaccines": 8659,
+    "numberOfSwabs": 9731,
+    "numberOfPositives": 7
   },
   {
     "name": "Caggiano",
@@ -3726,7 +4965,10 @@
     "region": "Campania",
     "istat": "065019",
     "latitude": "45.00422942",
-    "longitude": "8.0081642"
+    "longitude": "8.0081642",
+    "numberOfVaccines": 1480,
+    "numberOfSwabs": 1333,
+    "numberOfPositives": 13
   },
   {
     "name": "Calvanico",
@@ -3735,7 +4977,10 @@
     "region": "Campania",
     "istat": "065020",
     "latitude": "45.02281734",
-    "longitude": "8.33413974"
+    "longitude": "8.33413974",
+    "numberOfVaccines": 5292,
+    "numberOfSwabs": 2428,
+    "numberOfPositives": 0
   },
   {
     "name": "Camerota",
@@ -3744,7 +4989,10 @@
     "region": "Campania",
     "istat": "065021",
     "latitude": "44.68863849",
-    "longitude": "8.30166091"
+    "longitude": "8.30166091",
+    "numberOfVaccines": 9028,
+    "numberOfSwabs": 2458,
+    "numberOfPositives": 13
   },
   {
     "name": "Campagna",
@@ -3753,7 +5001,10 @@
     "region": "Campania",
     "istat": "065022",
     "latitude": "44.75491789",
-    "longitude": "8.1491782"
+    "longitude": "8.1491782",
+    "numberOfVaccines": 9518,
+    "numberOfSwabs": 4577,
+    "numberOfPositives": 6
   },
   {
     "name": "Campora",
@@ -3762,7 +5013,10 @@
     "region": "Campania",
     "istat": "065023",
     "latitude": "44.96144381",
-    "longitude": "8.30609193"
+    "longitude": "8.30609193",
+    "numberOfVaccines": 3325,
+    "numberOfSwabs": 1261,
+    "numberOfPositives": 17
   },
   {
     "name": "Cannalonga",
@@ -3771,7 +5025,10 @@
     "region": "Campania",
     "istat": "065024",
     "latitude": "44.72061965",
-    "longitude": "8.38119567"
+    "longitude": "8.38119567",
+    "numberOfVaccines": 2636,
+    "numberOfSwabs": 2691,
+    "numberOfPositives": 14
   },
   {
     "name": "Capaccio Paestum",
@@ -3780,7 +5037,10 @@
     "region": "Campania",
     "istat": "065025",
     "latitude": "44.98270999",
-    "longitude": "8.20944516"
+    "longitude": "8.20944516",
+    "numberOfVaccines": 6734,
+    "numberOfSwabs": 1549,
+    "numberOfPositives": 12
   },
   {
     "name": "Casalbuono",
@@ -3789,7 +5049,10 @@
     "region": "Campania",
     "istat": "065026",
     "latitude": "44.92400563",
-    "longitude": "8.07474856"
+    "longitude": "8.07474856",
+    "numberOfVaccines": 4098,
+    "numberOfSwabs": 1664,
+    "numberOfPositives": 2
   },
   {
     "name": "Casaletto Spartano",
@@ -3798,7 +5061,10 @@
     "region": "Campania",
     "istat": "065027",
     "latitude": "44.75030841",
-    "longitude": "8.43283445"
+    "longitude": "8.43283445",
+    "numberOfVaccines": 7500,
+    "numberOfSwabs": 8763,
+    "numberOfPositives": 20
   },
   {
     "name": "Casal Velino",
@@ -3807,7 +5073,10 @@
     "region": "Campania",
     "istat": "065028",
     "latitude": "44.87876512",
-    "longitude": "8.31368944"
+    "longitude": "8.31368944",
+    "numberOfVaccines": 7893,
+    "numberOfSwabs": 4518,
+    "numberOfPositives": 6
   },
   {
     "name": "Caselle in Pittari",
@@ -3816,7 +5085,10 @@
     "region": "Campania",
     "istat": "065029",
     "latitude": "44.80181402",
-    "longitude": "8.41226127"
+    "longitude": "8.41226127",
+    "numberOfVaccines": 7594,
+    "numberOfSwabs": 9310,
+    "numberOfPositives": 20
   },
   {
     "name": "Castelcivita",
@@ -3825,7 +5097,10 @@
     "region": "Campania",
     "istat": "065030",
     "latitude": "44.78821506",
-    "longitude": "8.28563618"
+    "longitude": "8.28563618",
+    "numberOfVaccines": 6851,
+    "numberOfSwabs": 5344,
+    "numberOfPositives": 1
   },
   {
     "name": "Castellabate",
@@ -3834,7 +5109,10 @@
     "region": "Campania",
     "istat": "065031",
     "latitude": "45.04134189",
-    "longitude": "7.96362449"
+    "longitude": "7.96362449",
+    "numberOfVaccines": 1668,
+    "numberOfSwabs": 7669,
+    "numberOfPositives": 6
   },
   {
     "name": "Castelnuovo Cilento",
@@ -3843,7 +5121,10 @@
     "region": "Campania",
     "istat": "065032",
     "latitude": "44.71879737",
-    "longitude": "8.41596578"
+    "longitude": "8.41596578",
+    "numberOfVaccines": 6580,
+    "numberOfSwabs": 9740,
+    "numberOfPositives": 2
   },
   {
     "name": "Castelnuovo di Conza",
@@ -3852,7 +5133,10 @@
     "region": "Campania",
     "istat": "065033",
     "latitude": "44.86599664",
-    "longitude": "7.94500108"
+    "longitude": "7.94500108",
+    "numberOfVaccines": 3898,
+    "numberOfSwabs": 8523,
+    "numberOfPositives": 15
   },
   {
     "name": "Castel San Giorgio",
@@ -3861,7 +5145,10 @@
     "region": "Campania",
     "istat": "065034",
     "latitude": "44.85663333",
-    "longitude": "8.12297302"
+    "longitude": "8.12297302",
+    "numberOfVaccines": 2307,
+    "numberOfSwabs": 4848,
+    "numberOfPositives": 9
   },
   {
     "name": "Castel San Lorenzo",
@@ -3870,7 +5157,10 @@
     "region": "Campania",
     "istat": "065035",
     "latitude": "45.04976869",
-    "longitude": "8.03676471"
+    "longitude": "8.03676471",
+    "numberOfVaccines": 2313,
+    "numberOfSwabs": 4038,
+    "numberOfPositives": 8
   },
   {
     "name": "Castiglione del Genovesi",
@@ -3879,7 +5169,10 @@
     "region": "Campania",
     "istat": "065036",
     "latitude": "44.87267038",
-    "longitude": "8.36020871"
+    "longitude": "8.36020871",
+    "numberOfVaccines": 1084,
+    "numberOfSwabs": 9504,
+    "numberOfPositives": 17
   },
   {
     "name": "Cava de' Tirreni",
@@ -3888,7 +5181,10 @@
     "region": "Campania",
     "istat": "065037",
     "latitude": "44.64799259",
-    "longitude": "8.24320136"
+    "longitude": "8.24320136",
+    "numberOfVaccines": 2977,
+    "numberOfSwabs": 7595,
+    "numberOfPositives": 20
   },
   {
     "name": "Celle di Bulgheria",
@@ -3897,7 +5193,10 @@
     "region": "Campania",
     "istat": "065038",
     "latitude": "44.98505458",
-    "longitude": "8.11780752"
+    "longitude": "8.11780752",
+    "numberOfVaccines": 8487,
+    "numberOfSwabs": 5970,
+    "numberOfPositives": 6
   },
   {
     "name": "Centola",
@@ -3906,7 +5205,10 @@
     "region": "Campania",
     "istat": "065039",
     "latitude": "44.97484379",
-    "longitude": "8.10016648"
+    "longitude": "8.10016648",
+    "numberOfVaccines": 6299,
+    "numberOfSwabs": 1395,
+    "numberOfPositives": 19
   },
   {
     "name": "Ceraso",
@@ -3915,7 +5217,10 @@
     "region": "Campania",
     "istat": "065040",
     "latitude": "44.82617595",
-    "longitude": "8.0048209"
+    "longitude": "8.0048209",
+    "numberOfVaccines": 5689,
+    "numberOfSwabs": 7043,
+    "numberOfPositives": 9
   },
   {
     "name": "Cetara",
@@ -3924,7 +5229,10 @@
     "region": "Campania",
     "istat": "065041",
     "latitude": "44.72821487",
-    "longitude": "8.14514109"
+    "longitude": "8.14514109",
+    "numberOfVaccines": 4246,
+    "numberOfSwabs": 2801,
+    "numberOfPositives": 5
   },
   {
     "name": "Cicerale",
@@ -3933,7 +5241,10 @@
     "region": "Campania",
     "istat": "065042",
     "latitude": "45.08718184",
-    "longitude": "8.03923935"
+    "longitude": "8.03923935",
+    "numberOfVaccines": 9945,
+    "numberOfSwabs": 9946,
+    "numberOfPositives": 0
   },
   {
     "name": "Colliano",
@@ -3942,7 +5253,10 @@
     "region": "Campania",
     "istat": "065043",
     "latitude": "40.72519023",
-    "longitude": "15.29243072"
+    "longitude": "15.29243072",
+    "numberOfVaccines": 9488,
+    "numberOfSwabs": 6064,
+    "numberOfPositives": 5
   },
   {
     "name": "Conca dei Marini",
@@ -3951,7 +5265,10 @@
     "region": "Campania",
     "istat": "065044",
     "latitude": "45.00074703",
-    "longitude": "8.14513636"
+    "longitude": "8.14513636",
+    "numberOfVaccines": 9703,
+    "numberOfSwabs": 8427,
+    "numberOfPositives": 6
   },
   {
     "name": "Controne",
@@ -3960,7 +5277,10 @@
     "region": "Campania",
     "istat": "065045",
     "latitude": "44.95969083",
-    "longitude": "8.05757115"
+    "longitude": "8.05757115",
+    "numberOfVaccines": 8697,
+    "numberOfSwabs": 2247,
+    "numberOfPositives": 17
   },
   {
     "name": "Contursi Terme",
@@ -3969,7 +5289,10 @@
     "region": "Campania",
     "istat": "065046",
     "latitude": "45.01522505",
-    "longitude": "8.08959339"
+    "longitude": "8.08959339",
+    "numberOfVaccines": 7932,
+    "numberOfSwabs": 3060,
+    "numberOfPositives": 4
   },
   {
     "name": "Corbara",
@@ -3978,7 +5301,10 @@
     "region": "Campania",
     "istat": "065047",
     "latitude": "44.97953515",
-    "longitude": "8.06192379"
+    "longitude": "8.06192379",
+    "numberOfVaccines": 1978,
+    "numberOfSwabs": 3100,
+    "numberOfPositives": 10
   },
   {
     "name": "Corleto Monforte",
@@ -3987,7 +5313,10 @@
     "region": "Campania",
     "istat": "065048",
     "latitude": "44.82301876",
-    "longitude": "8.35856506"
+    "longitude": "8.35856506",
+    "numberOfVaccines": 5928,
+    "numberOfSwabs": 1626,
+    "numberOfPositives": 0
   },
   {
     "name": "Cuccaro Vetere",
@@ -3996,7 +5325,10 @@
     "region": "Campania",
     "istat": "065049",
     "latitude": "44.99412244",
-    "longitude": "8.13752723"
+    "longitude": "8.13752723",
+    "numberOfVaccines": 4127,
+    "numberOfSwabs": 5728,
+    "numberOfPositives": 6
   },
   {
     "name": "Eboli",
@@ -4005,7 +5337,10 @@
     "region": "Campania",
     "istat": "065050",
     "latitude": "44.78822155",
-    "longitude": "8.18062795"
+    "longitude": "8.18062795",
+    "numberOfVaccines": 7957,
+    "numberOfSwabs": 6419,
+    "numberOfPositives": 8
   },
   {
     "name": "Felitto",
@@ -4014,7 +5349,10 @@
     "region": "Campania",
     "istat": "065051",
     "latitude": "45.04043582",
-    "longitude": "8.09721152"
+    "longitude": "8.09721152",
+    "numberOfVaccines": 2793,
+    "numberOfSwabs": 4641,
+    "numberOfPositives": 6
   },
   {
     "name": "Fisciano",
@@ -4023,7 +5361,10 @@
     "region": "Campania",
     "istat": "065052",
     "latitude": "44.92018688",
-    "longitude": "7.97228137"
+    "longitude": "7.97228137",
+    "numberOfVaccines": 7151,
+    "numberOfSwabs": 4257,
+    "numberOfPositives": 10
   },
   {
     "name": "Furore",
@@ -4032,7 +5373,10 @@
     "region": "Campania",
     "istat": "065053",
     "latitude": "44.87340426",
-    "longitude": "7.99385509"
+    "longitude": "7.99385509",
+    "numberOfVaccines": 9522,
+    "numberOfSwabs": 3705,
+    "numberOfPositives": 1
   },
   {
     "name": "Futani",
@@ -4041,7 +5385,10 @@
     "region": "Campania",
     "istat": "065054",
     "latitude": "44.75337907",
-    "longitude": "8.42218563"
+    "longitude": "8.42218563",
+    "numberOfVaccines": 7905,
+    "numberOfSwabs": 7330,
+    "numberOfPositives": 11
   },
   {
     "name": "Giffoni Sei Casali",
@@ -4050,7 +5397,10 @@
     "region": "Campania",
     "istat": "065055",
     "latitude": "45.00558693",
-    "longitude": "8.17536565"
+    "longitude": "8.17536565",
+    "numberOfVaccines": 6912,
+    "numberOfSwabs": 4507,
+    "numberOfPositives": 19
   },
   {
     "name": "Giffoni Valle Piana",
@@ -4059,7 +5409,10 @@
     "region": "Campania",
     "istat": "065056",
     "latitude": "44.99805155",
-    "longitude": "8.29912278"
+    "longitude": "8.29912278",
+    "numberOfVaccines": 1425,
+    "numberOfSwabs": 7035,
+    "numberOfPositives": 6
   },
   {
     "name": "Gioi",
@@ -4068,7 +5421,10 @@
     "region": "Campania",
     "istat": "065057",
     "latitude": "45.03891548",
-    "longitude": "8.31355703"
+    "longitude": "8.31355703",
+    "numberOfVaccines": 3134,
+    "numberOfSwabs": 3183,
+    "numberOfPositives": 20
   },
   {
     "name": "Giungano",
@@ -4077,7 +5433,10 @@
     "region": "Campania",
     "istat": "065058",
     "latitude": "44.80839835",
-    "longitude": "8.38094573"
+    "longitude": "8.38094573",
+    "numberOfVaccines": 1719,
+    "numberOfSwabs": 6949,
+    "numberOfPositives": 2
   },
   {
     "name": "Ispani",
@@ -4086,7 +5445,10 @@
     "region": "Campania",
     "istat": "065059",
     "latitude": "44.82947547",
-    "longitude": "8.17721468"
+    "longitude": "8.17721468",
+    "numberOfVaccines": 4398,
+    "numberOfSwabs": 8156,
+    "numberOfPositives": 12
   },
   {
     "name": "Laureana Cilento",
@@ -4095,7 +5457,10 @@
     "region": "Campania",
     "istat": "065060",
     "latitude": "44.66896792",
-    "longitude": "8.25852546"
+    "longitude": "8.25852546",
+    "numberOfVaccines": 8549,
+    "numberOfSwabs": 8787,
+    "numberOfPositives": 15
   },
   {
     "name": "Laurino",
@@ -4104,7 +5469,10 @@
     "region": "Campania",
     "istat": "065061",
     "latitude": "44.75977053",
-    "longitude": "8.47682029"
+    "longitude": "8.47682029",
+    "numberOfVaccines": 7300,
+    "numberOfSwabs": 5502,
+    "numberOfPositives": 17
   },
   {
     "name": "Laurito",
@@ -4113,7 +5481,10 @@
     "region": "Campania",
     "istat": "065062",
     "latitude": "44.94435642",
-    "longitude": "8.03423581"
+    "longitude": "8.03423581",
+    "numberOfVaccines": 9052,
+    "numberOfSwabs": 8075,
+    "numberOfPositives": 8
   },
   {
     "name": "Laviano",
@@ -4122,7 +5493,10 @@
     "region": "Campania",
     "istat": "065063",
     "latitude": "44.76255023",
-    "longitude": "8.27793953"
+    "longitude": "8.27793953",
+    "numberOfVaccines": 2878,
+    "numberOfSwabs": 2690,
+    "numberOfPositives": 10
   },
   {
     "name": "Lustra",
@@ -4131,7 +5505,10 @@
     "region": "Campania",
     "istat": "065064",
     "latitude": "44.56923733",
-    "longitude": "8.32920396"
+    "longitude": "8.32920396",
+    "numberOfVaccines": 6522,
+    "numberOfSwabs": 3239,
+    "numberOfPositives": 7
   },
   {
     "name": "Magliano Vetere",
@@ -4140,7 +5517,10 @@
     "region": "Campania",
     "istat": "065065",
     "latitude": "44.77102638",
-    "longitude": "8.44866667"
+    "longitude": "8.44866667",
+    "numberOfVaccines": 3025,
+    "numberOfSwabs": 2668,
+    "numberOfPositives": 10
   },
   {
     "name": "Maiori",
@@ -4149,7 +5529,10 @@
     "region": "Campania",
     "istat": "065066",
     "latitude": "44.81697574",
-    "longitude": "8.2944273"
+    "longitude": "8.2944273",
+    "numberOfVaccines": 6750,
+    "numberOfSwabs": 2105,
+    "numberOfPositives": 0
   },
   {
     "name": "Mercato San Severino",
@@ -4158,7 +5541,10 @@
     "region": "Campania",
     "istat": "065067",
     "latitude": "44.93609673",
-    "longitude": "8.07164087"
+    "longitude": "8.07164087",
+    "numberOfVaccines": 7198,
+    "numberOfSwabs": 8078,
+    "numberOfPositives": 15
   },
   {
     "name": "Minori",
@@ -4167,7 +5553,10 @@
     "region": "Campania",
     "istat": "065068",
     "latitude": "44.64752301",
-    "longitude": "8.32462019"
+    "longitude": "8.32462019",
+    "numberOfVaccines": 3370,
+    "numberOfSwabs": 5008,
+    "numberOfPositives": 14
   },
   {
     "name": "Moio della Civitella",
@@ -4176,7 +5565,10 @@
     "region": "Campania",
     "istat": "065069",
     "latitude": "45.05139958",
-    "longitude": "8.26346587"
+    "longitude": "8.26346587",
+    "numberOfVaccines": 8148,
+    "numberOfSwabs": 4350,
+    "numberOfPositives": 16
   },
   {
     "name": "Montano Antilia",
@@ -4185,7 +5577,10 @@
     "region": "Campania",
     "istat": "065070",
     "latitude": "45.06788298",
-    "longitude": "7.93215605"
+    "longitude": "7.93215605",
+    "numberOfVaccines": 2200,
+    "numberOfSwabs": 4772,
+    "numberOfPositives": 5
   },
   {
     "name": "Montecorice",
@@ -4194,7 +5589,10 @@
     "region": "Campania",
     "istat": "065071",
     "latitude": "44.84884344",
-    "longitude": "8.21869885"
+    "longitude": "8.21869885",
+    "numberOfVaccines": 9204,
+    "numberOfSwabs": 3752,
+    "numberOfPositives": 0
   },
   {
     "name": "Montecorvino Pugliano",
@@ -4203,7 +5601,10 @@
     "region": "Campania",
     "istat": "065072",
     "latitude": "44.69860169",
-    "longitude": "8.39030985"
+    "longitude": "8.39030985",
+    "numberOfVaccines": 7820,
+    "numberOfSwabs": 5007,
+    "numberOfPositives": 1
   },
   {
     "name": "Montecorvino Rovella",
@@ -4212,7 +5613,10 @@
     "region": "Campania",
     "istat": "065073",
     "latitude": "44.98919545",
-    "longitude": "8.02515243"
+    "longitude": "8.02515243",
+    "numberOfVaccines": 6356,
+    "numberOfSwabs": 6597,
+    "numberOfPositives": 12
   },
   {
     "name": "Monteforte Cilento",
@@ -4221,7 +5625,10 @@
     "region": "Campania",
     "istat": "065074",
     "latitude": "44.82860036",
-    "longitude": "8.2573902"
+    "longitude": "8.2573902",
+    "numberOfVaccines": 7594,
+    "numberOfSwabs": 5534,
+    "numberOfPositives": 18
   },
   {
     "name": "Monte San Giacomo",
@@ -4230,7 +5637,10 @@
     "region": "Campania",
     "istat": "065075",
     "latitude": "45.00821528",
-    "longitude": "8.11238215"
+    "longitude": "8.11238215",
+    "numberOfVaccines": 1667,
+    "numberOfSwabs": 9898,
+    "numberOfPositives": 15
   },
   {
     "name": "Montesano sulla Marcellana",
@@ -4239,7 +5649,10 @@
     "region": "Campania",
     "istat": "065076",
     "latitude": "44.82241214",
-    "longitude": "8.23874286"
+    "longitude": "8.23874286",
+    "numberOfVaccines": 1895,
+    "numberOfSwabs": 2372,
+    "numberOfPositives": 7
   },
   {
     "name": "Morigerati",
@@ -4248,7 +5661,10 @@
     "region": "Campania",
     "istat": "065077",
     "latitude": "44.9840347",
-    "longitude": "8.3240069"
+    "longitude": "8.3240069",
+    "numberOfVaccines": 9932,
+    "numberOfSwabs": 7917,
+    "numberOfPositives": 7
   },
   {
     "name": "Nocera Inferiore",
@@ -4257,7 +5673,10 @@
     "region": "Campania",
     "istat": "065078",
     "latitude": "40.74358321",
-    "longitude": "14.64142303"
+    "longitude": "14.64142303",
+    "numberOfVaccines": 2896,
+    "numberOfSwabs": 9266,
+    "numberOfPositives": 15
   },
   {
     "name": "Nocera Superiore",
@@ -4266,7 +5685,10 @@
     "region": "Campania",
     "istat": "065079",
     "latitude": "45.11523742",
-    "longitude": "8.02486752"
+    "longitude": "8.02486752",
+    "numberOfVaccines": 8924,
+    "numberOfSwabs": 8641,
+    "numberOfPositives": 1
   },
   {
     "name": "Novi Velia",
@@ -4275,7 +5697,10 @@
     "region": "Campania",
     "istat": "065080",
     "latitude": "44.77361901",
-    "longitude": "8.35650287"
+    "longitude": "8.35650287",
+    "numberOfVaccines": 7988,
+    "numberOfSwabs": 7085,
+    "numberOfPositives": 18
   },
   {
     "name": "Ogliastro Cilento",
@@ -4284,7 +5709,10 @@
     "region": "Campania",
     "istat": "065081",
     "latitude": "44.58555786",
-    "longitude": "8.24703487"
+    "longitude": "8.24703487",
+    "numberOfVaccines": 3790,
+    "numberOfSwabs": 3056,
+    "numberOfPositives": 8
   },
   {
     "name": "Olevano sul Tusciano",
@@ -4293,7 +5721,10 @@
     "region": "Campania",
     "istat": "065082",
     "latitude": "45.05639415",
-    "longitude": "8.01879254"
+    "longitude": "8.01879254",
+    "numberOfVaccines": 7045,
+    "numberOfSwabs": 1946,
+    "numberOfPositives": 7
   },
   {
     "name": "Oliveto Citra",
@@ -4302,7 +5733,10 @@
     "region": "Campania",
     "istat": "065083",
     "latitude": "45.03325898",
-    "longitude": "8.25013241"
+    "longitude": "8.25013241",
+    "numberOfVaccines": 4105,
+    "numberOfSwabs": 5664,
+    "numberOfPositives": 11
   },
   {
     "name": "Omignano",
@@ -4311,7 +5745,10 @@
     "region": "Campania",
     "istat": "065084",
     "latitude": "45.02529094",
-    "longitude": "8.07208963"
+    "longitude": "8.07208963",
+    "numberOfVaccines": 7371,
+    "numberOfSwabs": 1231,
+    "numberOfPositives": 1
   },
   {
     "name": "Orria",
@@ -4320,7 +5757,10 @@
     "region": "Campania",
     "istat": "065085",
     "latitude": "45.05819329",
-    "longitude": "7.98625503"
+    "longitude": "7.98625503",
+    "numberOfVaccines": 4166,
+    "numberOfSwabs": 7059,
+    "numberOfPositives": 13
   },
   {
     "name": "Ottati",
@@ -4329,7 +5769,10 @@
     "region": "Campania",
     "istat": "065086",
     "latitude": "45.05448578",
-    "longitude": "8.05094462"
+    "longitude": "8.05094462",
+    "numberOfVaccines": 6512,
+    "numberOfSwabs": 9278,
+    "numberOfPositives": 5
   },
   {
     "name": "Padula",
@@ -4338,7 +5781,10 @@
     "region": "Campania",
     "istat": "065087",
     "latitude": "44.95711305",
-    "longitude": "8.25851231"
+    "longitude": "8.25851231",
+    "numberOfVaccines": 6365,
+    "numberOfSwabs": 7426,
+    "numberOfPositives": 10
   },
   {
     "name": "Pagani",
@@ -4347,7 +5793,10 @@
     "region": "Campania",
     "istat": "065088",
     "latitude": "44.75104701",
-    "longitude": "8.44907922"
+    "longitude": "8.44907922",
+    "numberOfVaccines": 4147,
+    "numberOfSwabs": 1275,
+    "numberOfPositives": 0
   },
   {
     "name": "Palomonte",
@@ -4356,7 +5805,10 @@
     "region": "Campania",
     "istat": "065089",
     "latitude": "44.93757725",
-    "longitude": "8.34271288"
+    "longitude": "8.34271288",
+    "numberOfVaccines": 4586,
+    "numberOfSwabs": 9255,
+    "numberOfPositives": 8
   },
   {
     "name": "Pellezzano",
@@ -4365,7 +5817,10 @@
     "region": "Campania",
     "istat": "065090",
     "latitude": "44.85873263",
-    "longitude": "8.1583648"
+    "longitude": "8.1583648",
+    "numberOfVaccines": 8795,
+    "numberOfSwabs": 4430,
+    "numberOfPositives": 11
   },
   {
     "name": "Perdifumo",
@@ -4374,7 +5829,10 @@
     "region": "Campania",
     "istat": "065091",
     "latitude": "44.95150123",
-    "longitude": "8.02661283"
+    "longitude": "8.02661283",
+    "numberOfVaccines": 5931,
+    "numberOfSwabs": 2511,
+    "numberOfPositives": 18
   },
   {
     "name": "Perito",
@@ -4383,7 +5841,10 @@
     "region": "Campania",
     "istat": "065092",
     "latitude": "45.10233231",
-    "longitude": "8.100056"
+    "longitude": "8.100056",
+    "numberOfVaccines": 2589,
+    "numberOfSwabs": 7379,
+    "numberOfPositives": 17
   },
   {
     "name": "Pertosa",
@@ -4392,7 +5853,10 @@
     "region": "Campania",
     "istat": "065093",
     "latitude": "44.87387745",
-    "longitude": "8.28581546"
+    "longitude": "8.28581546",
+    "numberOfVaccines": 5487,
+    "numberOfSwabs": 8322,
+    "numberOfPositives": 20
   },
   {
     "name": "Petina",
@@ -4401,7 +5865,10 @@
     "region": "Campania",
     "istat": "065094",
     "latitude": "44.59299081",
-    "longitude": "8.27193131"
+    "longitude": "8.27193131",
+    "numberOfVaccines": 2394,
+    "numberOfSwabs": 6069,
+    "numberOfPositives": 17
   },
   {
     "name": "Piaggine",
@@ -4410,7 +5877,10 @@
     "region": "Campania",
     "istat": "065095",
     "latitude": "44.70695062",
-    "longitude": "8.34572398"
+    "longitude": "8.34572398",
+    "numberOfVaccines": 7712,
+    "numberOfSwabs": 6812,
+    "numberOfPositives": 3
   },
   {
     "name": "Pisciotta",
@@ -4419,7 +5889,10 @@
     "region": "Campania",
     "istat": "065096",
     "latitude": "44.85886821",
-    "longitude": "8.3443271"
+    "longitude": "8.3443271",
+    "numberOfVaccines": 3915,
+    "numberOfSwabs": 7053,
+    "numberOfPositives": 12
   },
   {
     "name": "Polla",
@@ -4428,7 +5901,10 @@
     "region": "Campania",
     "istat": "065097",
     "latitude": "44.83463979",
-    "longitude": "8.06523095"
+    "longitude": "8.06523095",
+    "numberOfVaccines": 1391,
+    "numberOfSwabs": 1388,
+    "numberOfPositives": 12
   },
   {
     "name": "Pollica",
@@ -4437,7 +5913,10 @@
     "region": "Campania",
     "istat": "065098",
     "latitude": "44.61132016",
-    "longitude": "8.24202367"
+    "longitude": "8.24202367",
+    "numberOfVaccines": 3969,
+    "numberOfSwabs": 4094,
+    "numberOfPositives": 2
   },
   {
     "name": "Pontecagnano Faiano",
@@ -4446,7 +5925,10 @@
     "region": "Campania",
     "istat": "065099",
     "latitude": "44.81852007",
-    "longitude": "8.10937091"
+    "longitude": "8.10937091",
+    "numberOfVaccines": 7363,
+    "numberOfSwabs": 7084,
+    "numberOfPositives": 12
   },
   {
     "name": "Positano",
@@ -4455,7 +5937,10 @@
     "region": "Campania",
     "istat": "065100",
     "latitude": "44.75322439",
-    "longitude": "8.29616262"
+    "longitude": "8.29616262",
+    "numberOfVaccines": 2357,
+    "numberOfSwabs": 8183,
+    "numberOfPositives": 20
   },
   {
     "name": "Postiglione",
@@ -4464,7 +5949,10 @@
     "region": "Campania",
     "istat": "065101",
     "latitude": "44.95226938",
-    "longitude": "7.97278064"
+    "longitude": "7.97278064",
+    "numberOfVaccines": 5488,
+    "numberOfSwabs": 2849,
+    "numberOfPositives": 8
   },
   {
     "name": "Praiano",
@@ -4473,7 +5961,10 @@
     "region": "Campania",
     "istat": "065102",
     "latitude": "40.61144748",
-    "longitude": "14.53257625"
+    "longitude": "14.53257625",
+    "numberOfVaccines": 6012,
+    "numberOfSwabs": 9446,
+    "numberOfPositives": 18
   },
   {
     "name": "Prignano Cilento",
@@ -4482,7 +5973,10 @@
     "region": "Campania",
     "istat": "065103",
     "latitude": "44.96570842",
-    "longitude": "8.27826008"
+    "longitude": "8.27826008",
+    "numberOfVaccines": 9865,
+    "numberOfSwabs": 1799,
+    "numberOfPositives": 19
   },
   {
     "name": "Ravello",
@@ -4491,7 +5985,10 @@
     "region": "Campania",
     "istat": "065104",
     "latitude": "44.55375446",
-    "longitude": "8.25972366"
+    "longitude": "8.25972366",
+    "numberOfVaccines": 5026,
+    "numberOfSwabs": 1397,
+    "numberOfPositives": 17
   },
   {
     "name": "Ricigliano",
@@ -4500,7 +5997,10 @@
     "region": "Campania",
     "istat": "065105",
     "latitude": "44.66894067",
-    "longitude": "8.33782926"
+    "longitude": "8.33782926",
+    "numberOfVaccines": 6457,
+    "numberOfSwabs": 1200,
+    "numberOfPositives": 4
   },
   {
     "name": "Roccadaspide",
@@ -4509,7 +6009,10 @@
     "region": "Campania",
     "istat": "065106",
     "latitude": "44.9640894",
-    "longitude": "8.11289201"
+    "longitude": "8.11289201",
+    "numberOfVaccines": 4505,
+    "numberOfSwabs": 1456,
+    "numberOfPositives": 15
   },
   {
     "name": "Roccagloriosa",
@@ -4518,7 +6021,10 @@
     "region": "Campania",
     "istat": "065107",
     "latitude": "44.99743108",
-    "longitude": "8.0781248"
+    "longitude": "8.0781248",
+    "numberOfVaccines": 9182,
+    "numberOfSwabs": 7601,
+    "numberOfPositives": 18
   },
   {
     "name": "Roccapiemonte",
@@ -4527,7 +6033,10 @@
     "region": "Campania",
     "istat": "065108",
     "latitude": "44.88727476",
-    "longitude": "8.07546861"
+    "longitude": "8.07546861",
+    "numberOfVaccines": 9157,
+    "numberOfSwabs": 3866,
+    "numberOfPositives": 10
   },
   {
     "name": "Rofrano",
@@ -4536,7 +6045,10 @@
     "region": "Campania",
     "istat": "065109",
     "latitude": "45.02410808",
-    "longitude": "8.18984201"
+    "longitude": "8.18984201",
+    "numberOfVaccines": 1999,
+    "numberOfSwabs": 1972,
+    "numberOfPositives": 2
   },
   {
     "name": "Romagnano al Monte",
@@ -4545,7 +6057,10 @@
     "region": "Campania",
     "istat": "065110",
     "latitude": "45.11794499",
-    "longitude": "8.00209647"
+    "longitude": "8.00209647",
+    "numberOfVaccines": 1518,
+    "numberOfSwabs": 7346,
+    "numberOfPositives": 18
   },
   {
     "name": "Roscigno",
@@ -4554,7 +6069,10 @@
     "region": "Campania",
     "istat": "065111",
     "latitude": "44.79653568",
-    "longitude": "8.33893337"
+    "longitude": "8.33893337",
+    "numberOfVaccines": 6353,
+    "numberOfSwabs": 2414,
+    "numberOfPositives": 10
   },
   {
     "name": "Rutino",
@@ -4563,7 +6081,10 @@
     "region": "Campania",
     "istat": "065112",
     "latitude": "44.89687406",
-    "longitude": "7.96509857"
+    "longitude": "7.96509857",
+    "numberOfVaccines": 9426,
+    "numberOfSwabs": 5451,
+    "numberOfPositives": 19
   },
   {
     "name": "Sacco",
@@ -4572,7 +6093,10 @@
     "region": "Campania",
     "istat": "065113",
     "latitude": "44.63719563",
-    "longitude": "8.22822517"
+    "longitude": "8.22822517",
+    "numberOfVaccines": 6817,
+    "numberOfSwabs": 7880,
+    "numberOfPositives": 12
   },
   {
     "name": "Sala Consilina",
@@ -4581,7 +6105,10 @@
     "region": "Campania",
     "istat": "065114",
     "latitude": "44.99926995",
-    "longitude": "8.05229051"
+    "longitude": "8.05229051",
+    "numberOfVaccines": 2647,
+    "numberOfSwabs": 8727,
+    "numberOfPositives": 17
   },
   {
     "name": "Salento",
@@ -4590,7 +6117,10 @@
     "region": "Campania",
     "istat": "065115",
     "latitude": "44.98045098",
-    "longitude": "8.35869057"
+    "longitude": "8.35869057",
+    "numberOfVaccines": 3137,
+    "numberOfSwabs": 2190,
+    "numberOfPositives": 17
   },
   {
     "name": "Salerno",
@@ -4599,7 +6129,10 @@
     "region": "Campania",
     "istat": "065116",
     "latitude": "44.83510515",
-    "longitude": "8.23189059"
+    "longitude": "8.23189059",
+    "numberOfVaccines": 2472,
+    "numberOfSwabs": 2859,
+    "numberOfPositives": 3
   },
   {
     "name": "Salvitelle",
@@ -4608,7 +6141,10 @@
     "region": "Campania",
     "istat": "065117",
     "latitude": "44.91367137",
-    "longitude": "8.03221225"
+    "longitude": "8.03221225",
+    "numberOfVaccines": 2743,
+    "numberOfSwabs": 4180,
+    "numberOfPositives": 12
   },
   {
     "name": "San Cipriano Picentino",
@@ -4617,7 +6153,10 @@
     "region": "Campania",
     "istat": "065118",
     "latitude": "44.94188973",
-    "longitude": "7.93722176"
+    "longitude": "7.93722176",
+    "numberOfVaccines": 9210,
+    "numberOfSwabs": 9931,
+    "numberOfPositives": 13
   },
   {
     "name": "San Giovanni a Piro",
@@ -4626,7 +6165,10 @@
     "region": "Campania",
     "istat": "065119",
     "latitude": "45.00518407",
-    "longitude": "8.13525532"
+    "longitude": "8.13525532",
+    "numberOfVaccines": 2229,
+    "numberOfSwabs": 6016,
+    "numberOfPositives": 8
   },
   {
     "name": "San Gregorio Magno",
@@ -4635,7 +6177,10 @@
     "region": "Campania",
     "istat": "065120",
     "latitude": "44.80740659",
-    "longitude": "8.31730154"
+    "longitude": "8.31730154",
+    "numberOfVaccines": 5268,
+    "numberOfSwabs": 6825,
+    "numberOfPositives": 20
   },
   {
     "name": "San Mango Piemonte",
@@ -4644,7 +6189,10 @@
     "region": "Campania",
     "istat": "065121",
     "latitude": "45.06741302",
-    "longitude": "8.09773822"
+    "longitude": "8.09773822",
+    "numberOfVaccines": 1597,
+    "numberOfSwabs": 3133,
+    "numberOfPositives": 0
   },
   {
     "name": "San Marzano sul Sarno",
@@ -4653,7 +6201,10 @@
     "region": "Campania",
     "istat": "065122",
     "latitude": "40.77460793",
-    "longitude": "14.58798217"
+    "longitude": "14.58798217",
+    "numberOfVaccines": 4874,
+    "numberOfSwabs": 6231,
+    "numberOfPositives": 7
   },
   {
     "name": "San Mauro Cilento",
@@ -4662,7 +6213,10 @@
     "region": "Campania",
     "istat": "065123",
     "latitude": "40.22628217",
-    "longitude": "15.04476431"
+    "longitude": "15.04476431",
+    "numberOfVaccines": 4164,
+    "numberOfSwabs": 6693,
+    "numberOfPositives": 4
   },
   {
     "name": "San Mauro la Bruca",
@@ -4671,7 +6225,10 @@
     "region": "Campania",
     "istat": "065124",
     "latitude": "40.12159144",
-    "longitude": "15.28600011"
+    "longitude": "15.28600011",
+    "numberOfVaccines": 5256,
+    "numberOfSwabs": 3585,
+    "numberOfPositives": 13
   },
   {
     "name": "San Pietro al Tanagro",
@@ -4680,7 +6237,10 @@
     "region": "Campania",
     "istat": "065125",
     "latitude": "40.45403757",
-    "longitude": "15.48754102"
+    "longitude": "15.48754102",
+    "numberOfVaccines": 3746,
+    "numberOfSwabs": 4704,
+    "numberOfPositives": 3
   },
   {
     "name": "San Rufo",
@@ -4689,7 +6249,10 @@
     "region": "Campania",
     "istat": "065126",
     "latitude": "40.43434882",
-    "longitude": "15.461657"
+    "longitude": "15.461657",
+    "numberOfVaccines": 7331,
+    "numberOfSwabs": 4408,
+    "numberOfPositives": 8
   },
   {
     "name": "Santa Marina",
@@ -4698,7 +6261,10 @@
     "region": "Campania",
     "istat": "065127",
     "latitude": "40.10520303",
-    "longitude": "15.54152852"
+    "longitude": "15.54152852",
+    "numberOfVaccines": 5204,
+    "numberOfSwabs": 2555,
+    "numberOfPositives": 11
   },
   {
     "name": "Sant'Angelo a Fasanella",
@@ -4707,7 +6273,10 @@
     "region": "Campania",
     "istat": "065128",
     "latitude": "40.45704286",
-    "longitude": "15.34366051"
+    "longitude": "15.34366051",
+    "numberOfVaccines": 4706,
+    "numberOfSwabs": 6490,
+    "numberOfPositives": 3
   },
   {
     "name": "Sant'Arsenio",
@@ -4716,7 +6285,10 @@
     "region": "Campania",
     "istat": "065129",
     "latitude": "40.47110216",
-    "longitude": "15.4864055"
+    "longitude": "15.4864055",
+    "numberOfVaccines": 6870,
+    "numberOfSwabs": 9737,
+    "numberOfPositives": 15
   },
   {
     "name": "Sant'Egidio del Monte Albino",
@@ -4725,7 +6297,10 @@
     "region": "Campania",
     "istat": "065130",
     "latitude": "40.73592269",
-    "longitude": "14.59895358"
+    "longitude": "14.59895358",
+    "numberOfVaccines": 8797,
+    "numberOfSwabs": 8840,
+    "numberOfPositives": 13
   },
   {
     "name": "Santomenna",
@@ -4734,7 +6309,10 @@
     "region": "Campania",
     "istat": "065131",
     "latitude": "40.80708262",
-    "longitude": "15.32026395"
+    "longitude": "15.32026395",
+    "numberOfVaccines": 7864,
+    "numberOfSwabs": 7006,
+    "numberOfPositives": 11
   },
   {
     "name": "San Valentino Torio",
@@ -4743,7 +6321,10 @@
     "region": "Campania",
     "istat": "065132",
     "latitude": "40.79182154",
-    "longitude": "14.60094288"
+    "longitude": "14.60094288",
+    "numberOfVaccines": 3594,
+    "numberOfSwabs": 2163,
+    "numberOfPositives": 5
   },
   {
     "name": "Sanza",
@@ -4752,7 +6333,10 @@
     "region": "Campania",
     "istat": "065133",
     "latitude": "40.24463844",
-    "longitude": "15.55330616"
+    "longitude": "15.55330616",
+    "numberOfVaccines": 4051,
+    "numberOfSwabs": 9556,
+    "numberOfPositives": 0
   },
   {
     "name": "Sapri",
@@ -4761,7 +6345,10 @@
     "region": "Campania",
     "istat": "065134",
     "latitude": "40.07392713",
-    "longitude": "15.63073166"
+    "longitude": "15.63073166",
+    "numberOfVaccines": 2516,
+    "numberOfSwabs": 4270,
+    "numberOfPositives": 1
   },
   {
     "name": "Sarno",
@@ -4770,7 +6357,10 @@
     "region": "Campania",
     "istat": "065135",
     "latitude": "40.8153339",
-    "longitude": "14.61889943"
+    "longitude": "14.61889943",
+    "numberOfVaccines": 3381,
+    "numberOfSwabs": 1995,
+    "numberOfPositives": 19
   },
   {
     "name": "Sassano",
@@ -4779,7 +6369,10 @@
     "region": "Campania",
     "istat": "065136",
     "latitude": "40.34208235",
-    "longitude": "15.56594212"
+    "longitude": "15.56594212",
+    "numberOfVaccines": 6578,
+    "numberOfSwabs": 3468,
+    "numberOfPositives": 16
   },
   {
     "name": "Scafati",
@@ -4788,7 +6381,10 @@
     "region": "Campania",
     "istat": "065137",
     "latitude": "40.74806338",
-    "longitude": "14.52623502"
+    "longitude": "14.52623502",
+    "numberOfVaccines": 5553,
+    "numberOfSwabs": 6664,
+    "numberOfPositives": 15
   },
   {
     "name": "Scala",
@@ -4797,7 +6393,10 @@
     "region": "Campania",
     "istat": "065138",
     "latitude": "40.65594208",
-    "longitude": "14.60706553"
+    "longitude": "14.60706553",
+    "numberOfVaccines": 1823,
+    "numberOfSwabs": 5505,
+    "numberOfPositives": 5
   },
   {
     "name": "Serramezzana",
@@ -4806,7 +6405,10 @@
     "region": "Campania",
     "istat": "065139",
     "latitude": "40.24454152",
-    "longitude": "15.03228574"
+    "longitude": "15.03228574",
+    "numberOfVaccines": 3787,
+    "numberOfSwabs": 8922,
+    "numberOfPositives": 1
   },
   {
     "name": "Serre",
@@ -4815,7 +6417,10 @@
     "region": "Campania",
     "istat": "065140",
     "latitude": "40.58118831",
-    "longitude": "15.18780345"
+    "longitude": "15.18780345",
+    "numberOfVaccines": 9213,
+    "numberOfSwabs": 8711,
+    "numberOfPositives": 19
   },
   {
     "name": "Sessa Cilento",
@@ -4824,7 +6429,10 @@
     "region": "Campania",
     "istat": "065141",
     "latitude": "40.25928966",
-    "longitude": "15.07527263"
+    "longitude": "15.07527263",
+    "numberOfVaccines": 6456,
+    "numberOfSwabs": 6029,
+    "numberOfPositives": 18
   },
   {
     "name": "Siano",
@@ -4833,7 +6441,10 @@
     "region": "Campania",
     "istat": "065142",
     "latitude": "40.8009862",
-    "longitude": "14.69362433"
+    "longitude": "14.69362433",
+    "numberOfVaccines": 3737,
+    "numberOfSwabs": 2914,
+    "numberOfPositives": 15
   },
   {
     "name": "Sicignano degli Alburni",
@@ -4842,7 +6453,10 @@
     "region": "Campania",
     "istat": "065143",
     "latitude": "40.55933929",
-    "longitude": "15.30595541"
+    "longitude": "15.30595541",
+    "numberOfVaccines": 3649,
+    "numberOfSwabs": 8768,
+    "numberOfPositives": 3
   },
   {
     "name": "Stella Cilento",
@@ -4851,7 +6465,10 @@
     "region": "Campania",
     "istat": "065144",
     "latitude": "40.23160695",
-    "longitude": "15.09330128"
+    "longitude": "15.09330128",
+    "numberOfVaccines": 1174,
+    "numberOfSwabs": 5980,
+    "numberOfPositives": 18
   },
   {
     "name": "Stio",
@@ -4860,7 +6477,10 @@
     "region": "Campania",
     "istat": "065145",
     "latitude": "40.3108142",
-    "longitude": "15.25520959"
+    "longitude": "15.25520959",
+    "numberOfVaccines": 1656,
+    "numberOfSwabs": 7581,
+    "numberOfPositives": 19
   },
   {
     "name": "Teggiano",
@@ -4869,7 +6489,10 @@
     "region": "Campania",
     "istat": "065146",
     "latitude": "40.3796533",
-    "longitude": "15.54040859"
+    "longitude": "15.54040859",
+    "numberOfVaccines": 7364,
+    "numberOfSwabs": 8264,
+    "numberOfPositives": 0
   },
   {
     "name": "Torchiara",
@@ -4878,7 +6501,10 @@
     "region": "Campania",
     "istat": "065147",
     "latitude": "40.3216153",
-    "longitude": "15.05369631"
+    "longitude": "15.05369631",
+    "numberOfVaccines": 8756,
+    "numberOfSwabs": 6527,
+    "numberOfPositives": 4
   },
   {
     "name": "Torraca",
@@ -4887,7 +6513,10 @@
     "region": "Campania",
     "istat": "065148",
     "latitude": "40.11098775",
-    "longitude": "15.63631714"
+    "longitude": "15.63631714",
+    "numberOfVaccines": 9662,
+    "numberOfSwabs": 1333,
+    "numberOfPositives": 1
   },
   {
     "name": "Torre Orsaia",
@@ -4896,7 +6525,10 @@
     "region": "Campania",
     "istat": "065149",
     "latitude": "40.13094394",
-    "longitude": "15.47143926"
+    "longitude": "15.47143926",
+    "numberOfVaccines": 8621,
+    "numberOfSwabs": 7097,
+    "numberOfPositives": 12
   },
   {
     "name": "Tortorella",
@@ -4905,7 +6537,10 @@
     "region": "Campania",
     "istat": "065150",
     "latitude": "40.14235689",
-    "longitude": "15.60625318"
+    "longitude": "15.60625318",
+    "numberOfVaccines": 7154,
+    "numberOfSwabs": 5765,
+    "numberOfPositives": 4
   },
   {
     "name": "Tramonti",
@@ -4914,7 +6549,10 @@
     "region": "Campania",
     "istat": "065151",
     "latitude": "40.69483916",
-    "longitude": "14.64019238"
+    "longitude": "14.64019238",
+    "numberOfVaccines": 4900,
+    "numberOfSwabs": 1738,
+    "numberOfPositives": 7
   },
   {
     "name": "Trentinara",
@@ -4923,7 +6561,10 @@
     "region": "Campania",
     "istat": "065152",
     "latitude": "40.4006827",
-    "longitude": "15.10735868"
+    "longitude": "15.10735868",
+    "numberOfVaccines": 2504,
+    "numberOfSwabs": 2135,
+    "numberOfPositives": 14
   },
   {
     "name": "Valle dell'Angelo",
@@ -4932,7 +6573,10 @@
     "region": "Campania",
     "istat": "065153",
     "latitude": "40.34377463",
-    "longitude": "15.36868776"
+    "longitude": "15.36868776",
+    "numberOfVaccines": 8241,
+    "numberOfSwabs": 5911,
+    "numberOfPositives": 8
   },
   {
     "name": "Vallo della Lucania",
@@ -4941,7 +6585,10 @@
     "region": "Campania",
     "istat": "065154",
     "latitude": "40.22877547",
-    "longitude": "15.26707186"
+    "longitude": "15.26707186",
+    "numberOfVaccines": 4674,
+    "numberOfSwabs": 2315,
+    "numberOfPositives": 5
   },
   {
     "name": "Valva",
@@ -4950,7 +6597,10 @@
     "region": "Campania",
     "istat": "065155",
     "latitude": "40.73970939",
-    "longitude": "15.26988886"
+    "longitude": "15.26988886",
+    "numberOfVaccines": 1905,
+    "numberOfSwabs": 2745,
+    "numberOfPositives": 17
   },
   {
     "name": "Vibonati",
@@ -4959,7 +6609,10 @@
     "region": "Campania",
     "istat": "065156",
     "latitude": "40.10320009",
-    "longitude": "15.57993678"
+    "longitude": "15.57993678",
+    "numberOfVaccines": 7288,
+    "numberOfSwabs": 2279,
+    "numberOfPositives": 18
   },
   {
     "name": "Vietri sul Mare",
@@ -4968,7 +6621,10 @@
     "region": "Campania",
     "istat": "065157",
     "latitude": "40.67202929",
-    "longitude": "14.7281568"
+    "longitude": "14.7281568",
+    "numberOfVaccines": 3899,
+    "numberOfSwabs": 8598,
+    "numberOfPositives": 19
   },
   {
     "name": "Bellizzi",
@@ -4977,6 +6633,9 @@
     "region": "Campania",
     "istat": "065158",
     "latitude": "40.62218574",
-    "longitude": "14.94602767"
+    "longitude": "14.94602767",
+    "numberOfVaccines": 9318,
+    "numberOfSwabs": 3866,
+    "numberOfPositives": 7
   }
 ]
