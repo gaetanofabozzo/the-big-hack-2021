@@ -1,3 +1,6 @@
+// const generateRandomInt = (min, max) =>
+//   parseInt(Math.random() * (max - min + 1) + min, 10);
+
 module.exports.getDate = async (req, res) => {
   // eslint-disable-next-line global-require
   const {
