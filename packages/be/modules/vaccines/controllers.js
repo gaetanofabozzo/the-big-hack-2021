@@ -54,6 +54,52 @@ module.exports.getDate = async (req, res) => {
   return res.send(output);
 };
 
+module.exports.getAgeGroup = async (req, res) => {
+  // eslint-disable-next-line global-require
+  const {
+    data,
+    // eslint-disable-next-line global-require
+  } = require("../../dataset/somministrazioni-vaccini-latest.json");
+
+  let output = {};
+  for (let i = 0; i < data.length; i++) {
+    const ageGroup = data[i].fascia_anagrafica;
+
+    if (!output[ageGroup]) {
+      output[ageGroup] = {
+        name: ageGroup,
+        total: data[i].sesso_femminile + data[i].sesso_maschile,
+        prima_dose: data[i].prima_dose,
+        seconda_dose: data[i].seconda_dose,
+      };
+    } else {
+      output[ageGroup] = {
+        name: ageGroup,
+        total:
+          data[i].sesso_femminile +
+          data[i].sesso_maschile +
+          output[ageGroup].total,
+        prima_dose: data[i].prima_dose + output[ageGroup].prima_dose,
+        seconda_dose: data[i].seconda_dose + output[ageGroup].seconda_dose,
+      };
+    }
+  }
+  output = Object.values(output);
+  output.sort(function (a, b) {
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
+
+  return res.send(output);
+};
+
 module.exports.municipalities = async (req, res) => {
   // eslint-disable-next-line global-require
   const places = require("../../dataset/campania-municipalities.json");
