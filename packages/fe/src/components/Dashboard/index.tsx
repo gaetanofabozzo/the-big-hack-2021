@@ -8,6 +8,7 @@ import BarChart from '../Charts/BarChart';
 import Map from '../Maps';
 
 import cities from '../../__mocks__/cities';
+import useGeoLocalization from '../../hooks/useGeoLocalization';
 
 const useStyles = makeStyles({
   logo: {
@@ -19,10 +20,10 @@ const useStyles = makeStyles({
   iconButton: {},
 });
 
-// const mockData = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400}, {name: 'Page B', uv: 400, pv: 2400, amt: 2400}];
-
 const Dashboard: React.FC<RouteComponentProps> = (props) => {
   const [caseType] = useState<string>('numberOfVaccines');
+  const coords = useGeoLocalization({ place: 'Napoli' });
+  console.log({ coords });
 
   console.info(props);
   const classes = useStyles();
