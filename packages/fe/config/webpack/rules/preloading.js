@@ -1,8 +1,6 @@
 module.exports = {
-  enforce: 'pre',
+  enforce: "pre",
   test: /\.js$/,
-  loader: 'source-map-loader',
-  exclude: [
-    /\/node_modules\/(?:@apollo)\//,
-  ],
+  loader: "source-map-loader",
+  exclude: [/\/node_modules\/(?:@apollo)\//],
 };

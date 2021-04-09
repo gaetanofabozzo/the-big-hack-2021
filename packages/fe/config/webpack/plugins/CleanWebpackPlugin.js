@@ -1,8 +1,10 @@
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   plugin: CleanWebpackPlugin,
-  options: [{
-    verbose: false,
-  }],
+  options: [
+    {
+      verbose: false,
+    },
+  ],
 };

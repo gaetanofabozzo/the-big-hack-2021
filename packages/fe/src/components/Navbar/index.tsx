@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png';
 
 const useStyles = makeStyles({
   logo: {
-    maxWidth: 40,
+    maxWidth: '70px',
     padding: '15px',
   },
 });

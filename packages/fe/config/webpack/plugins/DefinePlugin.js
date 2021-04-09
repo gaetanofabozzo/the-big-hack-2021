@@ -1,10 +1,12 @@
-const { DefinePlugin } = require('webpack');
+const { DefinePlugin } = require("webpack");
 
-const BASE_URL = process.env.baseUrl ? process.env.baseUrl : '/';
+const BASE_URL = process.env.baseUrl ? process.env.baseUrl : "/";
 
 module.exports = {
   plugin: DefinePlugin,
-  options: [{
-    BASE_URL: JSON.stringify(BASE_URL),
-  }],
+  options: [
+    {
+      BASE_URL: JSON.stringify(BASE_URL),
+    },
+  ],
 };

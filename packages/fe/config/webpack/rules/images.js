@@ -2,10 +2,10 @@ module.exports = {
   test: /\.(ico|png|jpg|jpeg|gif|webp)(\?v=\d+\.\d+\.\d+)?$/,
   use: [
     {
-      loader: 'url-loader',
+      loader: "url-loader",
       options: {
         limit: 8192,
-        name: 'assets/[name].[hash:8].[ext]',
+        name: "assets/[name].[hash:8].[ext]",
       },
     },
   ],

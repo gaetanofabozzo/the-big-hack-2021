@@ -1,7 +1,7 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  target: 'web',
+  target: "web",
   stats: {
     children: false,
     entrypoints: false,
@@ -9,28 +9,20 @@ module.exports = {
   },
   externals: {
     // Required by translation tool
-    jsdom: 'jsdom',
+    jsdom: "jsdom",
   },
-  devtool: 'source-map',
+  devtool: "source-map",
   //   node: {
   //     Buffer: true,
   //     fs: 'empty',
   //     tls: 'empty',
   //   },
   output: {
-    publicPath: '/',
-    filename: 'assets/[name].[contenthash:8].js',
+    publicPath: "/",
+    filename: "assets/[name].[contenthash:8].js",
   },
   resolve: {
-    extensions: [
-      '.js',
-      '.ts',
-      '.tsx',
-      '.json',
-    ],
-    modules: [
-      'node_modules',
-      path.resolve(__dirname, '../../src'),
-    ],
+    extensions: [".js", ".ts", ".tsx", ".json"],
+    modules: ["node_modules", path.resolve(__dirname, "../../src")],
   },
 };

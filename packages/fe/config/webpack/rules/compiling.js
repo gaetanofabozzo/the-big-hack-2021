@@ -1,17 +1,17 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   test: /\.(jsx|js)$/,
   include: [
-    path.resolve(__dirname, '../../../src'),
+    path.resolve(__dirname, "../../../src"),
     /\/node_modules\//,
     /\/packages\//,
   ],
   use: [
     {
-      loader: 'babel-loader',
+      loader: "babel-loader",
       options: {
-        rootMode: 'upward',
+        rootMode: "upward",
       },
     },
   ],
