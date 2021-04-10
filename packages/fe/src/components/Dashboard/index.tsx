@@ -9,16 +9,23 @@ import Map from '../Maps';
 import BarChart from '../Charts/BarChart';
 import PieChart from '../Charts/PieChart';
 import LineChart from '../Charts/LineChart';
-import StackedAreaChart from '../Charts/StackedAreaChart';
+import SingleAreaChart from '../Charts/SingleAreaChart';
+// import StackedAreaChart from '../Charts/StackedAreaChart';
 
 import useGeoLocalization from '../../hooks/useGeoLocalization';
 import useCategories from '../../hooks/useCategories';
 import useAgeGroup from '../../hooks/useAgeGroup';
 import useMunicipalitiesVaccines from '../../hooks/useMunicipalitiesVaccines';
 import useVaccines from '../../hooks/useVaccines';
+import usePositivesOnVaccines from '../../hooks/usePositivesOnVaccines';
 
 import { casesTypeColors } from '../../utils/map';
 import { UserType } from '../../types';
+
+import Stat from '../Stat';
+import palette from '../../theme/palette';
+import useRemainingVaccines from '../../hooks/useRemainingVaccines';
+import useVaccinesSummary from '../../hooks/useVaccinesSummary';
 
 const useStyles = makeStyles((_theme: Theme) => ({
   logo: {
@@ -45,12 +52,16 @@ const USER_TYPE_INFOS = {
 
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   const [casesType, setCasesType] = useState<string>('numberOfVaccines');
-  const classes = useStyles({ selected: casesType });
+  const classes = useStyles();
   const { coordinates } = useGeoLocalization({ place: 'Villaricca' });
   const { vaccines, loading } = useMunicipalitiesVaccines();
   const { data: ageGroup, loading: ageLoading } = useAgeGroup();
   const { data: categories } = useCategories();
   const { vaccines: dataVaccines } = useVaccines();
+  const { positivesOnVaccines } = usePositivesOnVaccines();
+  const { data: remainingVaccines } = useRemainingVaccines();
+  const { data: vaccineSummary, loading: loadingSummary } = useVaccinesSummary();
+
   const { type } : { type: UserType } = useParams();
   const cases = [
     { title: 'Numero Vaccini', key: 'numberOfVaccines' },
@@ -58,7 +69,20 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     { title: 'Numero Tamponi', key: 'numberOfSwabs' },
   ];
 
-  console.log({ dataVaccines });
+  const cittadinoStats = !loadingSummary ? [
+    { title: 'Indice di Contagio', value: vaccineSummary?.rt, description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main },
+    { title: 'Totale Vaccinati', value: vaccineSummary?.percentuale_vaccinati, suffix: '%', description: `Percentuale vaccinati, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main, animated: true },
+  ] : [];
+
+  const decisionMakerStats = remainingVaccines.map(({ dosiRestanti, fornitore, giorniTolleranza }: any) => ({
+    animated: true,
+    title: fornitore,
+    value: dosiRestanti,
+    description: `Probabile numero di dosi nei prossimi ${giorniTolleranza} giorni`,
+    color: palette.primary.main
+  }));
+
+  const stats = type === UserType.DECISION_MAKER ? decisionMakerStats : cittadinoStats;
 
   return (
     <>
@@ -68,6 +92,15 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
         <Typography variant="h1" classes={{ root: classes.title }}>
           {USER_TYPE_INFOS[type].title}
         </Typography>
+        <Typography>
+          {USER_TYPE_INFOS[type].description}
+        </Typography>
+
+        <Box style={{ display: 'inline-flex', width: '100%', marginTop: '15px' }} justifyContent='space-between'>
+          {stats.map((stat: any) => (
+            <Stat {...stat} key={stat.title} />
+          ))}
+        </Box>
 
         <Typography variant="h3" classes={{ root: classes.title }}>
           Monitoraggio Adesioni Campagna Vaccinale Covid-19
@@ -87,7 +120,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
           ))}
 
           <Grid item xs={12}>
-            <Card>
+            <Card style={{ padding: 0 }}>
               {!loading ? (
                 <Map
                   data={vaccines}
@@ -115,29 +148,6 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
             </Card>
           </Grid>
 
-          <Grid item xs={12}>
-            <Typography variant="h3" classes={{ root: classes.title }}>
-              Andamento dosi somministrate per fascia d'età
-            </Typography>
-            <Typography variant="h4" classes={{ root: classes.title }}>
-              Prime e seconde dosi
-            </Typography>
-
-            <Grid container spacing={3} justify="center">
-              {!ageLoading ? ageGroup.map(({ name, prima_dose, seconda_dose }: any) => (
-                <Grid item sm={2} xs={12}>
-                  <Card style={{ flex: 1 }}>
-                    <Typography style={{ textAlign: 'center', fontWeight: 'bold', margin: '10px', fontSize: '27px' }}>{name}</Typography>
-                    <PieChart 
-                      data={[{ name: 'prima_dose', value: prima_dose }, { name: 'seconda_dose', value: seconda_dose }]}
-                      datakey={'value'}
-                    />
-                  </Card>
-                </Grid>
-              )) : 'Loading'}
-            </Grid>
-          </Grid>
-
           {type === UserType.DECISION_MAKER && (
             <>
              <Grid item xs={12}>
@@ -157,7 +167,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
               </Grid>
             </Grid>
           
-            <Grid item xs={12}>
+            {/* <Grid item xs={12}>
               <Typography variant="h3" classes={{ root: classes.title }}>
                 Piano vaccinale, realtà e previsioni
               </Typography>
@@ -165,11 +175,43 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                 Dove siamo e dove dovremmo essere con i consumi dei vaccini
               </Typography>
               <Card>
-                <StackedAreaChart data={vaccines} />
+                <SingleAreaChart data={positivesOnVaccines} />
+              </Card>
+            </Grid> */}
+
+            <Grid item xs={12}>
+              <Typography variant="h3" classes={{ root: classes.title }}>
+                Rapporto Positivi/Vaccinati
+              </Typography>
+              <Card>
+                <SingleAreaChart data={positivesOnVaccines} />
               </Card>
             </Grid>
           </>
         )}
+
+        <Grid item xs={12}>
+          <Typography variant="h3" classes={{ root: classes.title }}>
+            Andamento dosi somministrate per fascia d'età
+          </Typography>
+          <Typography variant="h4" classes={{ root: classes.title }}>
+            Prime e seconde dosi
+          </Typography>
+
+          <Grid container spacing={3} justify="center">
+            {!ageLoading ? ageGroup.map(({ name, prima_dose, seconda_dose }: any) => (
+              <Grid item sm={2} xs={12}>
+                <Card style={{ flex: 1 }}>
+                  <Typography style={{ textAlign: 'center', fontWeight: 'bold', margin: '10px', fontSize: '27px' }}>{name}</Typography>
+                  <PieChart 
+                    data={[{ name: 'prima_dose', value: prima_dose }, { name: 'seconda_dose', value: seconda_dose }]}
+                    datakey={'value'}
+                  />
+                </Card>
+              </Grid>
+            )) : 'Loading'}
+          </Grid>
+        </Grid>
 
         {type === UserType.CITTADINO && (
           <Box position="fixed" bottom={10} right={10}>
