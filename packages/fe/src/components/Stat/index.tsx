@@ -1,17 +1,26 @@
 import React from "react";
 import { useCountUp } from "react-countup";
 import { Box, makeStyles, Theme, Typography } from "@material-ui/core";
+import { hoveredCardBoxShadow } from "../CATCard";
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
     color: ({ color }: { color: any }): any => color,
+    borderColor: ({ color }: { color: any }): any => color,
+    border: '2px solid',
     padding: '50px',
     textAlign: 'center',
     flexBasis: '100%',
+    marginTop: '15px',
+    marginBottom: '15px',
     [theme.breakpoints.up('md')]: {
       maxWidth: '50%',
       flexGrow: 1,
+      margin: '15px',
     },
+    '&:hover': {
+      boxShadow: hoveredCardBoxShadow,
+    }
   },
   title: {
     marginBottom: '10px',
