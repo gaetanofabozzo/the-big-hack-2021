@@ -40,6 +40,7 @@ import { casesTypeColors } from "../../utils/map";
 import { UserType } from "../../types";
 
 import { colors } from "../../theme/palette";
+import NpsMoodChart from "../Charts/NpsMoodChart";
 
 // import astrazeneca from "../../assets/astrazeneca.png";
 // import pfizer from "../../assets/pfizer.png";
@@ -377,11 +378,18 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
             </Grid>
           </Grid>
 
-          {type === UserType.CITTADINO && (
+          {type === UserType.CITTADINO ? (
             <Chatbot
               opened={showChatbot}
               toggleOpen={() => setShowChatbot(!showChatbot)}
             />
+          ) : (
+            <Grid item xs={12}>
+              <Card style={{ margin: '0 auto', maxWidth: '500px' }}>
+                <NpsMoodChart />
+                <Typography variant="body2" style={{ textAlign: 'center' }}>Umore medio rilevato dalle richieste inviate al chatbot</Typography>
+              </Card>
+            </Grid>
           )}
         </Grid>
       </Container>
