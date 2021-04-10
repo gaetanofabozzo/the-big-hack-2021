@@ -22,7 +22,7 @@ export const casesTypeColors = {
     multiplier: 100,
   },
   numberOfSwabs: {
-    hex: '#7dd71d',
+    hex: '#ffd600',
     multiplier: 50,
   },
 };

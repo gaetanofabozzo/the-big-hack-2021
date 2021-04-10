@@ -52,7 +52,7 @@ function Map({ data, casesType, center, zoom }) {
             <Popup>
               <div className="info-container">
                 <div>{city.name}, {city.province}</div>
-                <div>Tot: {city[casesType]}</div>
+                <div>N: {city[casesType]}</div>
               </div>
             </Popup>
           </Circle>

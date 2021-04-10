@@ -1,28 +1,23 @@
 import React, { useState } from 'react';
-import { RouteComponentProps } from '@reach/router';
+import { RouteComponentProps, useParams } from '@reach/router';
 import { makeStyles, Typography, Container, Card, Grid, Theme } from '@material-ui/core';
 // import SearchIcon from '@material-ui/icons/Search';
 
 import Navbar from '../Navbar';
-// import BarChart from '../Charts/BarChart';
+import BarChart from '../Charts/BarChart';
 // import LineChart from '../Charts/LineChart';
-// import StackedAreaChart from '../Charts/StackedAreaChart';
+import StackedAreaChart from '../Charts/StackedAreaChart';
 import Map from '../Maps';
-
-// import cities from '../../__mocks__/cities';
 
 import useGeoLocalization from '../../hooks/useGeoLocalization';
 // import useVaccines from '../../hooks/useVaccines';
 import useMunicipalitiesVaccines from '../../hooks/useMunicipalitiesVaccines';
-import classNames from 'classnames';
 import { casesTypeColors } from '../../utils/map';
+import { UserType } from '../../types';
+import CATCard from '../CATCard';
 // import useAgeGroup from '../../hooks/useAgeGroup';
 
-export const cardBoxShadow = '0px 8px 4px -6px rgba(0, 0, 0, 0.1), 0px 1px 4px -2px rgba(0, 0, 0, 0.3)';
-export const hoveredCardBoxShadow = '0px 8px 4px -6px rgba(0, 0, 0, 0.1), 0px 8px 10px -4px rgba(0, 0, 0, 0.3)';
-export const cardContentShadow = '0px -1px 0px 0px rgb(238, 243, 247)';
-
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles((_theme: Theme) => ({
   logo: {
     maxWidth: 40,
     padding: '15px',
@@ -30,115 +25,58 @@ const useStyles = makeStyles((theme: Theme) => ({
   title: {
     margin: '20px 0 10px',
   },
-  cardRoot: {
-    cursor: 'pointer',
-    outline: 0,
-    boxShadow: cardBoxShadow,
-    textTransform: 'uppercase',
-    textAlign: 'center',
-    padding: 20,
-    borderWidth: '4px',
-    '&:hover': {
-      boxShadow: hoveredCardBoxShadow,
-    },
-  },
-  blueCard: {
-    borderColor: ({ selected }: { selected: string }): any => (
-      // @ts-ignore
-      selected === 'numberOfVaccines' ? casesTypeColors['numberOfVaccines'].hex : 'inherit'
-    ),
-    color: ({ selected }: { selected: string }): any => (
-      // @ts-ignore
-      selected === 'numberOfVaccines' ? casesTypeColors['numberOfVaccines'].hex : 'inherit'
-    ),
-    '&:hover': {
-      borderColor: theme.palette.primary.main,
-      color: theme.palette.primary.main,
-    },
-  },
-  redCard: {
-    borderColor: ({ selected }: { selected: string }): any => (
-      // @ts-ignore
-      selected === 'numberOfPositives' ? casesTypeColors['numberOfPositives'].hex : 'inherit'
-    ),
-    color: ({ selected }: { selected: string }): any => (
-      // @ts-ignore
-      selected === 'numberOfPositives' ? casesTypeColors['numberOfPositives'].hex : 'inherit'
-    ),
-    '&:hover': {
-      borderColor: casesTypeColors['numberOfPositives'].hex,
-      color: casesTypeColors['numberOfPositives'].hex,
-    },
-  },
-  yellowCard: {
-    borderColor: ({ selected }: { selected: string }): any => (
-      // @ts-ignore
-      selected === 'numberOfSwabs' ? casesTypeColors['numberOfSwabs'].hex : 'inherit'
-    ),
-    color: ({ selected }: { selected: string }): any => (
-      // @ts-ignore
-      selected === 'numberOfSwabs' ? casesTypeColors['numberOfSwabs'].hex : 'inherit'
-    ),
-    '&:hover': {
-      borderColor: casesTypeColors['numberOfSwabs'].hex,
-      color: casesTypeColors['numberOfSwabs'].hex,
-    },
-  },
   container: {},
   iconButton: {},
 }));
+
+const USER_TYPE_INFOS = {
+  [UserType.DECISION_MAKER]: {
+    title: 'Dashboard Decision Maker',
+    description: "Da qui puoi monitorare l'andamento della campagnia vaccinale",
+  },
+  [UserType.CITTADINO]: {
+    title: 'Dashboard Cittadino',
+    description: "Da qui puoi monitorare l'andamento della campagnia vaccinale",
+  }
+}
 
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   const [casesType, setCasesType] = useState<string>('numberOfVaccines');
   const classes = useStyles({ selected: casesType });
   const { coordinates } = useGeoLocalization({ place: 'Villaricca' });
   const { vaccines, loading } = useMunicipalitiesVaccines();
+  const { type } : { type: UserType } = useParams();
+  const cases = [
+    { title: 'Numero Vaccini', key: 'numberOfVaccines' },
+    { title: 'Numero Positivi', key: 'numberOfPositives' },
+    { title: 'Numero Tamponi', key: 'numberOfSwabs' },
+  ];
 
   return (
     <>
       <Navbar />
+      
       <Container maxWidth="lg" classes={{ root: classes.container }}>
+        <Typography variant="h1" classes={{ root: classes.title }}>
+          {USER_TYPE_INFOS[type].title}
+        </Typography>
+
         <Typography variant="h3" classes={{ root: classes.title }}>
           Monitoraggio Adesioni Campagna Vaccinale Covid-19
         </Typography>
         
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={4}>
-            <Card 
-              variant="outlined"
-              className={classNames(classes.cardRoot, classes.blueCard)}
-              tabIndex={0}
-              role="button"
-              onClick={() => setCasesType('numberOfVaccines')}
-            >
-              Numero Vaccini
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} sm={4}>
-            <Card 
-              variant="outlined"
-              className={classNames(classes.cardRoot, classes.redCard)}
-              tabIndex={0}
-              role="button"
-              onClick={() => setCasesType('numberOfPositives')}
-            >
-              Numero Positivi
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} sm={4}>
-            <Card 
-              variant="outlined"
-              className={classNames(classes.cardRoot, classes.yellowCard)}
-              tabIndex={0}
-              role="button"
-              onClick={() => setCasesType('numberOfSwabs')}
-            >
-              Numero Tamponi
-            </Card>
-          </Grid>
-
+          {cases.map(({ key, title }: { key: string, title: string }) => (
+            <Grid item xs={12} sm={4}>
+              <CATCard
+                onChange={() => setCasesType(key)}
+                color={casesTypeColors[key as 'numberOfVaccines'|'numberOfPositives'|'numberOfSwabs'].hex}
+                selected={casesType === key}
+              >
+                {title}
+              </CATCard>
+            </Grid>
+          ))}
 
           <Grid item xs={12}>
 
@@ -164,25 +102,69 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
             </Card>
           </Grid>
 
-          {/* <Grid item xs={6}>
+          <Grid item xs={12}>
+            <Typography variant="h3" classes={{ root: classes.title }}>
+              Andamento dosi somministrate per categoria
+            </Typography>
             <Card>
-              <BarChart data={cities} />
-            </Card>
-          </Grid> */}
-
-
-          {/* <Grid item xs={6}>
-            <Card>
-              <LineChart data={lineChartData} />
+              <BarChart data={vaccines} dataKey="numberOfPositives"/>
             </Card>
           </Grid>
-          */}
 
-          {/* <Grid item xs={12}>
+          <Grid item xs={12}>
+            <Typography variant="h3" classes={{ root: classes.title }}>
+              Andamento dosi somministrate per fascia d'età
+            </Typography>
+
             <Card>
-              <StackedAreaChart data={mVaccines} />
+              <BarChart data={vaccines} dataKey="numberOfPositives"/>
             </Card>
-          </Grid> */}
+          </Grid>
+
+          <Grid item xs={12}>
+            <Typography variant="h3" classes={{ root: classes.title }}>
+              Andamento vaccini somministrati su base giornaliera
+            </Typography>
+            
+            <Typography variant="h4">
+              Prime e seconde dosi
+            </Typography>
+            <Grid container spacing={3}>
+              <Grid item sm={6} xs={12}>
+                <Card>
+                  <BarChart data={vaccines} dataKey="numberOfPositives"/>
+                </Card>
+              </Grid>
+              <Grid item sm={6} xs={12}>
+                <Card>
+                  <BarChart data={vaccines} dataKey="numberOfPositives"/>
+                </Card>
+              </Grid>
+            </Grid>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Typography variant="h3" classes={{ root: classes.title }}>
+              Vaccini disponibili per produttore
+            </Typography>
+            <Card>
+              <BarChart data={vaccines} dataKey="numberOfPositives"/>
+            </Card>
+          </Grid>
+
+        
+          <Grid item xs={12}>
+            <Typography variant="h3" classes={{ root: classes.title }}>
+              Piano vaccinale, realtà e previsioni
+            </Typography>
+            <Typography variant="h4">
+              Dove siamo e dove dovremmo essere con la consegna e la somministrazione dei vaccini
+            </Typography>
+            <Card>
+              <StackedAreaChart data={vaccines} />
+            </Card>
+          </Grid>
+
         </Grid>
       </Container>
     </>
