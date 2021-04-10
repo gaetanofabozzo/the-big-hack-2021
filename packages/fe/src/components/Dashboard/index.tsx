@@ -29,6 +29,10 @@ import { colors } from '../../theme/palette';
 import Login from '../Login';
 import Footer from '../Footer';
 
+import astrazeneca from '../../assets/astrazeneca.png';
+import pfizer from '../../assets/pfizer.png';
+import moderna from '../../assets/moderna.png';
+
 const useStyles = makeStyles((_theme: Theme) => ({
   logo: {
     maxWidth: 40,
@@ -99,17 +103,23 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     "Moderna": colors.warning,
   }
 
+  const supplierLogo = {
+    "AstraZeneca": astrazeneca,
+    "Pfizer/BioNTech": pfizer,
+    "Moderna": moderna,
+  }
+
   const decisionMakerStats = remainingVaccines.map(({ dosiRestanti, fornitore, giorniTolleranza }: any) => ({
     animated: true,
     title: fornitore,
     value: dosiRestanti,
+    prefix: <img className="supplier-logo" style={ {width: '60px', height: '30px'} } src={supplierLogo[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"]} />,
     suffix: ' disponibili',
     description: `È previsto che le dosi termineranno in ${giorniTolleranza} giorni, in mancanza di ulteriori consegne`,
     color: supplierColors[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"],
   }));
 
   const stats = type === UserType.DECISION_MAKER ? decisionMakerStats : cittadinoStats;
-  console.log({ remainingVaccines });
 
   if(!isLogged) {
     return (<Login onLogin={() => setIsLogged(true)}/>)
