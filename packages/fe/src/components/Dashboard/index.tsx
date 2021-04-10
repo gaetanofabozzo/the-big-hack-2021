@@ -115,6 +115,16 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     { title: "Numero Tamponi", key: "numberOfSwabs" },
   ];
 
+   const retrieveRTEmoti = (rt: number) => {
+    let symbol = 0x1f641;
+    if (rt < 0.8) symbol = 0x1f620;
+    else if (rt > 1.3) symbol = 0x1f642;
+
+    return <span role="img" style={{marginLeft: '13px'}}>
+        {String.fromCodePoint(symbol)}
+    </span>;
+  }
+
   const cittadinoStats = !loadingSummary
     ? [
         {
@@ -122,6 +132,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
           value: vaccineSummary?.rt,
           description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
           color: colors.primary,
+          suffix: retrieveRTEmoti(vaccineSummary?.rt),
         },
         {
           title: "Totale Vaccinati",
