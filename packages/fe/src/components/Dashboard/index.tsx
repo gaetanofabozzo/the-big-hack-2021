@@ -97,26 +97,20 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     },
   ] : [];
 
-  const supplierColors = {
-    "AstraZeneca": colors.purpleDark,
-    "Pfizer/BioNTech": colors.primary,
-    "Moderna": colors.warning,
-  }
-
-  const supplierLogo = {
-    "AstraZeneca": astrazeneca,
-    "Pfizer/BioNTech": pfizer,
-    "Moderna": moderna,
-  }
+  const SUPPLIERS_INFO = {
+    "AstraZeneca": { color: colors.purpleDark, logo: astrazeneca, style: { width: 'auto', maxHeight: '30px', objectFit: 'cover', margin: '10px' }},
+    "Pfizer/BioNTech": { color: colors.primary, logo: pfizer, style: { width: 'auto', maxHeight: '30px', objectFit: 'cover', margin: '10px' }},
+    "Moderna": { color: '#17bdf2', logo: moderna, style: { width: 'auto', maxHeight: '20px', objectFit: 'cover', margin: '10px' }},
+  };
 
   const decisionMakerStats = remainingVaccines.map(({ dosiRestanti, fornitore, giorniTolleranza }: any) => ({
     animated: true,
     title: fornitore,
     value: dosiRestanti,
-    prefix: <img className="supplier-logo" style={ {width: '60px', height: '30px'} } src={supplierLogo[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"]} />,
+    prefix: <img className="supplier-logo" style={SUPPLIERS_INFO[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"].style as any} src={SUPPLIERS_INFO[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"].logo} />,
     suffix: ' disponibili',
     description: `È previsto che le dosi termineranno in ${giorniTolleranza} giorni, in mancanza di ulteriori consegne`,
-    color: supplierColors[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"],
+    color: SUPPLIERS_INFO[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"].color,
   }));
 
   const stats = type === UserType.DECISION_MAKER ? decisionMakerStats : cittadinoStats;
