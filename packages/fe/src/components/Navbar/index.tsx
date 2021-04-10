@@ -1,9 +1,9 @@
 import React from 'react';
-import { AppBar, Link, Box, Toolbar, makeStyles, FormControl, InputLabel, Select } from '@material-ui/core';
+import { AppBar, Link, Box, Toolbar, makeStyles, FormControl, InputLabel, Select, Theme } from '@material-ui/core';
 
 import logo from '../../assets/logo.png';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme: Theme) => ({
   root: {
     flexGrow: 1,
   },
@@ -12,11 +12,22 @@ const useStyles = makeStyles({
     padding: '15px',
     borderRadius: '10px'
   },
+  slogan: {
+    fontWeight: 'bold',
+    fontSize: '23px',
+    color: 'rgb(1, 82, 162)',
+    [theme.breakpoints.down('md')]: {
+      fontSize: '18px',
+    },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '16px',
+    },
+  },
   appBar: {
     background: '#FFF',
   },
   formControl: {}
-});
+}));
 
 const Navbar: React.FC = () => {
   const classes = useStyles();
@@ -29,7 +40,7 @@ const Navbar: React.FC = () => {
             <span>CLF</span>
           </Box>
 
-          <Box flexGrow={1} style={{fontWeight: 'bold', fontSize: '23px', color: 'rgb(1, 82, 162)'}}>
+          <Box flexGrow={1} className={classes.slogan}>
             C.L.F. CAMPANIA  
           </Box>
 
