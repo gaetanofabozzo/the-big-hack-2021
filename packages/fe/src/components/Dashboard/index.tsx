@@ -10,7 +10,6 @@ import PieChart from '../Charts/PieChart';
 import LineChart from '../Charts/LineChart';
 import SingleAreaChart from '../Charts/SingleAreaChart';
 import Chatbot from '../Chatbot';
-// import StackedAreaChart from '../Charts/StackedAreaChart';
 
 import useGeoLocalization from '../../hooks/useGeoLocalization';
 import useCategories from '../../hooks/useCategories';
@@ -23,7 +22,7 @@ import { casesTypeColors } from '../../utils/map';
 import { UserType } from '../../types';
 
 import Stat from '../Stat';
-import palette from '../../theme/palette';
+import palette, { colors } from '../../theme/palette';
 import useRemainingVaccines from '../../hooks/useRemainingVaccines';
 import useVaccinesSummary from '../../hooks/useVaccinesSummary';
 
@@ -42,11 +41,9 @@ const useStyles = makeStyles((_theme: Theme) => ({
 const USER_TYPE_INFOS = {
   [UserType.DECISION_MAKER]: {
     title: 'Dashboard Decision Maker',
-    description: "Da qui puoi monitorare l'andamento della campagnia vaccinale",
   },
   [UserType.CITTADINO]: {
     title: 'Dashboard Cittadino',
-    description: "Da qui puoi monitorare l'andamento della campagnia vaccinale",
   }
 }
 
@@ -75,15 +72,23 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     { title: 'Totale Vaccinati', value: vaccineSummary?.percentuale_vaccinati, suffix: '%', description: `Percentuale vaccinati rispetto alla popolazione Campana, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main, animated: true },
   ] : [];
 
+  const supplierColors = {
+    "AstraZeneca": colors.purpleDark,
+    "Pfizer/BioNTech": colors.primary,
+    "Moderna": colors.warning,
+  }
+
   const decisionMakerStats = remainingVaccines.map(({ dosiRestanti, fornitore, giorniTolleranza }: any) => ({
     animated: true,
     title: fornitore,
     value: dosiRestanti,
-    description: `Probabile numero di dosi nei prossimi ${giorniTolleranza} giorni`,
-    color: palette.primary.main
+    suffix: ' disponibili',
+    description: `È previsto che le dosi termineranno in ${giorniTolleranza} giorni, in mancanza di ulteriori consegne`,
+    color: supplierColors[fornitore as "AstraZeneca"| "Pfizer/BioNTech" | "Moderna"],
   }));
 
   const stats = type === UserType.DECISION_MAKER ? decisionMakerStats : cittadinoStats;
+  console.log({ remainingVaccines });
 
   return (
     <>
@@ -92,9 +97,6 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
       <Container maxWidth="lg" classes={{ root: classes.container }}>
         <Typography variant="h1" classes={{ root: classes.title }}>
           {USER_TYPE_INFOS[type].title}
-        </Typography>
-        <Typography>
-          {USER_TYPE_INFOS[type].description}
         </Typography>
 
         <Box style={{ display: 'inline-flex', width: '100%', marginTop: '15px' }} justifyContent='space-between'>
@@ -144,7 +146,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
               <BarChart
                 data={categories}
                 xDataKey="subject"
-                bars={[{ dataKey: 'pfizer', fill: '#03c1f1' }, { dataKey: 'astra', fill: '#9a0151' }, { dataKey: 'moderna', fill: '#b31014' }]}
+                bars={[{ dataKey: 'pfizer', fill: colors.primary }, { dataKey: 'astra', fill: '#9a0151' }, { dataKey: 'moderna', fill: colors.warning }]}
               />
             </Card>
           </Grid>
@@ -161,7 +163,10 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                   <Card>
                     <LineChart
                       data={dataVaccines}
-                      lines={[{ dataKey: 'prima dose', stroke: '#8884d8' }, { dataKey: 'seconda dose', stroke: '#82ca9d' }]}
+                      lines={[
+                        { dataKey: 'prima_dose', stroke: colors.primary, name: 'prima dose' },
+                        { dataKey: 'seconda_dose', stroke: colors.warning, name: 'seconda dose' }
+                      ]}
                     />
                   </Card>
                 </Grid>
@@ -185,7 +190,11 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                 Rapporto Positivi/Vaccinati
               </Typography>
               <Card>
-                <SingleAreaChart data={positivesOnVaccines} />
+                <SingleAreaChart
+                  data={positivesOnVaccines}
+                  dataKey="date"
+                  areas={[{ dataKey: 'positiviSuVaccini', stroke: colors.primary, fill: colors.primary }]}
+                />
               </Card>
             </Grid>
           </>

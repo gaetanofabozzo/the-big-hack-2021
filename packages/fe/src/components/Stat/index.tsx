@@ -5,7 +5,7 @@ import { Box, makeStyles, Theme, Typography } from "@material-ui/core";
 const useStyles = makeStyles((_theme: Theme) => ({
   root: {
     color: ({ color }: { color: any }): any => color,
-    padding: '30px',
+    padding: '50px',
     textAlign: 'center',
     flexGrow: 1,
   },

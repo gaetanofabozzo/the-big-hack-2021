@@ -2,7 +2,7 @@ import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import { colors } from '../../theme/palette';
 
-const COLORS = [colors.primary, colors.primaryLight, '#FFBB28', '#FF8042'];
+const COLORS = [colors.primary, colors.warning, '#FFBB28', '#FF8042'];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }: any) => {

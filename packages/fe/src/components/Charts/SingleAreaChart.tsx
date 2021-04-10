@@ -1,7 +1,7 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-export default ({ data }: { data: any }) => (
+export default ({ data, dataKey, areas }: any) => (
   <ResponsiveContainer height={300}>
     <AreaChart
       width={500}
@@ -15,10 +15,12 @@ export default ({ data }: { data: any }) => (
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="date" />
+      <XAxis dataKey={dataKey} />
       <YAxis />
       <Tooltip />
-      <Area type="monotone" dataKey="positiviSuVaccini" stroke="#8884d8" fill="#8884d8" name="positivi/vaccinati" />
+      {areas.map(({ dataKey: areaKey, stroke, fill }: any) => (
+        <Area type="monotone" dataKey={areaKey} stroke={stroke} fill={fill} name="positivi/vaccinati" />
+      ))}
     </AreaChart>
   </ResponsiveContainer>
 );
