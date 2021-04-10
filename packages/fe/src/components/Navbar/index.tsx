@@ -26,6 +26,11 @@ const Navbar: React.FC = () => {
         <Toolbar>
           <Box flexGrow={1}>
             <img src={logo} alt="logo" className={classes.logo} />
+            <span>CLF</span>
+          </Box>
+
+          <Box flexGrow={1} style={{fontWeight: 'bold', fontSize: '23px', color: 'rgb(1, 82, 162)'}}>
+            C.L.F. CAMPANIA  
           </Box>
 
           <Box p={2}>

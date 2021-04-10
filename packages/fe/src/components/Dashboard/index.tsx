@@ -68,15 +68,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   iconButton: {},
 }));
 
-const USER_TYPE_INFOS = {
-  [UserType.DECISION_MAKER]: {
-    title: "Dashboard Decision Maker",
-  },
-  [UserType.CITTADINO]: {
-    title: "Dashboard Cittadino",
-  },
-};
-
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   // const theme = useTheme();
   const classes = useStyles();
@@ -189,10 +180,6 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
       <Navbar />
 
       <Container maxWidth="lg" classes={{ root: classes.container }}>
-        <Typography variant="h1" classes={{ root: classes.bigTitle }}>
-          {USER_TYPE_INFOS[type].title}
-        </Typography>
-
         <Box
           className={classes.stats}
           justifyContent="space-between"
