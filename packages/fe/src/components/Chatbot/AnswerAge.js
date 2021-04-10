@@ -4,81 +4,108 @@ import ChatBot from "react-simple-chatbot";
 const ageGroup = {
   "16-19": (
     <>
-      Se non appertieni a categorie gia in fase di vaccinazione attendi il tuo
-      turno maggiorni infromazioni sul sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      Se non appertieni a categorie già in fase di vaccinazione attendi il tuo
+      turno maggiorni informazioni sul sito&nbsp;
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "20-29": (
     <>
-      Se non appertieni a categorie gia in fase di vaccinazione attendi il tuo
-      turno maggiorni infromazioni sul sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      Se non appertieni a categorie già in fase di vaccinazione attendi il tuo
+      turno maggiorni informazioni sul sito&nbsp;
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "30-39": (
     <>
-      Se non appertieni a categorie gia in fase di vaccinazione attendi il tuo
-      turno maggiorni infromazioni sul sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      Se non appertieni a categorie già in fase di vaccinazione attendi il tuo
+      turno maggiorni informazioni sul sito&nbsp;
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "40-49": (
     <>
-      Se non appertieni a categorie gia in fase di vaccinazione attendi il tuo
-      turno maggiorni infromazioni sul sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      Se non appertieni a categorie già in fase di vaccinazione attendi il tuo
+      turno maggiorni informazioni sul sito&nbsp;
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "50-59": (
     <>
-      Se non appertieni a categorie gia in fase di vaccinazione attendi il tuo
-      turno maggiorni infromazioni sul sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      Se non appertieni a categorie già in fase di vaccinazione attendi il tuo
+      turno maggiorni informazioni sul sito&nbsp;
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "60-69": (
     <>
-      Se non appertieni a categorie gia in fase di vaccinazione attendi il tuo
-      turno maggiorni infromazioni sul sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      Se non appertieni a categorie già in fase di vaccinazione attendi il tuo
+      turno maggiorni informazioni sul sito&nbsp;
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "70-79": (
     <>
-      Le vaccinazioni sono gia aperte per te! per maggiori informazioni consulta
+      Le vaccinazioni sono già aperte per te! Per maggiori informazioni consulta
       il sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "80-89": (
     <>
-      Le vaccinazioni sono gia aperte per te! per maggiori informazioni consulta
+      Le vaccinazioni sono già aperte per te! Per maggiori informazioni consulta
       il sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>
   ),
   "90+": (
     <>
-      Le vaccinazioni sono gia aperte per te! per maggiori informazioni consulta
+      Le vaccinazioni sono già aperte per te! Per maggiori informazioni consulta
       il sito&nbsp;
-      <a href="https://adesionevaccinazioni.soresa.it/adesione/cittadino">
+      <a
+        href="https://adesionevaccinazioni.soresa.it/adesione/cittadino"
+        target="_blank"
+      >
         clicca qui
       </a>
     </>

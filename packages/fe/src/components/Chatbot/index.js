@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import AnswerAge from "./AnswerAge";
 
 const answers = {
-  "quanti positivi oggi?": "500",
+  "quanti positivi oggi?": "2225",
   "quando potrò vaccinarmi?": "option",
   "andrà tutto bene": "CE LA FAREMOOOOOOOOOOOOO",
   "ho paura":
@@ -23,20 +23,25 @@ const theme = {
   userFontColor: "#4a4a4a",
 };
 
-export default function App() {
+export default function Chatbot({ opened, toggleOpen }) {
   return (
     <div className="chatbot">
       <ThemeProvider theme={theme}>
         <ChatBot
+          placeholder="Come ti posso aiutare?"
+          opened={opened}
+          floating
+          toggleFloating={toggleOpen}
           steps={[
             {
               id: "1",
-              message: "Ciao sono qui per aiutarti, chiedimi infromazioni",
+              message: "Ciao, sono qui per aiutarti. Chiedimi informazioni",
               trigger: "example",
             },
             {
               id: "example",
-              message: "es: quanti positivi oggi, quando potrò vaccinarmi?",
+              message:
+                "Ad esempio: Quanti positivi oggi? Quando potrò vaccinarmi?",
               trigger: "3",
             },
             {
@@ -70,8 +75,9 @@ export default function App() {
               user: true,
 
               trigger: ({ value }) => {
-                if (value.toLowerCase() === "quando potrò vaccinarmi?")
+                if (value.toLowerCase() === "quando potrò vaccinarmi?") {
                   return "answer-option";
+                }
                 return "5";
               },
             },

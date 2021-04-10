@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { RouteComponentProps, useParams } from '@reach/router';
-import { makeStyles, Typography, Container, Card, Grid, Theme, Fab, Box } from '@material-ui/core';
-import LiveHelpIcon from '@material-ui/icons/LiveHelp';
+import { makeStyles, Typography, Container, Card, Grid, Theme, Box } from '@material-ui/core';
 
 import Navbar from '../Navbar';
 import CATCard from '../CATCard';
@@ -10,6 +9,7 @@ import BarChart from '../Charts/BarChart';
 import PieChart from '../Charts/PieChart';
 import LineChart from '../Charts/LineChart';
 import SingleAreaChart from '../Charts/SingleAreaChart';
+import Chatbot from '../Chatbot';
 // import StackedAreaChart from '../Charts/StackedAreaChart';
 
 import useGeoLocalization from '../../hooks/useGeoLocalization';
@@ -52,6 +52,7 @@ const USER_TYPE_INFOS = {
 
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   const [casesType, setCasesType] = useState<string>('numberOfVaccines');
+  const [showChatbot, setShowChatbot] = useState(true);
   const classes = useStyles();
   const { coordinates } = useGeoLocalization({ place: 'Villaricca' });
   const { vaccines, loading } = useMunicipalitiesVaccines();
@@ -71,7 +72,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
 
   const cittadinoStats = !loadingSummary ? [
     { title: 'Indice di Contagio', value: vaccineSummary?.rt, description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main },
-    { title: 'Totale Vaccinati', value: vaccineSummary?.percentuale_vaccinati, suffix: '%', description: `Percentuale vaccinati, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main, animated: true },
+    { title: 'Totale Vaccinati', value: vaccineSummary?.percentuale_vaccinati, suffix: '%', description: `Percentuale vaccinati rispetto alla popolazione Campana, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main, animated: true },
   ] : [];
 
   const decisionMakerStats = remainingVaccines.map(({ dosiRestanti, fornitore, giorniTolleranza }: any) => ({
@@ -160,7 +161,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                   <Card>
                     <LineChart
                       data={dataVaccines}
-                      lines={[{ dataKey: 'prima_dose', stroke: '#8884d8' }, { dataKey: 'seconda_dose', stroke: '#82ca9d' }]}
+                      lines={[{ dataKey: 'prima dose', stroke: '#8884d8' }, { dataKey: 'seconda dose', stroke: '#82ca9d' }]}
                     />
                   </Card>
                 </Grid>
@@ -204,7 +205,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                 <Card style={{ flex: 1 }}>
                   <Typography style={{ textAlign: 'center', fontWeight: 'bold', margin: '10px', fontSize: '27px' }}>{name}</Typography>
                   <PieChart 
-                    data={[{ name: 'prima_dose', value: prima_dose }, { name: 'seconda_dose', value: seconda_dose }]}
+                    data={[{ name: 'prima dose', value: prima_dose }, { name: 'seconda dose', value: seconda_dose }]}
                     datakey={'value'}
                   />
                 </Card>
@@ -214,11 +215,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
         </Grid>
 
         {type === UserType.CITTADINO && (
-          <Box position="fixed" bottom={10} right={10}>
-            <Fab aria-label='Ti possiamo aiutare' color='primary'>
-              <LiveHelpIcon />
-            </Fab>
-          </Box>
+          <Chatbot opened={showChatbot} toggleOpen={() => setShowChatbot(!showChatbot)} />
         )}
 
         </Grid>
