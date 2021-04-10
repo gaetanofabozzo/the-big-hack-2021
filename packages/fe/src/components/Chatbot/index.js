@@ -25,7 +25,7 @@ const theme = {
 
 export default function Chatbot({ opened, toggleOpen }) {
   return (
-    <div className="chatbot">
+    <div style={{ zIndex: 9999 }}>
       <ThemeProvider theme={theme}>
         <ChatBot
           placeholder="Come ti posso aiutare?"

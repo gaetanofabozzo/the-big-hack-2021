@@ -32,8 +32,7 @@ const useStyles = makeStyles({
 function Map({ data, casesType, center, zoom }) {
   const classes = useStyles();
   const color = casesTypeColors[casesType].hex;
-  console.log(zoom);
-  console.log(center);
+
   return (
     <div className={classes.map}>
       <MapContainer

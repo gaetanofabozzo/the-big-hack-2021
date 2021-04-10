@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { RouteComponentProps, useParams } from "@reach/router";
 import {
   makeStyles,
@@ -8,10 +8,12 @@ import {
   Grid,
   Theme,
   Box,
+  useMediaQuery,
+  // useTheme,
 } from "@material-ui/core";
 
-import TextField from "@material-ui/core/TextField";
-import Autocomplete from "@material-ui/lab/Autocomplete";
+// import TextField from "@material-ui/core/TextField";
+// import Autocomplete from "@material-ui/lab/Autocomplete";
 
 import Navbar from "../Navbar";
 import CATCard from "../CATCard";
@@ -21,6 +23,9 @@ import PieChart from "../Charts/PieChart";
 import LineChart from "../Charts/LineChart";
 import SingleAreaChart from "../Charts/SingleAreaChart";
 import Chatbot from "../Chatbot";
+import Login from "../Login";
+import Footer from "../Footer";
+import Stat from "../Stat";
 
 import useGeoLocalization from "../../hooks/useGeoLocalization";
 import useCategories from "../../hooks/useCategories";
@@ -34,18 +39,13 @@ import useVaccinesSummary from "../../hooks/useVaccinesSummary";
 import { casesTypeColors } from "../../utils/map";
 import { UserType } from "../../types";
 
-import Stat from "../Stat";
 import { colors } from "../../theme/palette";
 
-import Login from "../Login";
-import Footer from "../Footer";
+// import astrazeneca from "../../assets/astrazeneca.png";
+// import pfizer from "../../assets/pfizer.png";
+// import moderna from "../../assets/moderna.png";
 
-import astrazeneca from "../../assets/astrazeneca.png";
-import pfizer from "../../assets/pfizer.png";
-import moderna from "../../assets/moderna.png";
-import { useEffect } from "react";
-
-const useStyles = makeStyles((_theme: Theme) => ({
+const useStyles = makeStyles((theme: Theme) => ({
   logo: {
     maxWidth: 40,
     padding: "15px",
@@ -56,6 +56,13 @@ const useStyles = makeStyles((_theme: Theme) => ({
   bigTitle: {
     fontSize: "40px",
     margin: "20px 0 10px",
+  },
+  stats: {
+    width: "100%", 
+    marginTop: "15px",
+    [theme.breakpoints.up('md')]: {
+      display: "inline-flex", 
+    },
   },
   container: {},
   iconButton: {},
@@ -71,17 +78,14 @@ const USER_TYPE_INFOS = {
 };
 
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
+  // const theme = useTheme();
   const classes = useStyles();
   const { type }: { type: UserType } = useParams();
   const [casesType, setCasesType] = useState<string>("numberOfVaccines");
-  const [showChatbot, setShowChatbot] = useState(true);
-  const [currentCoordinates, setCurrentCoordinates] = useState({
-    lat: 0,
-    lng: 0,
-  });
-
-  const [zoom, setZoom] = useState(8);
-  //const [comune, setComune] = useState({});
+  const isBigScreen = useMediaQuery((theme: Theme) => theme.breakpoints.up('sm'));
+  const [showChatbot, setShowChatbot] = useState(isBigScreen);
+  const [zoom] = useState(8);
+  const [currentCoordinates, setCurrentCoordinates] = useState({ lat: 0, lng: 0,});
   const [isLogged, setIsLogged] = useState<boolean>(
     type === UserType.CITTADINO
   );
@@ -98,16 +102,22 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     loading: loadingSummary,
   } = useVaccinesSummary();
 
+  const [mapLoading, setMapLoading] = useState(loading);
+
   useEffect(() => {
     setCurrentCoordinates({
       lat: coordinates.latitude,
       lng: coordinates.longitude,
     });
   }, [coordinates]);
-  /*
+
   useEffect(() => {
-    console.log(currentCoordinates);
-  }, [currentCoordinates]);*/
+    setMapLoading(loading);
+  }, [loading]);
+
+  useEffect(() => {
+    setShowChatbot(isBigScreen);
+  }, [isBigScreen])
 
   const cases = [
     { title: "Numero Vaccini", key: "numberOfVaccines" },
@@ -152,28 +162,11 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     Moderna: colors.warning,
   };
 
-  const supplierLogo = {
-    AstraZeneca: astrazeneca,
-    "Pfizer/BioNTech": pfizer,
-    Moderna: moderna,
-  };
-
   const decisionMakerStats = remainingVaccines.map(
     ({ dosiRestanti, fornitore, giorniTolleranza }: any) => ({
       animated: true,
       title: fornitore,
       value: dosiRestanti,
-      prefix: (
-        <img
-          className="supplier-logo"
-          style={{ width: "60px", height: "30px" }}
-          src={
-            supplierLogo[
-              fornitore as "AstraZeneca" | "Pfizer/BioNTech" | "Moderna"
-            ]
-          }
-        />
-      ),
       suffix: " disponibili",
       description: `È previsto che le dosi termineranno in ${giorniTolleranza} giorni, in mancanza di ulteriori consegne`,
       color:
@@ -183,10 +176,11 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     })
   );
 
-  const stats =
-    type === UserType.DECISION_MAKER ? decisionMakerStats : cittadinoStats;
+  // const stats =
+  //   type === UserType.DECISION_MAKER ? [...decisionMakerStats, ...cittadinoStats] : cittadinoStats;
 
   if (!isLogged) {
+    // blhee but for what we need now it's perfect
     return <Login onLogin={() => setIsLogged(true)} />;
   }
 
@@ -200,13 +194,24 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
         </Typography>
 
         <Box
-          style={{ display: "inline-flex", width: "100%", marginTop: "15px" }}
+          className={classes.stats}
           justifyContent="space-between"
         >
-          {stats.map((stat: any) => (
+          {cittadinoStats.map((stat: any) => (
             <Stat {...stat} key={stat.title} />
           ))}
         </Box>
+
+        {type === UserType.DECISION_MAKER && (
+          <Box
+            className={classes.stats}
+            justifyContent="space-between"
+          >
+            {decisionMakerStats.map((stat: any) => (
+              <Stat {...stat} key={stat.title} />
+            ))}
+          </Box>
+        )}
 
         <Typography variant="h3" classes={{ root: classes.title }}>
           Monitoraggio Adesioni Campagna Vaccinale Covid-19
@@ -233,14 +238,16 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
           ))}
 
           <Grid item xs={12}>
-            <Autocomplete
+            {/* <Autocomplete
               id="comune"
               onChange={(_e, value) => {
-                setZoom(18);
+                setMapLoading(true);
+                setZoom(20);
                 setCurrentCoordinates({
                   lat: value.latitude,
                   lng: value.longitude,
                 });
+                setMapLoading(false);
               }}
               options={vaccines}
               getOptionLabel={(option: any) => option?.name}
@@ -252,18 +259,17 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                   variant="outlined"
                 />
               )}
-            />
+            /> */}
             <Card style={{ padding: 0 }}>
-              {!loading ? (
+              {!mapLoading && (
                 <Map
                   data={vaccines}
                   casesType={casesType}
-                  zoom={zoom || 8}
+                  zoom={zoom}
                   center={currentCoordinates}
                 />
-              ) : (
-                "Loading"
               )}
+              
             </Card>
           </Grid>
 

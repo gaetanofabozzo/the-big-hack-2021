@@ -2,13 +2,16 @@ import React from "react";
 import { useCountUp } from "react-countup";
 import { Box, makeStyles, Theme, Typography } from "@material-ui/core";
 
-const useStyles = makeStyles((_theme: Theme) => ({
+const useStyles = makeStyles((theme: Theme) => ({
   root: {
     color: ({ color }: { color: any }): any => color,
     padding: '50px',
     textAlign: 'center',
-    flexGrow: 1,
-    maxWidth: '50%'
+    flexBasis: '100%',
+    [theme.breakpoints.up('md')]: {
+      maxWidth: '50%',
+      flexGrow: 1,
+    },
   },
   title: {
     marginBottom: '10px',
