@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   logo: {
     maxWidth: '70px',
     padding: '15px',
+    borderRadius: '10px'
   },
   appBar: {
     background: '#FFF',

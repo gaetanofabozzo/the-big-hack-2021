@@ -17,14 +17,17 @@ import useAgeGroup from '../../hooks/useAgeGroup';
 import useMunicipalitiesVaccines from '../../hooks/useMunicipalitiesVaccines';
 import useVaccines from '../../hooks/useVaccines';
 import usePositivesOnVaccines from '../../hooks/usePositivesOnVaccines';
+import useRemainingVaccines from '../../hooks/useRemainingVaccines';
+import useVaccinesSummary from '../../hooks/useVaccinesSummary';
 
 import { casesTypeColors } from '../../utils/map';
 import { UserType } from '../../types';
 
 import Stat from '../Stat';
 import palette, { colors } from '../../theme/palette';
-import useRemainingVaccines from '../../hooks/useRemainingVaccines';
-import useVaccinesSummary from '../../hooks/useVaccinesSummary';
+
+import Login from '../Login';
+import Footer from '../Footer';
 
 const useStyles = makeStyles((_theme: Theme) => ({
   logo: {
@@ -48,9 +51,12 @@ const USER_TYPE_INFOS = {
 }
 
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
+  const classes = useStyles();
+  const { type } : { type: UserType } = useParams();
   const [casesType, setCasesType] = useState<string>('numberOfVaccines');
   const [showChatbot, setShowChatbot] = useState(true);
-  const classes = useStyles();
+  const [isLogged, setIsLogged] = useState<boolean>(type === UserType.CITTADINO);
+  
   const { coordinates } = useGeoLocalization({ place: 'Villaricca' });
   const { vaccines, loading } = useMunicipalitiesVaccines();
   const { data: ageGroup, loading: ageLoading } = useAgeGroup();
@@ -59,8 +65,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   const { positivesOnVaccines } = usePositivesOnVaccines();
   const { data: remainingVaccines } = useRemainingVaccines();
   const { data: vaccineSummary, loading: loadingSummary } = useVaccinesSummary();
-
-  const { type } : { type: UserType } = useParams();
+  
   const cases = [
     { title: 'Numero Vaccini', key: 'numberOfVaccines' },
     { title: 'Numero Positivi', key: 'numberOfPositives' },
@@ -89,6 +94,10 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
 
   const stats = type === UserType.DECISION_MAKER ? decisionMakerStats : cittadinoStats;
   console.log({ remainingVaccines });
+
+  if(!isLogged) {
+    return (<Login onLogin={() => setIsLogged(true)}/>)
+  }
 
   return (
     <>
@@ -193,7 +202,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                 <SingleAreaChart
                   data={positivesOnVaccines}
                   dataKey="date"
-                  areas={[{ dataKey: 'positiviSuVaccini', stroke: colors.primary, fill: colors.primary }]}
+                  areas={[{ dataKey: 'positiviSuVaccini', stroke: colors.primaryDark, fill: colors.primaryLight }]}
                 />
               </Card>
             </Grid>
@@ -229,6 +238,8 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
 
         </Grid>
       </Container>
+
+      <Footer />
     </>
   );
 };
