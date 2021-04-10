@@ -352,7 +352,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
             <Grid container spacing={3} justify="center">
               {!ageLoading
                 ? ageGroup.map(({ name, prima_dose, seconda_dose }: any) => (
-                    <Grid item sm={2} xs={12}>
+                    <Grid item sm={4} xs={12} md={4} lg={2}>
                       <Card style={{ flex: 1 }}>
                         <Typography
                           style={{
