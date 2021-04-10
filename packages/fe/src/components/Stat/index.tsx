@@ -8,6 +8,7 @@ const useStyles = makeStyles((_theme: Theme) => ({
     padding: '50px',
     textAlign: 'center',
     flexGrow: 1,
+    maxWidth: '50%'
   },
   title: {
     marginBottom: '10px',
@@ -20,7 +21,7 @@ const Stat = ({ animated, title, description, value, color, suffix }: any) => {
 
   return (
     <Box className={classes.root}>
-      <Typography variant="h2" classes={{ root: classes.title }}>{title}</Typography>
+      <Typography variant="h1" classes={{ root: classes.title }}>{title}</Typography>
       <Typography variant="h2" classes={{ root: classes.title }}>{animated ? animatedValue : value}<span>{suffix}</span></Typography>
       <Typography variant="body2">{description}</Typography>
     </Box>

@@ -24,7 +24,7 @@ import { casesTypeColors } from '../../utils/map';
 import { UserType } from '../../types';
 
 import Stat from '../Stat';
-import palette, { colors } from '../../theme/palette';
+import { colors } from '../../theme/palette';
 
 import Login from '../Login';
 import Footer from '../Footer';
@@ -36,7 +36,11 @@ const useStyles = makeStyles((_theme: Theme) => ({
   },
   title: {
     margin: '20px 0 10px',
-  }, 
+  },
+  bigTitle: {
+    fontSize: '40px',
+    margin: '20px 0 10px',
+  },
   container: {},
   iconButton: {},
 }));
@@ -73,8 +77,20 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   ];
 
   const cittadinoStats = !loadingSummary ? [
-    { title: 'Indice di Contagio', value: vaccineSummary?.rt, description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main },
-    { title: 'Totale Vaccinati', value: vaccineSummary?.percentuale_vaccinati, suffix: '%', description: `Percentuale vaccinati rispetto alla popolazione Campana, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`, color: palette.primary.main, animated: true },
+    { 
+      title: 'Indice di Contagio',
+      value: vaccineSummary?.rt,
+      description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
+      color: colors.primary
+    },
+    { 
+      title: 'Totale Vaccinati',
+      value: vaccineSummary?.percentuale_vaccinati,
+      suffix: '%',
+      description: `Percentuale vaccinati rispetto alla popolazione Campana, 
+      ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
+      color: colors.purpleDark, animated: true
+    },
   ] : [];
 
   const supplierColors = {
@@ -104,7 +120,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
       <Navbar />
       
       <Container maxWidth="lg" classes={{ root: classes.container }}>
-        <Typography variant="h1" classes={{ root: classes.title }}>
+        <Typography variant="h1" classes={{ root: classes.bigTitle }}>
           {USER_TYPE_INFOS[type].title}
         </Typography>
 
