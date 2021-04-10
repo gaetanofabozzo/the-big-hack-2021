@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 import logo from '../../assets/logo.png';
-import background from '../../assets/login.png';
+// import background from '../../assets/login.png';
 import Copyright from '../Copyright';
 
 const useStyles = makeStyles((theme) => ({
@@ -43,13 +43,13 @@ export default function Login({ onLogin }: any) {
   return (
     <Grid container component="main" className={classes.root}>
       <Grid item xs={false} sm={4} md={7} style={{backgroundColor: '#013067'}}>
-        <img src={background} style={{width: '100%', height: '30%', marginTop: '13%'}} />
+        <img src={"https://www.ats-montagna.it/wp-content/uploads/2021/01/vaccino-covid-19-1.jpg"} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
       </Grid>
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <img src={logo} alt="logo" className={classes.logo} />
-          <Typography component="h1" variant="h5">
-            Sign in
+          <Typography variant="h1" style={{ marginTop: '15px' }}>
+            Esegui l'accesso
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
