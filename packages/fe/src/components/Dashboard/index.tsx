@@ -9,42 +9,47 @@ import {
   Theme,
   Box,
   useMediaQuery,
-  // useTheme,
+  // TextField,
+  // Autocomplete
 } from "@material-ui/core";
 
-// import TextField from "@material-ui/core/TextField";
-// import Autocomplete from "@material-ui/lab/Autocomplete";
-
-import Navbar from "../Navbar";
-import CATCard from "../CATCard";
 import Map from "../Maps";
 import BarChart from "../Charts/BarChart";
 import PieChart from "../Charts/PieChart";
 import LineChart from "../Charts/LineChart";
 import SingleAreaChart from "../Charts/SingleAreaChart";
+import NpsMoodChart from "../Charts/NpsMoodChart";
+
+import Navbar from "../Navbar";
+import CATCard from "../CATCard";
 import Chatbot from "../Chatbot";
 import Login from "../Login";
 import Footer from "../Footer";
 import Stat from "../Stat";
 
-import useGeoLocalization from "../../hooks/useGeoLocalization";
-import useCategories from "../../hooks/useCategories";
-import useAgeGroup from "../../hooks/useAgeGroup";
 import useMunicipalitiesVaccines from "../../hooks/useMunicipalitiesVaccines";
-import useVaccines from "../../hooks/useVaccines";
 import usePositivesOnVaccines from "../../hooks/usePositivesOnVaccines";
 import useRemainingVaccines from "../../hooks/useRemainingVaccines";
 import useVaccinesSummary from "../../hooks/useVaccinesSummary";
+import useGeoLocalization from "../../hooks/useGeoLocalization";
+import useCategories from "../../hooks/useCategories";
+import useAgeGroup from "../../hooks/useAgeGroup";
+import useVaccines from "../../hooks/useVaccines";
 
 import { casesTypeColors } from "../../utils/map";
-import { UserType } from "../../types";
-
+import { retrieveRTMood } from "../../utils/mood";
+import { UserType, Supplier, MapCases } from "../../types";
 import { colors } from "../../theme/palette";
-import NpsMoodChart from "../Charts/NpsMoodChart";
 
 // import astrazeneca from "../../assets/astrazeneca.png";
 // import pfizer from "../../assets/pfizer.png";
 // import moderna from "../../assets/moderna.png";
+
+const cases = [
+  { title: "Numero Vaccini", key: "numberOfVaccines" },
+  { title: "Numero Positivi", key: "numberOfPositives" },
+  { title: "Numero Tamponi", key: "numberOfSwabs" },
+];
 
 const useStyles = makeStyles((theme: Theme) => ({
   logo: {
@@ -65,19 +70,16 @@ const useStyles = makeStyles((theme: Theme) => ({
       display: "inline-flex", 
     },
   },
-  container: {},
-  iconButton: {},
 }));
 
 const Dashboard: React.FC<RouteComponentProps> = (_props) => {
-  // const theme = useTheme();
   const classes = useStyles();
   const { type }: { type: UserType } = useParams();
   const [casesType, setCasesType] = useState<string>("numberOfVaccines");
   const isBigScreen = useMediaQuery((theme: Theme) => theme.breakpoints.up('sm'));
   const [showChatbot, setShowChatbot] = useState(isBigScreen);
   const [zoom] = useState(8);
-  const [currentCoordinates, setCurrentCoordinates] = useState({ lat: 0, lng: 0,});
+  const [currentCoordinates, setCurrentCoordinates] = useState({ lat: 0, lng: 0 });
   const [isLogged, setIsLogged] = useState<boolean>(
     type === UserType.CITTADINO
   );
@@ -94,7 +96,11 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     loading: loadingSummary,
   } = useVaccinesSummary();
 
-  const [mapLoading, setMapLoading] = useState(loading);
+  // const [mapLoading, setMapLoading] = useState(loading);
+
+  // useEffect(() => {
+  //   setMapLoading(loading);
+  // }, [loading]);
 
   useEffect(() => {
     setCurrentCoordinates({
@@ -104,49 +110,27 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   }, [coordinates]);
 
   useEffect(() => {
-    setMapLoading(loading);
-  }, [loading]);
-
-  useEffect(() => {
     setShowChatbot(isBigScreen);
   }, [isBigScreen])
 
-  const cases = [
-    { title: "Numero Vaccini", key: "numberOfVaccines" },
-    { title: "Numero Positivi", key: "numberOfPositives" },
-    { title: "Numero Tamponi", key: "numberOfSwabs" },
-  ];
-
-   const retrieveRTEmoti = (rt: number) => {
-    let symbol = 0x1f641;
-    if (rt < 0.8) symbol = 0x1f620;
-    else if (rt > 1.3) symbol = 0x1f642;
-
-    return <span role="img" style={{marginLeft: '13px'}}>
-        {String.fromCodePoint(symbol)}
-    </span>;
-  }
-
-  const cittadinoStats = !loadingSummary
-    ? [
-        {
-          title: "Indice di Contagio",
-          value: vaccineSummary?.rt,
-          description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
-          color: colors.primary,
-          suffix: retrieveRTEmoti(vaccineSummary?.rt),
-        },
-        {
-          title: "Totale Vaccinati",
-          value: vaccineSummary?.percentuale_vaccinati,
-          suffix: "%",
-          description: `Percentuale vaccinati rispetto alla popolazione Campana, 
-      ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
-          color: colors.purpleDark,
-          animated: true,
-        },
-      ]
-    : [];
+  const cittadinoStats = !loadingSummary ? [
+    {
+      title: "Indice di Contagio",
+      value: vaccineSummary?.rt,
+      description: `Valore RT, ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
+      color: colors.primary,
+      suffix: retrieveRTMood(vaccineSummary?.rt),
+    },
+    {
+      title: "Totale Vaccinati",
+      value: vaccineSummary?.percentuale_vaccinati,
+      suffix: "%",
+      description: `Percentuale vaccinati rispetto alla popolazione Campana, 
+  ultimo aggiornamento ${vaccineSummary?.ultimo_aggiornamento}`,
+      color: colors.purpleDark,
+      animated: true,
+    },
+  ] : [];
 
   const supplierColors = {
     AstraZeneca: colors.purpleDark,
@@ -161,15 +145,9 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
       value: dosiRestanti,
       suffix: " disponibili",
       description: `È previsto che le dosi termineranno in ${giorniTolleranza} giorni, in mancanza di ulteriori consegne`,
-      color:
-        supplierColors[
-          fornitore as "AstraZeneca" | "Pfizer/BioNTech" | "Moderna"
-        ],
+      color: supplierColors[fornitore as Supplier],
     })
   );
-
-  // const stats =
-  //   type === UserType.DECISION_MAKER ? [...decisionMakerStats, ...cittadinoStats] : cittadinoStats;
 
   if (!isLogged) {
     // blhee but for what we need now it's perfect
@@ -180,7 +158,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     <>
       <Navbar />
 
-      <Container maxWidth="lg" classes={{ root: classes.container }}>
+      <Container maxWidth="lg">
         <Box
           className={classes.stats}
           justifyContent="space-between"
@@ -210,14 +188,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
             <Grid item xs={12} sm={4}>
               <CATCard
                 onChange={() => setCasesType(key)}
-                color={
-                  casesTypeColors[
-                    key as
-                      | "numberOfVaccines"
-                      | "numberOfPositives"
-                      | "numberOfSwabs"
-                  ].hex
-                }
+                color={casesTypeColors[key as MapCases].hex}
                 selected={casesType === key}
               >
                 {title}
@@ -249,7 +220,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
               )}
             /> */}
             <Card style={{ padding: 0 }}>
-              {!mapLoading && (
+              {!loading && (
                 <Map
                   data={vaccines}
                   casesType={casesType}
@@ -308,17 +279,19 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                 </Grid>
               </Grid>
 
-              {/* <Grid item xs={12}>
-              <Typography variant="h3" classes={{ root: classes.title }}>
-                Piano vaccinale, realtà e previsioni
-              </Typography>
-              <Typography variant="h4">
-                Dove siamo e dove dovremmo essere con i consumi dei vaccini
-              </Typography>
-              <Card>
-                <SingleAreaChart data={positivesOnVaccines} />
-              </Card>
-            </Grid> */}
+              {/* 
+                <Grid item xs={12}>
+                  <Typography variant="h3" classes={{ root: classes.title }}>
+                    Piano vaccinale, realtà e previsioni
+                  </Typography>
+                  <Typography variant="h4">
+                    Dove siamo e dove dovremmo essere con i consumi dei vaccini
+                  </Typography>
+                  <Card>
+                    <SingleAreaChart data={positivesOnVaccines} />
+                  </Card>
+                </Grid> 
+              */}
 
               <Grid item xs={12}>
                 <Typography variant="h3" classes={{ root: classes.title }}>
@@ -328,13 +301,11 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
                   <SingleAreaChart
                     data={positivesOnVaccines}
                     dataKey="date"
-                    areas={[
-                      {
-                        dataKey: "positiviSuVaccini",
-                        stroke: colors.primaryDark,
-                        fill: colors.primaryLight,
-                      },
-                    ]}
+                    areas={[{
+                      dataKey: "positiviSuVaccini",
+                      stroke: colors.primaryDark,
+                      fill: colors.primaryLight,
+                    }]}
                   />
                 </Card>
               </Grid>

@@ -6,7 +6,7 @@ export const casesTypeColors = {
     multiplier: 50,
   },
   numberOfPositives: {
-    hex: '#fb4443',
+    // hex: '#fb4443',
     hex: colors.purpleDark,
     multiplier: 100,
   },
