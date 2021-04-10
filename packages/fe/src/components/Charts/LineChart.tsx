@@ -2,10 +2,10 @@ import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 // import { colors } from '../../theme/palette';
 
-export default ({ data }: { data: any }) => (
+export default ({ data, lines }: any) => (
   <ResponsiveContainer height={300}>
     <LineChart
-      width={500}
+      // width={500}
       height={300}
       data={data}
       margin={{
@@ -20,8 +20,9 @@ export default ({ data }: { data: any }) => (
       <YAxis />
       <Tooltip />
       <Legend />
-      <Line type="monotone" dataKey="prevision" stroke="#8884d8" activeDot={{ r: 8 }} />
-      <Line type="monotone" dataKey="numberOfVaccines" stroke="#82ca9d" />
+      {lines.map(({ dataKey, stroke }: any) => (
+        <Line type="monotone" dataKey={dataKey} stroke={stroke} activeDot={{ r: 8 }} />
+      ))}
     </LineChart>
   </ResponsiveContainer>
 );

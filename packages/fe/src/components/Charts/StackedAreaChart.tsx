@@ -1,5 +1,5 @@
 import React from 'react';
-import { AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 // import { colors } from '../../theme/palette';
 
 export default ({ data }: { data: any }) => (
@@ -15,10 +15,11 @@ export default ({ data }: { data: any }) => (
         bottom: 0,
       }}
     >
-      <CartesianGrid strokeDasharray="3 3" />
+      {/* <CartesianGrid strokeDasharray="3 3" /> */}
       <XAxis dataKey="timestamp" />
       <YAxis />
       <Tooltip />
+      <Legend />
       <Area type="monotone" dataKey="sesso_maschile" stackId="1" stroke="#c94f7c" fill="#ff80ab" />
       <Area type="monotone" dataKey="sesso_femminile" stackId="1" stroke="#1e88e5" fill="#005cb2" />
     </AreaChart>

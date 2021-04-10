@@ -17,7 +17,7 @@ export default function useVaccines() {
         // @ts-ignore
         const reducedVaccines = Object.entries(vaccinesByDate).reduce((acc, [timestamp, vaccine]) => {
           // @ts-ignore
-          const newVaccine = { ...vaccine, timestamp: new Date(timestamp).toISOString().split('T')[0] };
+          const newVaccine = { ...vaccine, date: new Date(timestamp).toISOString().split('T')[0] };
           return  [...acc, newVaccine];
         }, []);
         setVaccines(reducedVaccines);

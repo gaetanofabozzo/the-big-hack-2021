@@ -1,15 +1,19 @@
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, Legend } from 'recharts';
 import { colors } from '../../theme/palette';
 
-export default ({ data, dataKey }: { data: any, dataKey: any }) => (
+export default ({ data, xDataKey, bars }: any) => (
   <ResponsiveContainer height={300}>
     <BarChart height={300} data={data}>
-      <XAxis dataKey="place" stroke={colors.primaryLight} />
+      <XAxis dataKey={xDataKey} stroke={colors.primaryLight} />
       <YAxis />
       <Tooltip wrapperStyle={{ backgroundColor: '#ccc' }} />
-      <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-      <Bar dataKey={dataKey} fill={colors.primaryLight} barSize={30} />
+      <Legend />
+      {/* <CartesianGrid stroke="#f5f5f5" strokeDasharray="3 3" /> */}
+      <CartesianGrid strokeDasharray="3 3" />
+      {bars.map(({ dataKey, barSize, fill }: any) => (
+        <Bar dataKey={dataKey} fill={fill} barSize={barSize || 30} />
+      ))}
     </BarChart>
   </ResponsiveContainer>
 );
