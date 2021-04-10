@@ -15,4 +15,6 @@ router.get("/municipalities", controller.municipalities);
 
 router.get("/remaining", controller.remaining);
 
+router.get("/summary", controller.summary);
+
 module.exports = router;

@@ -1,4 +1,4 @@
-// const moment = require("moment");
+const moment = require("moment");
 
 // const generateRandomInt = (min, max) =>
 //   parseInt(Math.random() * (max - min + 1) + min, 10);
@@ -200,4 +200,22 @@ module.exports.remaining = async (req, res) => {
   // eslint-disable-next-line global-require
   const data = require("../../dataset/dosi_rimanenti_per_fornitore.json");
   return res.send(data);
+};
+
+module.exports.summary = async (req, res) => {
+  // eslint-disable-next-line global-require
+  const temp = require("../../dataset/somministrazioni-vaccini-latest.json");
+
+  const citizens = 5802000;
+
+  let total = 0;
+  temp.data.forEach((tempItem) => {
+    if (tempItem.nome_area === "Campania") total += tempItem.prima_dose;
+  });
+
+  return res.send({
+    ultimo_aggiornamento: moment(new Date()).format("DD/MM/YYYY"),
+    percentuale_vaccinati: Math.round(((100 * total) / citizens) * 100) / 100,
+    rt: 1.19,
+  });
 };
