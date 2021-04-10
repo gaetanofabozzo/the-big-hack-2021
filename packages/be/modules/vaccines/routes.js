@@ -13,4 +13,6 @@ router.get("/positives-on-vaccines", controller.positivesOnVaccines);
 
 router.get("/municipalities", controller.municipalities);
 
+router.get("/remaining", controller.remaining);
+
 module.exports = router;

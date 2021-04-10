@@ -1,3 +1,5 @@
+// const moment = require("moment");
+
 // const generateRandomInt = (min, max) =>
 //   parseInt(Math.random() * (max - min + 1) + min, 10);
 
@@ -191,5 +193,11 @@ module.exports.municipalities = async (req, res) => {
 module.exports.positivesOnVaccines = async (req, res) => {
   // eslint-disable-next-line global-require
   const data = require("../../dataset/positivi_su_vaccini.json");
+  return res.send(data);
+};
+
+module.exports.remaining = async (req, res) => {
+  // eslint-disable-next-line global-require
+  const data = require("../../dataset/dosi_rimanenti_per_fornitore.json");
   return res.send(data);
 };

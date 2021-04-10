@@ -1,0 +1,17 @@
+[
+  {
+    "fornitore": "AstraZeneca",
+    "dosiRestanti": 131006,
+    "giorniTolleranza": 163
+  },
+  {
+    "fornitore": "Moderna",
+    "dosiRestanti": 46642,
+    "giorniTolleranza": 587
+  },
+  {
+    "fornitore": "Pfizer/BioNTech",
+    "dosiRestanti": 75960,
+    "giorniTolleranza": 83
+  }
+]
