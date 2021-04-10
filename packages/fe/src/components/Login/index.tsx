@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 import logo from '../../assets/logo.png';
+import background from '../../assets/login.png';
 import Copyright from '../Copyright';
 
 const useStyles = makeStyles((theme) => ({
@@ -20,14 +21,6 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     maxWidth: '70px',
     borderRadius: '10px'
-  },
-  image: {
-    backgroundImage: 'url(https://source.unsplash.com/random)',
-    backgroundRepeat: 'no-repeat',
-    backgroundColor:
-      theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
   },
   paper: {
     margin: theme.spacing(8, 4),
@@ -49,7 +42,9 @@ export default function Login({ onLogin }: any) {
 
   return (
     <Grid container component="main" className={classes.root}>
-      <Grid item xs={false} sm={4} md={7} className={classes.image} />
+      <Grid item xs={false} sm={4} md={7} style={{backgroundColor: '#013067'}}>
+        <img src={background} style={{width: '100%', height: '30%', marginTop: '13%'}} />
+      </Grid>
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <img src={logo} alt="logo" className={classes.logo} />
