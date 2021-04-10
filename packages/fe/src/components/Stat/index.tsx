@@ -14,12 +14,13 @@ const useStyles = makeStyles((_theme: Theme) => ({
   }
 }));
 
-const Stat = ({ animated, title, description, value, color, suffix }: any) => {
+const Stat = ({ animated, title, description, value, color, prefix, suffix }: any) => {
   const classes = useStyles({ color });
   const { countUp: animatedValue } = useCountUp({ end: value });
 
   return (
     <Box className={classes.root}>
+      <span>{prefix}</span>
       <Typography variant="h2" classes={{ root: classes.title }}>{title}</Typography>
       <Typography variant="h2" classes={{ root: classes.title }}>{animated ? animatedValue : value}<span>{suffix}</span></Typography>
       <Typography variant="body2">{description}</Typography>

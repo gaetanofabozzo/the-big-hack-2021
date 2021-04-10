@@ -20,8 +20,8 @@ export default ({ data, lines }: any) => (
       <YAxis />
       <Tooltip />
       <Legend />
-      {lines.map(({ dataKey, stroke }: any) => (
-        <Line type="monotone" dataKey={dataKey} stroke={stroke} activeDot={{ r: 8 }} />
+      {lines.map(({ dataKey, stroke, name }: any) => (
+        <Line type="monotone" dataKey={dataKey} name={name} stroke={stroke} activeDot={{ r: 8 }} />
       ))}
     </LineChart>
   </ResponsiveContainer>
