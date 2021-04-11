@@ -19,7 +19,8 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "nodemon index.js"
   },
   "engines": {
     "node": "12.18.2",
