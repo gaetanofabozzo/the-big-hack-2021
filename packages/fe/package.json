@@ -4,8 +4,9 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
+    "server": "node server.js",
     "start": "webpack serve --mode development --env development --config ./config/webpack/webpack.config.development.js",
-    "build": "run-p build:*",
+    "build": "yarn run build:app && yarn run build:storybook",
     "build:app": "webpack --config ./config/webpack/webpack.config.production.js --mode production",
     "build:storybook": "build-storybook --loglevel error -o ./build/storybook",
     "storybook": "start-storybook -p 6006",
