@@ -23,7 +23,7 @@
     "build": "nodemon index.js"
   },
   "engines": {
-    "node": "12.18.2",
+    "node": "14.16.1",
     "npm": "7.8.0"
   }
 }
