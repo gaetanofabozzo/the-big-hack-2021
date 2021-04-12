@@ -1,16 +1,14 @@
-import React from "react";
-import numeral from "numeral";
-import { makeStyles } from "@material-ui/core";
-import "leaflet/dist/leaflet.css";
+import React, { useState, useEffect, useContext } from 'react';
+import { Circle, Popup, MapContainer, TileLayer } from 'react-leaflet';
+import { makeStyles } from '@material-ui/core';
+import 'leaflet/dist/leaflet.css';
 
-import { Circle, Popup, MapContainer, TileLayer } from "react-leaflet";
+import './map.css';
+import { Context } from "./Provider";
 
-import { casesTypeColors } from "../../utils/map";
-import "./map.css";
-import { useState } from "react";
-import { useEffect } from "react";
+import { casesTypeColors } from '../../utils/map';
 
-const cartoLink = "https://wiki.openstreetmap.org/wiki/Carto_(Company)";
+const cartoLink = 'https://wiki.openstreetmap.org/wiki/Carto_(Company)';
 const osmLink = "https://www.openstreetmap.org/copyright";
 const attribution = `&copy; <a href="${cartoLink}">Carto</a> &middot; <a href="${osmLink}">OpenStreetMap</a>`;
 const url =
@@ -29,13 +27,16 @@ const useStyles = makeStyles({
   },
 });
 
-function Map({ data, casesType, center, zoom }) {
+export default ({ data, casesType, zoom, center }) => {
+  const { setMap } = useContext(Context);
+
   const classes = useStyles();
   const color = casesTypeColors[casesType].hex;
 
   return (
     <div className={classes.map}>
       <MapContainer
+        whenCreated={ mapInstance => { setMap(mapInstance); } }
         center={center}
         zoom={zoom}
         className={classes.mapContainer}
@@ -47,7 +48,7 @@ function Map({ data, casesType, center, zoom }) {
             key={city.name}
             center={[city.latitude, city.longitude]}
             fillOpacity={0.4}
-            // color={color} // doesn't work if the color changes why????
+            // color={color} // doesn't work if the color changes
             // fillColor={color}
             pathOptions={{ color, fillColor: color }}
             radius={
@@ -68,5 +69,3 @@ function Map({ data, casesType, center, zoom }) {
     </div>
   );
 }
-
-export default Map;

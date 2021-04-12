@@ -16,4 +16,3 @@ export const casesTypeColors = {
     multiplier: 50,
   },
 };
-

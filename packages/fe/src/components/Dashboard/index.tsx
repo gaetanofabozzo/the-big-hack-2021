@@ -9,11 +9,11 @@ import {
   Theme,
   Box,
   useMediaQuery,
-  // TextField,
-  // Autocomplete
 } from "@material-ui/core";
 
-import Map from "../Maps";
+import Map from "../Map";
+import MapProvider from "../Map/Provider";
+import { MunicipalityFilter } from "../Map/Filters";
 import BarChart from "../Charts/BarChart";
 import PieChart from "../Charts/PieChart";
 import LineChart from "../Charts/LineChart";
@@ -78,7 +78,6 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   const [casesType, setCasesType] = useState<string>("numberOfVaccines");
   const isBigScreen = useMediaQuery((theme: Theme) => theme.breakpoints.up('sm'));
   const [showChatbot, setShowChatbot] = useState(isBigScreen);
-  const [zoom] = useState(8);
   const [currentCoordinates, setCurrentCoordinates] = useState({ lat: 0, lng: 0 });
   const [isLogged, setIsLogged] = useState<boolean>(
     type === UserType.CITTADINO
@@ -95,12 +94,6 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
     data: vaccineSummary,
     loading: loadingSummary,
   } = useVaccinesSummary();
-
-  // const [mapLoading, setMapLoading] = useState(loading);
-
-  // useEffect(() => {
-  //   setMapLoading(loading);
-  // }, [loading]);
 
   useEffect(() => {
     setCurrentCoordinates({
@@ -155,7 +148,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
   }
 
   return (
-    <>
+    <MapProvider>
       <Navbar />
 
       <Container maxWidth="lg">
@@ -197,34 +190,13 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
           ))}
 
           <Grid item xs={12}>
-            {/* <Autocomplete
-              id="comune"
-              onChange={(_e, value) => {
-                setMapLoading(true);
-                setZoom(20);
-                setCurrentCoordinates({
-                  lat: value.latitude,
-                  lng: value.longitude,
-                });
-                setMapLoading(false);
-              }}
-              options={vaccines}
-              getOptionLabel={(option: any) => option?.name}
-              style={{ width: 300 }}
-              renderInput={(params) => (
-                <TextField
-                  {...params}
-                  label="Cerca il tuo comune"
-                  variant="outlined"
-                />
-              )}
-            /> */}
+            <MunicipalityFilter data={vaccines} />
             <Card style={{ padding: 0 }}>
               {!loading && (
                 <Map
                   data={vaccines}
                   casesType={casesType}
-                  zoom={zoom}
+                  zoom={8}
                   center={currentCoordinates}
                 />
               )}
@@ -366,7 +338,7 @@ const Dashboard: React.FC<RouteComponentProps> = (_props) => {
       </Container>
 
       <Footer />
-    </>
+    </MapProvider>
   );
 };
 
