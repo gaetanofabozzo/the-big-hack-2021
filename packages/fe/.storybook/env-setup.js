@@ -1,1 +1,0 @@
-global.BASE_URL = '/';
