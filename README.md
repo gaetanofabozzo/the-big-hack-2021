@@ -1,4 +1,4 @@
-# C.L.F. Campania
+# The Big Hack 2021 - C.L.F. Campania
 
 C.L.F. Campania è un'applicazione per il cittadino e per un decision maker che mostra, tramite una dashboard, l'andamento dell'epidema da COVID-19 e della campagna vaccinale.
 
